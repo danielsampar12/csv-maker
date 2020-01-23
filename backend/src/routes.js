@@ -9,7 +9,7 @@ routes.get('/csv',EmpresaController.index);
 routes.get('/clientes', SearchController.index);
 
 routes.put('/edit', EmpresaController.update);
-//routes.delete('/clientes:cnpj', EmpresaController.destroy);
+routes.delete('/delete', EmpresaController.destroy);
 
 routes.get('/', (request, response) =>{
   return response.json({message: 08577607933});
