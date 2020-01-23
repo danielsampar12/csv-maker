@@ -101,19 +101,16 @@ module.exports = {
       //console.log({emp});
     });
     return response.json(emp);
+  },
+ 
+  async destroy(request, response){
+    const emp = await Empresa.findOneAndDelete({cnpj: request.body.cnpj}, (err, result) =>{
+      if(err){
+        console.log('Something went wrong deleting the data' + err);
+      }
+      console.log(result);
+    });
+    return response.json(emp);
   }
- /*
-  async destroy(request, response, err){
-    
-    const existe = await Empresa.findOne(request.params);
-    if(existe){
-      console.log(existe);
-      const emp = await Empresa.deleteOne(request.params);
-      return response.json(request.params);
-    }else {
-      throw new ErrorEvent(err);
-    }
-    
-  }
- */
+ 
 };
