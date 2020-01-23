@@ -4,7 +4,7 @@ const JSONtoCSV = require('json2csv').parse;
 const fs = require('fs');
 const csvData = [];
 
-CSVtoJSON().fromFile('../data/clientes-data.csv').then
+CSVtoJSON().fromFile('../data/clientes-data.csv');
 
 /*
 fs.createReadStream('c:/csv-maker/backend/data/clientes-data.csv')
