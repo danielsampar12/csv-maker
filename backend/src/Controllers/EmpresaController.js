@@ -56,7 +56,7 @@ module.exports = {
   },
 
   async update(request, response){
-      const item = {
+    const emp = await Empresa.findOneAndUpdate({cnpj: request.body.cnpj}, {$set:{
           cnpj: request.body.cnpj,
           valide: request.body.valide,
           representante: request.body.representante,
@@ -92,14 +92,15 @@ module.exports = {
           data_retorno: request.body.data_retorno,
           dias: request.body.dias,
           status: request.body.status,
-          hr_ultimo_contato: request.body.hr_ultimo_contato,
-      };
-      var id = request.body.id;
-      const emp = await Empresa.updateOne({"_id": objectId(id)}, {$set: item}, () => {
-        console.log('Item inserted');
-        console.log(result);
-      });
-      return response.json(emp);
+          hr_ultimo_contato: request.body.hr_ultimo_contato
+    }}, {upsert: true}, (err, doc) => {
+      if(err){
+        console.log("Something wrong when updating data!" + err);
+      }
+      console.log(doc);
+      //console.log({emp});
+    });
+    return response.json(emp);
   }
  /*
   async destroy(request, response, err){
