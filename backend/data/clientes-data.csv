@@ -1,12 +1,12 @@
 ﻿CNPJ;Valide;Representante;Nome da Empresa;Responsavel;Utiliza;Quant. De Consulta;Valor do VCM que Utiliza;Valor un. Consulta;VCM Ofertado;Utiliza Negativação;Valor Gasto com Negativação;Valor Pago por Negativação;Negativa Com;DDD1;Nuemro1;Ramal1;E-mail1;DDD2;Numero2;Ramal2;E-mail2;Observação;Localizar CNPJ;Data do contato;hora;Documento que Consulta;% de CNPJ;Negocioação;Data Ultimo Contato;Quantidade que negativa;Doc. Negativado;Porcentagem de CNPJ que Negativa;Data para retorno;Status;Dias;Status;Data Ultimo Contato
-04608957000176;ANALISE DE EXCEÇÃO;DANIEL;SANTISTA BUSINESS COM MAT ELETRICOS LTDA;CARLOS ALBERTO;NÃO QUIS INFORMAR;;;;0;;;;;13;3463-7994;;carlosalberto@vitorbuono.com.br;;;;;Enviar e-mail solicitando atendeimento o resposnsavel não fica na empresa.;;;;;;FRIO;07/06/2019;;;;31/05/2019;;;VENDA PERDIDA;11:50:56
-43635523000540;ANALISE DE EXCEÇÃO;DANIEL;TORRES IND COM ETIQUETAS ADESIVOS LTDA;IRIS;DISTRIBUIDOR;;;;0;;;;;31;31-2537-7676;7677;cobranca@ready.com.br;;;;;retornar na segunda a Iris não estava na empresa;;21/05/2019;;;;FRIO;14/06/2019;;;;17/06/2019;;;EM NEGOCIAÇÃO;16:35:16
-17541601000104;VENDA LIBERADA;DANIEL;PROJETO SHALON PISCICULTURA LTDA EPP;VANESSA;;;;;0;;;;;11;2693-5141;1;;;;;;"Vanessa que é a responsavel estava vijando retornar no dia 27/05/2019 contato 
+;ANALISE DE EXCEÇÃO;DANIEL;SANTISTA BUSINESS COM MAT ELETRICOS LTDA;CARLOS ALBERTO;NÃO QUIS INFORMAR;;;;0;;;;;13;3463-7994;;carlosalberto@vitorbuono.com.br;;;;;Enviar e-mail solicitando atendeimento o resposnsavel não fica na empresa.;;;;;;FRIO;07/06/2019;;;;31/05/2019;;;VENDA PERDIDA;11:50:56
+;ANALISE DE EXCEÇÃO;DANIEL;TORRES IND COM ETIQUETAS ADESIVOS LTDA;IRIS;DISTRIBUIDOR;;;;0;;;;;31;31-2537-7676;7677;cobranca@ready.com.br;;;;;retornar na segunda a Iris não estava na empresa;;21/05/2019;;;;FRIO;14/06/2019;;;;17/06/2019;;;EM NEGOCIAÇÃO;16:35:16
+;VENDA LIBERADA;DANIEL;PROJETO SHALON PISCICULTURA LTDA EPP;VANESSA;;;;;0;;;;;11;2693-5141;1;;;;;;"Vanessa que é a responsavel estava vijando retornar no dia 27/05/2019 contato 
 
 Nunca consegue contato com o responsavel, sempre mandam ligar outro dia";;;;;;FRIO;07/06/2019;;;;31/05/2019;;;VENDA PERDIDA;11:53:46
-05133672000199;ANALISE DE EXCEÇÃO;DANIEL;TEXFIBER ISOLANTES TERMICOS LTDA;SIMONE;CDL;;;;0;;;;;31;3451-8586;;;;;;;Utiliza o serviço de consulta do CDL porque ganha desconto no plano de saude, usa bem esporadicamente.;05133672000197;;;;;FRIO;07/06/2019;;;;31/05/2019;;;VENDA PERDIDA;11:54:22
-65788549000138;ANALISE DE EXCEÇÃO;DANIEL;TRANSBOR COM PROD INDL LTDA;ALINE;SPC BRASIL;;;;0;;;;;11;2641-8000;;;;;;;Aline falou que faz uns 3 meses que que fechou contrato com a SPC Brasil, e por enquanto tem fidelidade/ contato 21/05/2019.;;;;;;FRIO;07/06/2019;;;;01/04/2020;;;EM NEGOCIAÇÃO;11:54:53
-00376172000164;ANALISE DE EXCEÇÃO;DANIEL;VETOR DISTR LTDA;ANDERSON;CDL;80;620;;608;;;;;31;31-3388-7799;;arggc@yahoo.com.br;;;;;"Consulta CNPJ e CPF/ 50% de cada/ quando gasta muito gasta em torno e R$900. contato 21/05/ enviado e-mail de proposta dia 22/06. 
+;ANALISE DE EXCEÇÃO;DANIEL;TEXFIBER ISOLANTES TERMICOS LTDA;SIMONE;CDL;;;;0;;;;;31;3451-8586;;;;;;;Utiliza o serviço de consulta do CDL porque ganha desconto no plano de saude, usa bem esporadicamente.;5,13367E+12;;;;;FRIO;07/06/2019;;;;31/05/2019;;;VENDA PERDIDA;11:54:22
+;ANALISE DE EXCEÇÃO;DANIEL;TRANSBOR COM PROD INDL LTDA;ALINE;SPC BRASIL;;;;0;;;;;11;2641-8000;;;;;;;Aline falou que faz uns 3 meses que que fechou contrato com a SPC Brasil, e por enquanto tem fidelidade/ contato 21/05/2019.;;;;;;FRIO;07/06/2019;;;;01/04/2020;;;EM NEGOCIAÇÃO;11:54:53
+;ANALISE DE EXCEÇÃO;DANIEL;VETOR DISTR LTDA;ANDERSON;CDL;80;620;;608;;;;;31;31-3388-7799;;arggc@yahoo.com.br;;;;;"Consulta CNPJ e CPF/ 50% de cada/ quando gasta muito gasta em torno e R$900. contato 21/05/ enviado e-mail de proposta dia 22/06. 
 
 retronar para ver posição do e-mai as 15:50
 
@@ -14,27 +14,27 @@ retornar daqui 10 minutos
  retornara as 16:40.
 Mandei e-mail pedindo um feed Back
 Respondeu que no momento vao continuar utilizando CDL.";;;;;;FRIO;27/06/2019;;;;19/06/2019;;;VENDA PERDIDA;14:23:13
-05437959000102;VENDA LIBERADA;DANIEL;RPV DA AMAZONIA LTDA;NELMA;BOA VISTA;120;400;;0;;;;;;92-32116200;;rpvdamazonia@uol.com.br;;;;;"Ligar no outro dia não tinha o valor unitario em mãos.
+;VENDA LIBERADA;DANIEL;RPV DA AMAZONIA LTDA;NELMA;BOA VISTA;120;400;;0;;;;;;92-32116200;;rpvdamazonia@uol.com.br;;;;;"Ligar no outro dia não tinha o valor unitario em mãos.
  
 Entrei em contato com a Nolma hoje e falou que ja ia me enviar o e-mail acabou o dia e não recebi nada. 05/06/2019.
 
 Mandei e-mail pedindo a fatura.
 
 mandei e-mail encerrando o contato.";;23/05/2019;14:36:48;PJ e PF;90;MORNO;17/06/2019;;;;14/06/2019;;;VENDA PERDIDA;10:17:18
-01506709000126;VENDA LIBERADA;DANIEL;IMI HYDRONIC ENGENHARIA LTDA;;BOA VISTA;;;;0;;;;;;11-5589-0638;17;marcia.aoki@imi-hydronic.com;;;;;"Falei com Felipe, e informou que o grupo é internacional e a Marcia que é a gerente geral esta em viagem vai saber dar mais informações.
+;VENDA LIBERADA;DANIEL;IMI HYDRONIC ENGENHARIA LTDA;;BOA VISTA;;;;0;;;;;;11-5589-0638;17;marcia.aoki@imi-hydronic.com;;;;;"Falei com Felipe, e informou que o grupo é internacional e a Marcia que é a gerente geral esta em viagem vai saber dar mais informações.
 
 Mandei e-mail perguntando se é com ela que trato esses assuntos.";;23/05/2019;16:17:30;;;FRIO;07/06/2019;;;;31/05/2019;;;VENDA PERDIDA;13:56:25
-13204590000116;VENDA LIBERADA;DANIEL;TUBOSIDER TUBOS CONEXOES LTDA;KAMILLA;;;;;0;;;;;;11-4393-0323;;kamilla@newpiper.com.br;;;;;"Liguei e pedi para falar com o responsavel me informaram que seria a Kamilla e ela não estava na empresa, e a melhor forma de contato com ela seria e-mail.
+;VENDA LIBERADA;DANIEL;TUBOSIDER TUBOS CONEXOES LTDA;KAMILLA;;;;;0;;;;;;11-4393-0323;;kamilla@newpiper.com.br;;;;;"Liguei e pedi para falar com o responsavel me informaram que seria a Kamilla e ela não estava na empresa, e a melhor forma de contato com ela seria e-mail.
 
 e-mail enviado solicitando atendimento.";;23/05/2019;16:29:50;;;FRIO;07/06/2019;;;;31/05/2019;;;VENDA PERDIDA;13:56:55
-08330380000134;VENDA LIBERADA;DANIEL;V GOSTA PRESENTES LTDA;KELLY;BOA VISTA;20;700;23;608;;;;;;11-2904-8502;;financeiro@wallart.com.br;;;;;"Enviei e-mail com proposta retornar após as 15:00.
+;VENDA LIBERADA;DANIEL;V GOSTA PRESENTES LTDA;KELLY;BOA VISTA;20;700;23;608;;;;;;11-2904-8502;;financeiro@wallart.com.br;;;;;"Enviei e-mail com proposta retornar após as 15:00.
 
 Analisaram a proposta os valores ficaram bom mas a diretoria decidiu ficar com a Boa Vista por hora, havendo necessidadde de mudar eles retorno o contato.";;23/05/2019;17:25:08;CNPJ;100;MORNO;07/06/2019;;;;07/06/2019;;;VENDA PERDIDA;15:35:01
-07063218000134;VENDA LIBERADA;DANIEL;CARLOS ALBERTO TREVIZAN;DENISE;;;;;488;;;;;;15-3288-4700;;;;;;;"Retornar a tarde, estava muito ocupada na sexta.
+;VENDA LIBERADA;DANIEL;CARLOS ALBERTO TREVIZAN;DENISE;;;;;488;;;;;;15-3288-4700;;;;;;;"Retornar a tarde, estava muito ocupada na sexta.
 
 
 nunca pode atender o telefone.";;;;;;FRIO;13/06/2019;;;;14/06/2019;;;VENDA PERDIDA;17:41:47
-12455376000170;VENDA LIBERADA;DANIEL;SANSUL ALIMENTOS LTDA;GABRIELA JUK;SPC BRASIL;800;;;500;;;;;;11-5687-1168;;financeiro@sansulalimentos.com.br;;;;;"Retornar na segunda-feira. 14:30
+;VENDA LIBERADA;DANIEL;SANSUL ALIMENTOS LTDA;GABRIELA JUK;SPC BRASIL;800;;;500;;;;;;11-5687-1168;;financeiro@sansulalimentos.com.br;;;;;"Retornar na segunda-feira. 14:30
 
 11,53 completa
 4 simples a 8 reias
@@ -42,13 +42,13 @@ nunca pode atender o telefone.";;;;;;FRIO;13/06/2019;;;;14/06/2019;;;VENDA PERDI
 Proposta enviada com 60% de desconto.
 
 Tirei as duvidas e estou esperando uma posição.";;;;;;MORNO;26/09/2019;;;;30/09/2019;;;EM NEGOCIAÇÃO;14:26:18
-03767778000119;VENDA LIBERADA;DANIEL;ROMANA FESTAS LTDA;MARLI;;;;;0;;;;;;31-3491-2200;;;;;;;felei com a Marly e ela falou que o diretor não vai querer ter contrato de jeito nenhum com a Serasa , estão com um processo contra um distribuidor que segundo ela esta negativando varias empresas em MG, ela entrou com uma ação para retirar está negativação.;;24/05/2019;11:46:16;;;FRIO;07/06/2019;;;;31/05/2019;;;VENDA PERDIDA;15:47:32
-04648067000198;VENDA LIBERADA;DANIEL;VALE SUL DISTRIBUIDORA DE PRODUTOS ALIMENTICIOS LT;;;;;;0;;;;;;15-3272-1072;;;;15-3273-1777;;;"telefone 1 - E um telefone residencial
+;VENDA LIBERADA;DANIEL;ROMANA FESTAS LTDA;MARLI;;;;;0;;;;;;31-3491-2200;;;;;;;felei com a Marly e ela falou que o diretor não vai querer ter contrato de jeito nenhum com a Serasa , estão com um processo contra um distribuidor que segundo ela esta negativando varias empresas em MG, ela entrou com uma ação para retirar está negativação.;;24/05/2019;11:46:16;;;FRIO;07/06/2019;;;;31/05/2019;;;VENDA PERDIDA;15:47:32
+;VENDA LIBERADA;DANIEL;VALE SUL DISTRIBUIDORA DE PRODUTOS ALIMENTICIOS LT;;;;;;0;;;;;;15-3272-1072;;;;15-3273-1777;;;"telefone 1 - E um telefone residencial
 
 telefone 2 - É um telefone residencial
 
 Telefone da empresa não localizado.";;24/05/2019;11:51:38;;;FRIO;07/06/2019;;;;31/05/2019;;;VENDA PERDIDA;15:47:56
-05899867000144;VENDA LIBERADA;DANIEL;SM PLASTICOS LTDA EPP;DIEGO;;;;;0;;;;;;48-3263-5754;;;;;;;"Retornar na segunda 16:20
+;VENDA LIBERADA;DANIEL;SM PLASTICOS LTDA EPP;DIEGO;;;;;0;;;;;;48-3263-5754;;;;;;;"Retornar na segunda 16:20
 
 Diego não estava contato 16:00 03/06
 
@@ -56,78 +56,78 @@ Tentar ligar as 16:12 estava em ligação.
  retornar daqui 10 minutos.
 
 Falou que não utiliza serasa porque teve problemas.";;24/05/2019;14:11:46;;;FRIO;27/06/2019;;;;14/06/2019;;;VENDA PERDIDA;14:25:58
-10682266000115;VENDA LIBERADA;DANIEL;YOSS COMERCIAL IMPORTADORA E EXPORTADORA EIRELI;REGILAINE E MONICA;BOA VISTA;100;R$ 1.500,00;;608;;;;;;11-3228-7866;;regilaine@yoshidarep.com.br;;;;;"Gasta de R$900,00 a R$1.000,00 com consultas faz em torno de 80 a 100 consultas.
+;VENDA LIBERADA;DANIEL;YOSS COMERCIAL IMPORTADORA E EXPORTADORA EIRELI;REGILAINE E MONICA;BOA VISTA;100;R$1.500,00;;608;;;;;;11-3228-7866;;regilaine@yoshidarep.com.br;;;;;"Gasta de R$900,00 a R$1.000,00 com consultas faz em torno de 80 a 100 consultas.
 
 Quer contratar nossos serviços mas so quer fechar se ir um representante pessoalmente na empresa mandei um e-mail tentando convencer ela a tratarmos os assuntos por telefone, whats ou e-mail.";;24/05/2019;15:35:22;CNPJ;100;MUITO QUENTE;17/06/2019;;;;17/06/2019;;;VENDA PERDIDA;14:58:23
-62236146000198;VENDA LIBERADA;DANIEL;YACIMA ATACADISTA ROUPAS LTDA;ELOI;DISTRIBUIDOR;;;;0;;;;;;11-2797-9422;;gerencia@yacima.com.br;;;;;"retornar entre 7:00 e 16:30 o Eloi não estava na empresa , empresa de atacado no Brás.
+;VENDA LIBERADA;DANIEL;YACIMA ATACADISTA ROUPAS LTDA;ELOI;DISTRIBUIDOR;;;;0;;;;;;11-2797-9422;;gerencia@yacima.com.br;;;;;"retornar entre 7:00 e 16:30 o Eloi não estava na empresa , empresa de atacado no Brás.
 
 liguei de manha estava em reuniao ligar por volta das 11:00
 
 Utiliza distribuidor e não tem interesse em mudar neste momento acha anti ético nos ligarmos oferecendo. mandei e-mail com o meu contato caso futuramente ele precise de nossos serviços.";;24/05/2019;16:16:06;;;FRIO;14/06/2019;;;;07/06/2019;;;VENDA PERDIDA;09:49:42
-13548008000139;VENDA LIBERADA;DANIEL;YTU BIKE PARTS LTDA EPP;;;;;;0;;;;;;11-4024-7528;;;;;;;"Ninguem atende o telefone
+;VENDA LIBERADA;DANIEL;YTU BIKE PARTS LTDA EPP;;;;;;0;;;;;;11-4024-7528;;;;;;;"Ninguem atende o telefone
 
 ninguem atende o teledone.";;24/05/2019;16:25:19;;;FRIO;07/06/2019;;;;31/05/2019;;;VENDA PERDIDA;15:57:39
-10449369000130;VENDA LIBERADA;DANIEL;VOBEL DISTRIBUIDORA LTDA ME;;;;;;0;;;;;;15-3259-1599;;renata@vobel.com.br;;;;;"Não possou muitos detalhes, falou que a pouco tempo estava negociando com a Serasa mas dai descidiu não mudar para não ter que passar por toda a migração de sistema.
+;VENDA LIBERADA;DANIEL;VOBEL DISTRIBUIDORA LTDA ME;;;;;;0;;;;;;15-3259-1599;;renata@vobel.com.br;;;;;"Não possou muitos detalhes, falou que a pouco tempo estava negociando com a Serasa mas dai descidiu não mudar para não ter que passar por toda a migração de sistema.
 
 Mandei e-mail com os meus contato caso futuramente precise.";;24/05/2019;16:55:20;;;FRIO;07/06/2019;;;;31/05/2019;;;VENDA PERDIDA;15:59:41
-61549978000100;VENDA LIBERADA;DANIEL;PROD ELETRICOS EDSON LTDA;FRANCISCO;BOA VISTA;60;;;0;;;;;;11-3313-4455;;administrativo@peesa.com.br;;;;;"Falei com Luciana e não sabia falar o valor que ests gastando com a Boa Vista, pediu para eu mandar e-mail para o responsavel solicitando.
+;VENDA LIBERADA;DANIEL;PROD ELETRICOS EDSON LTDA;FRANCISCO;BOA VISTA;60;;;0;;;;;;11-3313-4455;;administrativo@peesa.com.br;;;;;"Falei com Luciana e não sabia falar o valor que ests gastando com a Boa Vista, pediu para eu mandar e-mail para o responsavel solicitando.
 
 Mandado e-mail e ainda sem resposta do Francisco";;24/05/2019;16:58:39;PJ e PF;80;MORNO;07/06/2019;;;;10/06/2019;;;VENDA PERDIDA;16:00:06
-11325330000173;VENDA LIBERADA;DANIEL;REDE STANG | STANG DISTRIBUIDORA DE PETROLEO LTDA;RITA;DISTRIBUIDOR;;R$ 800,00;;764;NÃO;;;;;46-3524-6318;;financeiro04@stangdistribuidora.com.br;;;;;"E-mail enviado dia 03/04/2019, cliente retornou interessada em fazer consultas via string, utiliza em torno de R$800,00 em consulta com distribuidor.
+;VENDA LIBERADA;DANIEL;REDE STANG | STANG DISTRIBUIDORA DE PETROLEO LTDA;RITA;DISTRIBUIDOR;;R$800,00;;764;NÃO;;;;;46-3524-6318;;financeiro04@stangdistribuidora.com.br;;;;;"E-mail enviado dia 03/04/2019, cliente retornou interessada em fazer consultas via string, utiliza em torno de R$800,00 em consulta com distribuidor.
 
 
 Cliente TOP PME, nao quer atendimento em outro CNPJ.";;27/05/2019;14:10:56;CNPJ;100;QUENTE;07/06/2019;;;;31/05/2019;;;VENDA PERDIDA;16:00:46
-15626307;VENDA LIBERADA;DANIEL;ADRIANO FUCK ME;TATIANE;;;;;0;;;;;;47-3396-8158;;;;;;;"retornar amanhão a responsável não estava na empresa, cliente (winback Novo)
+;VENDA LIBERADA;DANIEL;ADRIANO FUCK ME;TATIANE;;;;;0;;;;;;47-3396-8158;;;;;;;"retornar amanhão a responsável não estava na empresa, cliente (winback Novo)
 
 tentativa de contato sem sucesso";;27/05/2019;16:11:19;;;FRIO;07/06/2019;;;;31/05/2019;;;VENDA PERDIDA;16:01:36
-03296909000127;VENDA LIBERADA;DANIEL;A CASA DO PEIXE COMERCIO DE FRUTOS DO MAR EIRELI EPP;EVANDRO;;;;;0;;;;;;47-3329-2600;;;;;;;"Retornar entre 11:30/12:30 é os unicos horários que encontra ele la empresa.
+;VENDA LIBERADA;DANIEL;A CASA DO PEIXE COMERCIO DE FRUTOS DO MAR EIRELI EPP;EVANDRO;;;;;0;;;;;;47-3329-2600;;;;;;;"Retornar entre 11:30/12:30 é os unicos horários que encontra ele la empresa.
 
 tentei ligar e o Evandro não se encontrava
 
 tentei novo contato e não tive sucesso.";;27/05/2019;16:18:00;;;FRIO;17/06/2019;;;;14/06/2019;;;VENDA PERDIDA;16:47:23
-1199732;VENDA LIBERADA;DANIEL;AGUA DURA LTDA EPP;ADRIANA;CDL;2;;;0;;;;;;47-3322-0065;;;;;;;"Adriana/ so retorna na segunda 10:00, responsável estava viajando ( winback Novo).
+;VENDA LIBERADA;DANIEL;AGUA DURA LTDA EPP;ADRIANA;CDL;2;;;0;;;;;;47-3322-0065;;;;;;;"Adriana/ so retorna na segunda 10:00, responsável estava viajando ( winback Novo).
 
 Uitliza CDL e faz uma ou duas consultas por mês quando faz, não tem interesse.";;27/05/2019;16:34:59;;;FRIO;07/06/2019;;;;31/05/2019;;;VENDA PERDIDA;16:03:45
-4684483;VENDA LIBERADA;DANIEL;ALI S BIKE COMERCIO DE PECAS E BICICLETAS LTDA ME;ALI;;;;;0;;;;;;47-3350-3830;;;;;;;"Estava muito ocupado e pediu para ligar no outro dia as 10:00.
+;VENDA LIBERADA;DANIEL;ALI S BIKE COMERCIO DE PECAS E BICICLETAS LTDA ME;ALI;;;;;0;;;;;;47-3350-3830;;;;;;;"Estava muito ocupado e pediu para ligar no outro dia as 10:00.
 
 Segunda ligação efetuada, não uitliza nenhum tipo de serviço de consulta, quando faz parcelamento utiliza a viacred, não tem necessidade de ter o serviço no momento, pediu para mandar um e-mail para ele ficar com o contato caso futuramente precise.";;27/05/2019;16:44:22;;;FRIO;07/06/2019;;;;31/05/2019;;;VENDA PERDIDA;16:06:57
-125239;VENDA LIBERADA;DANIEL;BLULABEL ADESIVOS LTDA ME;FERNANDo;CDL;30;;;208;;;;;;47-3037-5450;;financeiro@blulabel.com.br;;;;;"Mandar uma proposta sem compromisso porque no momento não tem interesse de mudar estão sendo bem atendidos /ac Fernando/30 consultas mês/ completa para CNPJ.
+;VENDA LIBERADA;DANIEL;BLULABEL ADESIVOS LTDA ME;FERNANDo;CDL;30;;;208;;;;;;47-3037-5450;;financeiro@blulabel.com.br;;;;;"Mandar uma proposta sem compromisso porque no momento não tem interesse de mudar estão sendo bem atendidos /ac Fernando/30 consultas mês/ completa para CNPJ.
 
 E-mail enviado.";;28/05/2019;10:49:42;CNPJ;;FRIO;07/06/2019;;;;31/05/2019;;;VENDA PERDIDA;16:07:27
-11325330000173;NÃO ESTÁ VALIDO;DANIEL;STANG DISTRIBUIDORA DE PETROLEO LTDA;RITA;DISTRIBUIDOR;40;R$ 800,00;;764;;;;;;46-3524-6318;;financeiro04@stangdistribuidora.com.br;;46-99926-1390;;;"Falei com a Rita fiquei de confirmar os valores da proposta enviada e os valores ofertados estão corretos, enviada proposta de R$764,00 com 35% de desconto. 
+;NÃO ESTÁ VALIDO;DANIEL;STANG DISTRIBUIDORA DE PETROLEO LTDA;RITA;DISTRIBUIDOR;40;R$800,00;;764;;;;;;46-3524-6318;;financeiro04@stangdistribuidora.com.br;;46-99926-1390;;;"Falei com a Rita fiquei de confirmar os valores da proposta enviada e os valores ofertados estão corretos, enviada proposta de R$764,00 com 35% de desconto. 
 
 Retornara  a tarde começa a trabalhar a parttir das 11:30.
 
 Cliente TOP PME";;28/05/2019;11:23:59;CNPJ;100;QUENTE;07/06/2019;;;;31/05/2019;;;VENDA PERDIDA;16:08:02
-2200936;VENDA LIBERADA;DANIEL;COMERCIO DE MADEIRAS BRESSANINI LTDA EPP;JOANA;CDL;;R$ 250,00;;208;;;;;;47-3337-2899;;financeiro@brassaninimadeiras.com.br;;;;;"Joana falou que ja utilizou Serasa mas acabou voltando para a CDL e não lembra ao certo o porque voltou faz muito tempo mas pediu para mandar uma proposta por e-mail.
+;VENDA LIBERADA;DANIEL;COMERCIO DE MADEIRAS BRESSANINI LTDA EPP;JOANA;CDL;;R$250,00;;208;;;;;;47-3337-2899;;financeiro@brassaninimadeiras.com.br;;;;;"Joana falou que ja utilizou Serasa mas acabou voltando para a CDL e não lembra ao certo o porque voltou faz muito tempo mas pediu para mandar uma proposta por e-mail.
 
 E-mail enviado com proposta de R$208,00 com 30% de desconto.
 
 Analisou a proposta falou que a diferença é muito pouca e não valia apena ficar trocando.";;28/05/2019;11:43:01;CNPJ;90;FRIO;07/06/2019;;;;31/05/2019;;;VENDA PERDIDA;16:08:46
-04428204000189;VENDA LIBERADA;DANIEL;SUPERBID WEBSERVICES LTDA;ANDERSON;BOA VISTA;4000;;;0;;;;;;11-4950-9400;9757;jiri@sbwebservices.net;;;9752;anderson.gimenes@sbwebservices.net;"telefone Geral (11) 4950-9400/ (11) 4950-9751 Jiri/ 4.000/ basica/ jiri@sbwebservices.net/ retornar falar com Anderson./ anderson.gimenes@sbwebservices.net/ (11) 4950-9752.
+;VENDA LIBERADA;DANIEL;SUPERBID WEBSERVICES LTDA;ANDERSON;BOA VISTA;4000;;;0;;;;;;11-4950-9400;9757;jiri@sbwebservices.net;;;9752;anderson.gimenes@sbwebservices.net;"telefone Geral (11) 4950-9400/ (11) 4950-9751 Jiri/ 4.000/ basica/ jiri@sbwebservices.net/ retornar falar com Anderson./ anderson.gimenes@sbwebservices.net/ (11) 4950-9752.
 
 E-mail enviado dia 28/05 solicitando o valor unitario pago por consulta.
 
 tentei contato inumeras vezes por e-mail e telefone não tive sucesso.
 ";;28/05/2019;16:55:28;PJ e PF;10;FRIO;14/06/2019;;;;10/06/2019;;;VENDA PERDIDA;09:55:03
-4207170000100;ANALISE DE EXCEÇÃO;DANIEL;SERV GELA COMERCIO DE BRINDES EIRELI;TAIARA OU TALINE;BOA VISTA;1200;;;3702;;;;;;(11)3933-2530;;compras@servgela.com.br;;;;vera@servgela.com.br;"Mandei e-mail para Taline que encaminhou para Taiara, ela esta analisando e pediu para retornar até quinta da semana que vem, mandei outro e-mail dia 25/05/2019 para Taiara.
+;ANALISE DE EXCEÇÃO;DANIEL;SERV GELA COMERCIO DE BRINDES EIRELI;TAIARA OU TALINE;BOA VISTA;1200;;;3702;;;;;;(11)3933-2530;;compras@servgela.com.br;;;;vera@servgela.com.br;"Mandei e-mail para Taline que encaminhou para Taiara, ela esta analisando e pediu para retornar até quinta da semana que vem, mandei outro e-mail dia 25/05/2019 para Taiara.
 e-mail compras é da Taiara.
 
 Entrei em contato por telefone e ela falou para retornar dia 17.
 
 Mandei e-mail falando da campanha onde conseguimos deixar o valor igual ao valor da BVS.";;28/05/2019;17:17:12;CNPJ;10;MORNO;27/09/2019;;;;30/09/2019;;;EM NEGOCIAÇÃO;11:32:58
-03436073000119;VENDA LIBERADA;DANIEL;VANRAL COMERCIAL LTDA;ALICE;BOA VISTA;;;;0;;;;;;11-3879-7979;;;;;;;Não tem interesse em fazer contrato com a Serasa teve muito problemas teve que abrir um processo para poder resolver os problemas.;;29/05/2019;14:34:19;;;FRIO;14/06/2019;;;;13/06/2019;;;VENDA PERDIDA;09:57:45
-04643369000173;VENDA LIBERADA;DANIEL;SERRAMAQ COM SERV LTDA-EPP;LUCIANO;BOA VISTA;;;;0;;;;;;;;;;;;;fechou contrato com a Serasa ano passado mas voltou para a Boa Vista achou a Serasa muito dificil de mexer e ninguem da equipe gostou, segundo Luciano a Serasa não atende as necessidades da empresa.;;29/05/2019;14:43:08;;;FRIO;14/06/2019;;;;13/06/2019;;;VENDA PERDIDA;09:58:14
-2,38355E+13;VENDA LIBERADA;DANIEL;SOFIA COMERCIO DE ALIMENTOS LTDA;NICOLE DESCONTO;CDL;692;R$10,00;;692,00;SPC BRASIL;;;;;54-3213-2017;;nicole@sofiapet.com.br;;;;;"Utiliza nas consultas (participação, sujestão de crédito)
+;VENDA LIBERADA;DANIEL;VANRAL COMERCIAL LTDA;ALICE;BOA VISTA;;;;0;;;;;;11-3879-7979;;;;;;;Não tem interesse em fazer contrato com a Serasa teve muito problemas teve que abrir um processo para poder resolver os problemas.;;29/05/2019;14:34:19;;;FRIO;14/06/2019;;;;13/06/2019;;;VENDA PERDIDA;09:57:45
+;VENDA LIBERADA;DANIEL;SERRAMAQ COM SERV LTDA-EPP;LUCIANO;BOA VISTA;;;;0;;;;;;;;;;;;;fechou contrato com a Serasa ano passado mas voltou para a Boa Vista achou a Serasa muito dificil de mexer e ninguem da equipe gostou, segundo Luciano a Serasa não atende as necessidades da empresa.;;29/05/2019;14:43:08;;;FRIO;14/06/2019;;;;13/06/2019;;;VENDA PERDIDA;09:58:14
+;VENDA LIBERADA;DANIEL;SOFIA COMERCIO DE ALIMENTOS LTDA;NICOLE DESCONTO;CDL;692;R$10,00;;692;SPC BRASIL;;;;;54-3213-2017;;nicole@sofiapet.com.br;;;;;"Utiliza nas consultas (participação, sujestão de crédito)
 
 mandei propos tem interesse em mudar para a serasa só depende dos valores, quanto a negativação, ja utilizou da Serasa mas consegui mais barto na SPC Brasil, se conseguir um valor nelhor na negativação ela volta a negativar.
 
 mandei uma proposta com os valores da campanha de 52% OFF.";CNPJ;;;;95;QUENTE;26/09/2019;;;;30/09/2019;16:13:28;;EM NEGOCIAÇÃO;16:08:28
-08877135000141;VENDA LIBERADA;DANIEL;VOLLO BRASIL ARTIGOS ESPORTIVOS EIRELI;CARMEM;BOA VISTA;60;R$ 600,00;R$ 10,00;500;;;;;;11-3771-3333;;carmem.ferreira@vollo.com.br;;;;;"Solicitei fatura para poder chegar no valor que ela ta pagando, ela ja recebeu varias proposta mas nunca cobriram o valor dela com a Boa Vista
+;VENDA LIBERADA;DANIEL;VOLLO BRASIL ARTIGOS ESPORTIVOS EIRELI;CARMEM;BOA VISTA;60;R$600,00;R$10,00;500;;;;;;11-3771-3333;;carmem.ferreira@vollo.com.br;;;;;"Solicitei fatura para poder chegar no valor que ela ta pagando, ela ja recebeu varias proposta mas nunca cobriram o valor dela com a Boa Vista
 
 
 mandei proposta da campanha onde conseguimos deixar o preço igual.";;31/05/2019;17:08:00;CNPJ;100;QUENTE;27/09/2019;;;;30/09/2019;;;EM NEGOCIAÇÃO;11:32:23
-62745609000147;VENDA LIBERADA;DANIEL;PLASTEX BRASIL INDÚSTRIA COMÉRCIO;FERNANDA DESCONTO;BOA VISTA;180;R$ 1.276,00;R$ 7,09;1560;NÃO;;;;;12-3978-2248;;fernanda@plastic.com.br;;;;;"Plastic Mangueiras
+;VENDA LIBERADA;DANIEL;PLASTEX BRASIL INDÚSTRIA COMÉRCIO;FERNANDA DESCONTO;BOA VISTA;180;R$1.276,00;R$7,09;1560;NÃO;;;;;12-3978-2248;;fernanda@plastic.com.br;;;;;"Plastic Mangueiras
 faz de 180 a 200 consultas
 Faz a consulta Gold com comportamento de pagamento/ paga R$7,09, nunca mudou para a Serasa porque nunca chegaram no valor que ela paga.
 
@@ -137,13 +137,13 @@ Enviado proposta com 74% de desconto.
 
 enviado solicitação de costumização para ver se Charlene aprova, aguardando posição da Chrlene, Pedi para o Ronaldo uma ajuda para envio de proposta, desconto não aprovado.
 ";;04/06/2019;09:57:11;CNPJ;100;QUENTE;26/09/2019;;;;30/09/2019;;;EM NEGOCIAÇÃO;17:53:06
-65585242000130;VENDA LIBERADA;DANIEL;WORLD AIR COM REPRES LTDA;JANAINA;SERASA;;;;0;;;;;;11-3534-6520;;;;;;;falei com a  resposnsavel e ela informou que ja utiliza Serasa através de um outro CNPJ o nome da empresa que ela utiliza é ALUMIVAS IND. E COM. DE ARTEFATOS DE METAL LTDA.;;04/06/2019;10:46:54;CNPJ;100;FRIO;04/06/2019;;;;19/06/2019;;;VENDA PERDIDA;
-05694291000189;VENDA LIBERADA;DANIEL;VERIN COM EQUIPS CONTRA INCENCIO LTDA EPP;LUIS;BOA VISTA;;;;0;;;;;;11-2967-6842;;luislagoa@verin.com.br;;;;;"A recepcionista falou que eles não tem interesse em miudar porque utilizam a Boa Vista a muito temnpo, que é para mandar e-mail perguntando para o Luis se ele tem interesse, não tinha informação da quantidadde de consulta que faz e demais informações.
+;VENDA LIBERADA;DANIEL;WORLD AIR COM REPRES LTDA;JANAINA;SERASA;;;;0;;;;;;11-3534-6520;;;;;;;falei com a  resposnsavel e ela informou que ja utiliza Serasa através de um outro CNPJ o nome da empresa que ela utiliza é ALUMIVAS IND. E COM. DE ARTEFATOS DE METAL LTDA.;;04/06/2019;10:46:54;CNPJ;100;FRIO;04/06/2019;;;;19/06/2019;;;VENDA PERDIDA;
+;VENDA LIBERADA;DANIEL;VERIN COM EQUIPS CONTRA INCENCIO LTDA EPP;LUIS;BOA VISTA;;;;0;;;;;;11-2967-6842;;luislagoa@verin.com.br;;;;;"A recepcionista falou que eles não tem interesse em miudar porque utilizam a Boa Vista a muito temnpo, que é para mandar e-mail perguntando para o Luis se ele tem interesse, não tinha informação da quantidadde de consulta que faz e demais informações.
 
 e-mail enviado
 
 tentei contato novamente é para aguardar, quando ele tiver interesse ele responde o e-mail.";;04/06/2019;10:54:33;;;FRIO;14/06/2019;;;;12/06/2019;;;VENDA PERDIDA;10:55:15
-18469615000127;VENDA LIBERADA;DANIEL;REV SUMARE COMERCIO E IMPORTACAO DE MARMORES E GRA;MARILIA;BOA VISTA;150;R$ 2.000,00;;500;;;;;;19-3858-5969;;financeiro@revsumare.com.br;;;;;"Marilia pediu para eu retornar apóa o almoço, tem interesse as estava sem tempo para passar mais detalhes o horario que eu liguei.
+;VENDA LIBERADA;DANIEL;REV SUMARE COMERCIO E IMPORTACAO DE MARMORES E GRA;MARILIA;BOA VISTA;150;R$2.000,00;;500;;;;;;19-3858-5969;;financeiro@revsumare.com.br;;;;;"Marilia pediu para eu retornar apóa o almoço, tem interesse as estava sem tempo para passar mais detalhes o horario que eu liguei.
 
 mandei e-mail solicitando dados para elaborar uma proposta.
 
@@ -152,114 +152,114 @@ tentei contato e estava com problema na telefonia.
 tentei contatio por telefone novamente sem sucesso.
 20% completa 80 basica. Valor pago R$8,00 a R$10,00 basica e de R$12,00 a R$14,00 a  completa.
 Enviado proposta em cima da valor médio gsato por mês.. esperando resposta cliente recebeu uma proposta melhor da Boa Vista";;04/06/2019;11:16:09;PJ e PF;50;QUENTE;30/07/2019;;;;05/08/2019;;;EM NEGOCIAÇÃO;13:52:21
-04876369000113;VENDA LIBERADA;DANIEL;POLUS CONECTORES ELETRICOS LTDA-EPP;ELISEU;BOA VISTA;;;;0;;;;;;11-3851-4277;;;;;;;falou que Serasa não tem tanta informação quanto a Boa Vista não quis nem fazer teste ou comparação porque sabe qua a Boa Vista é melhor.;;04/06/2019;11:49:37;;;FRIO;04/06/2019;;;;04/06/2019;;;VENDA PERDIDA;
-17632546000168;VENDA LIBERADA;DANIEL;SEGBIO COMERCIO IMPORTACAO E REPRESENTACAO LTDA;LUCIANE;BOA VISTA;20;;;0;;;;;;19-2517-2525;;financeiro@segbio.com.br;;;;;"passou poucas informações falou que não tem autorização para passar mais do que essas informações, pediu para eu passar um e-mail com apresentãção e eles vão ver se interessa.
+;VENDA LIBERADA;DANIEL;POLUS CONECTORES ELETRICOS LTDA-EPP;ELISEU;BOA VISTA;;;;0;;;;;;11-3851-4277;;;;;;;falou que Serasa não tem tanta informação quanto a Boa Vista não quis nem fazer teste ou comparação porque sabe qua a Boa Vista é melhor.;;04/06/2019;11:49:37;;;FRIO;04/06/2019;;;;04/06/2019;;;VENDA PERDIDA;
+;VENDA LIBERADA;DANIEL;SEGBIO COMERCIO IMPORTACAO E REPRESENTACAO LTDA;LUCIANE;BOA VISTA;20;;;0;;;;;;19-2517-2525;;financeiro@segbio.com.br;;;;;"passou poucas informações falou que não tem autorização para passar mais do que essas informações, pediu para eu passar um e-mail com apresentãção e eles vão ver se interessa.
 
 e-mail enviado.
 
 no aguado de alguma posição da cliente, porque fui informado que a mesma so responde por e-mail.";;04/06/2019;15:16:59;CNPJ;;FRIO;27/06/2019;;;;19/06/2019;;;VENDA PERDIDA;14:31:09
-02018296000284;VENDA LIBERADA;DANIEL;SO OCULOS COM IMP EXP LTDA;RICARDO;SPC BRASIL;400;;;0;;;;;;11-26024143;;ricardo@semahospital.com.br;;;;;Falou que utiliza só SPC e por enquanto não tem interesse em utilizar Serasa é um cara bem desinteressado.;;04/06/2019;15:33:02;PJ e PF;50;FRIO;07/06/2019;;;;04/06/2019;;;VENDA PERDIDA;09:46:18
-68854025000196;VENDA LIBERADA;DANIEL;PORTOFINO REPRES COM INTERNACIONAL LTDA;EDUARDO;;;;;0;;;;;;11-3898-3232;;diretoria@portoro.com.br;;;;;"Falei com Fernanda e ela pediu para eu tratar os assuntos pro e-mail, que é a maneira mais facil de falar com ele.
+;VENDA LIBERADA;DANIEL;SO OCULOS COM IMP EXP LTDA;RICARDO;SPC BRASIL;400;;;0;;;;;;11-26024143;;ricardo@semahospital.com.br;;;;;Falou que utiliza só SPC e por enquanto não tem interesse em utilizar Serasa é um cara bem desinteressado.;;04/06/2019;15:33:02;PJ e PF;50;FRIO;07/06/2019;;;;04/06/2019;;;VENDA PERDIDA;09:46:18
+;VENDA LIBERADA;DANIEL;PORTOFINO REPRES COM INTERNACIONAL LTDA;EDUARDO;;;;;0;;;;;;11-3898-3232;;diretoria@portoro.com.br;;;;;"Falei com Fernanda e ela pediu para eu tratar os assuntos pro e-mail, que é a maneira mais facil de falar com ele.
 
 E-mail enviado.
 
 Tinha evento na empresa e seria empossivel eu falar com o Eduardo no dia do contato.
 A secretaria pedu meu contato para ele retornar porque ele sempre este me runiao, passei o telefone do escritorio.
 ";;05/06/2019;09:34:50;;;FRIO;27/06/2019;;;;27/06/2019;;;VENDA PERDIDA;14:42:13
-43207646000157;VENDA LIBERADA;DANIEL;PROCOL IND COM LTDA;SILVANO;;0;;;0;;;;;;11-3662-3305;;procol@procol.com.br;;;;;"o responsável não estava retornar ápós o meio dia.
+;VENDA LIBERADA;DANIEL;PROCOL IND COM LTDA;SILVANO;;0;;;0;;;;;;11-3662-3305;;procol@procol.com.br;;;;;"o responsável não estava retornar ápós o meio dia.
 
 Falei com Silvano e ele disse que tava fazendo uma consulta a cada dois meses e por isso decidiu cancelar mandei um e-mail para salvar meu contato quando precisar futuramente.";;;;;;FRIO;28/06/2019;;;;06/06/2019;16:56:21;;VENDA PERDIDA;10:28:51
-07085824000150;VENDA LIBERADA;DANIEL;RF COM CABO TELECOMUNI LTDA;MARCIA;SERASA;;;;0;;;;;;11-2062-6799;;;;;;;"Marcia está de férias e retornar na segunda feira dia agendado para retornar e tentar contato.
+;VENDA LIBERADA;DANIEL;RF COM CABO TELECOMUNI LTDA;MARCIA;SERASA;;;;0;;;;;;11-2062-6799;;;;;;;"Marcia está de férias e retornar na segunda feira dia agendado para retornar e tentar contato.
 
 utiliza o serviço pre pago quando faz consultas utiliza umas 3 consultas no maximo e não tem interesse em receber proposta de serviço pós pago, não quer despesa fixa. ";;05/06/2019;09:40:50;;;FRIO;14/06/2019;;;;05/06/2019;;;VENDA PERDIDA;11:02:04
-00822602000124;VENDA LIBERADA;DANIEL;PLOTAG SISTEMAS E SUPRIMENTOS LTDA ME;MONICA;SPC BRASIL;;;;0;;;;;;11-3339-6824;;;;;;;falei com a Monica e e ela tinah acabado de fechar contrato com a SPC Brasil, retornar contato após carência.;;05/06/2019;09:44:34;;;FRIO;05/06/2019;;;;05/06/2019;;;VENDA PERDIDA;
-19221895000112;VENDA LIBERADA;DANIEL;PPS IMPORTACAO E COMERCIO DE BEBIDAS E ALIMENTOS L;DUARTE;;;;;0;;;;;;11-3554-2541;;controle2@ppsimportadora.com.br;;;;;"O responsável não fica na empresa mora em portugal, mandar e-mail oferecendo a parceria a unica forma de ter contato com ele é desta forma.
+;VENDA LIBERADA;DANIEL;PLOTAG SISTEMAS E SUPRIMENTOS LTDA ME;MONICA;SPC BRASIL;;;;0;;;;;;11-3339-6824;;;;;;;falei com a Monica e e ela tinah acabado de fechar contrato com a SPC Brasil, retornar contato após carência.;;05/06/2019;09:44:34;;;FRIO;05/06/2019;;;;05/06/2019;;;VENDA PERDIDA;
+;VENDA LIBERADA;DANIEL;PPS IMPORTACAO E COMERCIO DE BEBIDAS E ALIMENTOS L;DUARTE;;;;;0;;;;;;11-3554-2541;;controle2@ppsimportadora.com.br;;;;;"O responsável não fica na empresa mora em portugal, mandar e-mail oferecendo a parceria a unica forma de ter contato com ele é desta forma.
 
 e-mail enviado.
 
 nunca respondeu ao e-mail, segunda a secretária esta é a unica forma de contato.";;05/06/2019;09:48:29;;;FRIO;27/06/2019;;;;20/06/2019;;;VENDA PERDIDA;14:42:59
-43207281000160;VENDA LIBERADA;DANIEL;SUL IMPORTADORA DE ROLAMENTOS LTDA;ALESSANDRO;SPC BRASIL;;;;0;;;;;;11-2823-2727;;;;;;;"responsável não estava na empresa, retornar na quinta para falar com ele.
+;VENDA LIBERADA;DANIEL;SUL IMPORTADORA DE ROLAMENTOS LTDA;ALESSANDRO;SPC BRASIL;;;;0;;;;;;11-2823-2727;;;;;;;"responsável não estava na empresa, retornar na quinta para falar com ele.
 
 ja utilizou serviço da Serasa e teve problema com cobranças indevidas, teve que processar a Serasa para poder recuperar o dinheiro, no ponto de vista dela a empresa não é uma empresa de confiança e na empresa dela as portas estão fechadas para a Serasa.";;05/06/2019;10:08:57;;;FRIO;14/06/2019;;;;05/06/2019;;;VENDA PERDIDA;11:10:02
-12586637000190;VENDA LIBERADA;DANIEL;SORAIA DISTRIBUIDORA DE DOCES LTDA EPP;KELY;SPC BRASIL;;;;0;;;;;;11-2943-2599;;administrativo@soraiadistribuidora.com;;;;;"A propria responsável atendeu é bem antipatica falou que não tem interesse em mudar e que se quiser mandar um e-mail sem compromisso que fique a vontade.
+;VENDA LIBERADA;DANIEL;SORAIA DISTRIBUIDORA DE DOCES LTDA EPP;KELY;SPC BRASIL;;;;0;;;;;;11-2943-2599;;administrativo@soraiadistribuidora.com;;;;;"A propria responsável atendeu é bem antipatica falou que não tem interesse em mudar e que se quiser mandar um e-mail sem compromisso que fique a vontade.
 
 como não tinha interesse mandei meu contato caso no futuro precise de alguma cotação.";;05/06/2019;10:15:01;;;FRIO;27/06/2019;;;;27/06/2019;;;VENDA PERDIDA;14:44:21
-54266523000103;VENDA LIBERADA;DANIEL;TIDLAND INDL DO BRASIL LTDA;;;;;;0;;;;;;11-3948-1881;;;;;;;não tem interesse em ter contrato com a Serasa falou que não aguenta as ligações da Serasa ligam todos os dias de manha e a tarde.;;05/06/2019;10:23:11;;;FRIO;27/06/2019;;;;20/06/2019;;;VENDA PERDIDA;14:45:52
-42981902000104;VENDA LIBERADA;DANIEL;SUPREMA HIDROELETRICA LTDA ME;RISENETE;;;;;0;;;;;;31-3353-6747;;;;;;;Cliente só atende o governo e não tem necessidadde de consultar.;;05/06/2019;10:39:31;;;FRIO;05/06/2019;;;;20/06/2019;;;VENDA PERDIDA;
-02526788000108;VENDA LIBERADA;DANIEL;RIBEIRO & BARBOSA REPRES LTDA;NAIANE;;;;;0;;;;;;62-3223-4377;;;;;;;"retornar a tarde para pegar o telefone do outro escritorio que utiliza mais. retronar por volta das 17:30.
+;VENDA LIBERADA;DANIEL;TIDLAND INDL DO BRASIL LTDA;;;;;;0;;;;;;11-3948-1881;;;;;;;não tem interesse em ter contrato com a Serasa falou que não aguenta as ligações da Serasa ligam todos os dias de manha e a tarde.;;05/06/2019;10:23:11;;;FRIO;27/06/2019;;;;20/06/2019;;;VENDA PERDIDA;14:45:52
+;VENDA LIBERADA;DANIEL;SUPREMA HIDROELETRICA LTDA ME;RISENETE;;;;;0;;;;;;31-3353-6747;;;;;;;Cliente só atende o governo e não tem necessidadde de consultar.;;05/06/2019;10:39:31;;;FRIO;05/06/2019;;;;20/06/2019;;;VENDA PERDIDA;
+;VENDA LIBERADA;DANIEL;RIBEIRO & BARBOSA REPRES LTDA;NAIANE;;;;;0;;;;;;62-3223-4377;;;;;;;"retornar a tarde para pegar o telefone do outro escritorio que utiliza mais. retronar por volta das 17:30.
 
 liguei de volta e a naiane não tem autorização para passar informações e não quis passar e-mail do responsavel, também falou que não podia passar a ligação.";;05/06/2019;10:43:23;;;FRIO;28/06/2019;;;;17/06/2019;;;VENDA PERDIDA;10:30:50
-00146124000180;VENDA LIBERADA;DANIEL;SUBITO SINALIZACAO COM VISUAL LTDA-EPP;PAULA;;;;;0;;;;;;11-5562-0865;;;;;;;"Falou que ja utilizava serviço de consulta e que estava ocupada no mesmo instante desligou o telefone.
+;VENDA LIBERADA;DANIEL;SUBITO SINALIZACAO COM VISUAL LTDA-EPP;PAULA;;;;;0;;;;;;11-5562-0865;;;;;;;"Falou que ja utilizava serviço de consulta e que estava ocupada no mesmo instante desligou o telefone.
 
 retornar hoje após o meio dia.
 
 Retornei e a Paula e muito grossa repetiu que ja utiliza serviço de consulta e desligou não me deu chances de falar. ";;05/06/2019;10:47:07;;;FRIO;14/06/2019;;;;05/06/2019;;;VENDA PERDIDA;11:12:03
-43814052000104;VENDA LIBERADA;DANIEL;TDK DO BRASIL IND COM LTDA - A/C SRA HELOISA;SILVIA;SERASA;;;;0;;;;;;51-3484-7059;;;;;;;Ja uitliza o serviço de consulta com a Serasa em outro CNPJ: 90285958/0001-69.;;05/06/2019;10:57:20;;;FRIO;05/06/2019;;;;20/06/2019;;;VENDA PERDIDA;
-61843934000180;VENDA LIBERADA;DANIEL;WALMINI FERRAGENS FERRAM LTDA;PAULO;BOA VISTA;;;;0;;;;;;11-3227-4466;;;;;;;falou que ja utiliza os dois Serasa e Boa Vista/ ;;05/06/2019;11:00:28;;;FRIO;05/06/2019;;;;20/06/2019;;;VENDA PERDIDA;
-17660437000154;VENDA LIBERADA;DANIEL;STYROSUL INDUSTRIA E COMERCIO DE ISOPOR LTDA ME;APARECIDA;;;;;0;;;;;;31-3343-9009;9025;aparecida@isofort.com.br;;;;;"retornar a tarde a responsável não estava. retornar por volta das 16:00.
+;VENDA LIBERADA;DANIEL;TDK DO BRASIL IND COM LTDA - A/C SRA HELOISA;SILVIA;SERASA;;;;0;;;;;;51-3484-7059;;;;;;;Ja uitliza o serviço de consulta com a Serasa em outro CNPJ: 90285958/0001-69.;;05/06/2019;10:57:20;;;FRIO;05/06/2019;;;;20/06/2019;;;VENDA PERDIDA;
+;VENDA LIBERADA;DANIEL;WALMINI FERRAGENS FERRAM LTDA;PAULO;BOA VISTA;;;;0;;;;;;11-3227-4466;;;;;;;falou que ja utiliza os dois Serasa e Boa Vista/ ;;05/06/2019;11:00:28;;;FRIO;05/06/2019;;;;20/06/2019;;;VENDA PERDIDA;
+;VENDA LIBERADA;DANIEL;STYROSUL INDUSTRIA E COMERCIO DE ISOPOR LTDA ME;APARECIDA;;;;;0;;;;;;31-3343-9009;9025;aparecida@isofort.com.br;;;;;"retornar a tarde a responsável não estava. retornar por volta das 16:00.
 
 tentar direto no ramal dela.
 
 retornar na segunda Aparecida não estava, Falei com vera que falou que a melhor forma de contato é por e-mail muito raramente vou encontrar ela.
 
 mandei e-mail pedindo atendimento";;05/06/2019;11:05:46;;;FRIO;17/06/2019;;;;17/06/2019;;;VENDA PERDIDA;16:06:28
-61576336000191;VENDA LIBERADA;DANIEL;STAMAC IND COM MAQ LTDA;DANIELA;;;;;0;;;;;;11-3845-2855;;;;;;;"procurar por Daniela, ela não estava na empresa. ligar no periodo da manhã por volta das 9:30.
+;VENDA LIBERADA;DANIEL;STAMAC IND COM MAQ LTDA;DANIELA;;;;;0;;;;;;11-3845-2855;;;;;;;"procurar por Daniela, ela não estava na empresa. ligar no periodo da manhã por volta das 9:30.
 liguei novamente e ela so se enocntra na empresa no periodo da manhã.
 
 liguei com a Daniela, falou que não tem interesse e desligou o telefone sem dar chances de eu responder.
 ";;05/06/2019;11:17:54;;;FRIO;27/06/2019;;;;18/06/2019;;;VENDA PERDIDA;14:45:33
-10247643000198;VENDA LIBERADA;DANIEL;VIASUPRI SUPRIMENTOS DE ESCRITORIO E LIMPEZA LTDA;FABRISIA;BOA VISTA;;;;0;;;;;;11-4174-7900;;;;;;;não tem interesse por enquanto a Boa Vista atende muito bem as necessidades deles;;05/06/2019;11:43:44;;;FRIO;05/06/2019;;;;20/06/2019;;;VENDA PERDIDA;
-14847631000155;VENDA LIBERADA;DANIEL;REDETRAFO COMERCIO DE MATERIAIS ELETRICOS LTDA EPP;CAROLINE;BOA VISTA;;;;0;;;;;;11-4556-7325;;caroline@redetrafo.com.br;;;;;"A resposnsável não se encontrava, retornara a tarde.
+;VENDA LIBERADA;DANIEL;VIASUPRI SUPRIMENTOS DE ESCRITORIO E LIMPEZA LTDA;FABRISIA;BOA VISTA;;;;0;;;;;;11-4174-7900;;;;;;;não tem interesse por enquanto a Boa Vista atende muito bem as necessidades deles;;05/06/2019;11:43:44;;;FRIO;05/06/2019;;;;20/06/2019;;;VENDA PERDIDA;
+;VENDA LIBERADA;DANIEL;REDETRAFO COMERCIO DE MATERIAIS ELETRICOS LTDA EPP;CAROLINE;BOA VISTA;;;;0;;;;;;11-4556-7325;;caroline@redetrafo.com.br;;;;;"A resposnsável não se encontrava, retornara a tarde.
 
 praticamente não utiliza tem uma pacote de R$30,00 por mês, mandei e-mail para salvar o contato.";;05/06/2019;11:49:28;;;FRIO;17/06/2019;;;;14/06/2019;;;VENDA PERDIDA;15:56:24
-04974842000103;VENDA LIBERADA;DANIEL;WORK FER COMERCIO DE FERRAMENTAS LTDA EPP;VALMOR;;;;;0;;;;;;11-2959-2933;;;;;;;"retornar a tarde, ele estava em reunião.
+;VENDA LIBERADA;DANIEL;WORK FER COMERCIO DE FERRAMENTAS LTDA EPP;VALMOR;;;;;0;;;;;;11-2959-2933;;;;;;;"retornar a tarde, ele estava em reunião.
 
 retonar as 14:00.
 
 retornar em outro horário estava em reuniao.
 
 A secretaria falou com ele e disse que ele não tem interesse.";;05/06/2019;11:51:52;;;FRIO;27/06/2019;;;;18/06/2019;;;VENDA PERDIDA;14:52:03
-58579392000175;VENDA LIBERADA;DANIEL;TECIDOS HODORY LTDA;ILAN;BOA VISTA;20;R$ 160,00;R$ 12,00;208;;;;;;11-2695-9550;;hodory@uol.com.br;;;;;"Responsavel estava em horário de almoço retornar depois de uns 40 minutos. 
+;VENDA LIBERADA;DANIEL;TECIDOS HODORY LTDA;ILAN;BOA VISTA;20;R$160,00;R$12,00;208;;;;;;11-2695-9550;;hodory@uol.com.br;;;;;"Responsavel estava em horário de almoço retornar depois de uns 40 minutos. 
 
 Falei com a Ilan  e ela falou que não fechou com a Serasa porque os valores ficaram  muito diferente dos valores que ela paga opara a Boa Vista, se chegarem ao valor que ela paga, ela muda sem problema nenhum.
 
 Mandei proposta com 60% de desconto e junto solicitei a cópia da fatura.
 Mandei e-mail pedindo feedback.
 Mandei e-mail ecerrando o contato.";;05/06/2019;14:29:13;;;FRIO;11/07/2019;;;;01/07/2019;;;VENDA PERDIDA;10:57:34
-07435235000155;VENDA LIBERADA;DANIEL;ZENSHIN BRASIL COM PECAS E ACESS MAQUINARIOS LTDA;EDERSON;SERASA;;;;0;;;;;;;;;;;;;"Responsavel estava em ligação retornar daqui uns 30 minitos.
+;VENDA LIBERADA;DANIEL;ZENSHIN BRASIL COM PECAS E ACESS MAQUINARIOS LTDA;EDERSON;SERASA;;;;0;;;;;;;;;;;;;"Responsavel estava em ligação retornar daqui uns 30 minitos.
 
 
 FAz menos de um mês que fechou parceria com a Serasa";;05/06/2019;14:32:30;;;FRIO;14/06/2019;;;;05/06/2019;;;VENDA PERDIDA;15:59:43
-96621131000165;VENDA LIBERADA;DANIEL;TECHNO PUMP COM REPRES LTDA;LILIAN;BOA VISTA;5;;;62;;;;;;11-2274-8292;;fat@technopump.com.br;;;;;"Mandar uma proposta em cima da média de consulta, se a proposta for boa ela retorna o contato por e-mail.
+;VENDA LIBERADA;DANIEL;TECHNO PUMP COM REPRES LTDA;LILIAN;BOA VISTA;5;;;62;;;;;;11-2274-8292;;fat@technopump.com.br;;;;;"Mandar uma proposta em cima da média de consulta, se a proposta for boa ela retorna o contato por e-mail.
 
 e-mail de proposta enviada.
  Mandei e-mail pendidno feedback, leu mas ainda não respondeu.
 Mandei e-mail encerrando o contato.";;05/06/2019;14:48:17;CNPJ;100;FRIO;11/07/2019;;;;01/07/2019;;;VENDA PERDIDA;10:58:55
-04836444000112;VENDA LIBERADA;DANIEL;WB COM REPRES LTDA;VANESSA;BOA VISTA;5;R$ 267,00;;280;;;;;;48-3437-5180;;wb.ltda@terra.com.br;;;;;"mandei duas proposta de contrato em encima do valor que pagam por mês, e outra em cima da quantidade de consulta.
+;VENDA LIBERADA;DANIEL;WB COM REPRES LTDA;VANESSA;BOA VISTA;5;R$267,00;;280;;;;;;48-3437-5180;;wb.ltda@terra.com.br;;;;;"mandei duas proposta de contrato em encima do valor que pagam por mês, e outra em cima da quantidade de consulta.
 
 e-mail enviado.
 
 Respondeu que no momento não é interessante sair da Boa Vista";;05/06/2019;15:35:11;CNPJ;100;MORNO;27/06/2019;;;;20/06/2019;;;VENDA PERDIDA;14:54:52
-69089431000172;VENDA LIBERADA;DANIEL;WELD CENTER COM MAQ EQUIP SOLDA LTDA;FABIOLA;BOA VISTA;;;;0;;;;;;16-3636-8793;;financeiro@weldcenter.com.br;;;;;"Utiliza Boa Vista ja recebeu proposta da Serasa mas por em quanto a Bos Vista ta suprindo as necessidades dela, não quiz passar maiores informação pediu para eu mandar um e-mail com o meu contati que quando ela achar necessário ela me procura.]
+;VENDA LIBERADA;DANIEL;WELD CENTER COM MAQ EQUIP SOLDA LTDA;FABIOLA;BOA VISTA;;;;0;;;;;;16-3636-8793;;financeiro@weldcenter.com.br;;;;;"Utiliza Boa Vista ja recebeu proposta da Serasa mas por em quanto a Bos Vista ta suprindo as necessidades dela, não quiz passar maiores informação pediu para eu mandar um e-mail com o meu contati que quando ela achar necessário ela me procura.]
 
 e-mail enviado.";;05/06/2019;15:46:56;;;FRIO;05/06/2019;;;;20/06/2019;;;VENDA PERDIDA;
-61946091000147;VENDA LIBERADA;DANIEL;ZIMAQ IND COM LTDA;MARLEIDE;BOA VISTA;10;;;280;;;;;;11-2341-7257;;financeiro@zimaq.com.br;;;;;"Pediu para eu mandar uma proposta em cima da quantidade média que ela faz que ela passa a proposta para o diretor analisar e descidir.
+;VENDA LIBERADA;DANIEL;ZIMAQ IND COM LTDA;MARLEIDE;BOA VISTA;10;;;280;;;;;;11-2341-7257;;financeiro@zimaq.com.br;;;;;"Pediu para eu mandar uma proposta em cima da quantidade média que ela faz que ela passa a proposta para o diretor analisar e descidir.
 
 e-mail enviado.
 
 Mandei e-mail pedindo feedback.
 mandei e-mail encerrando o contato.";;05/06/2019;16:04:16;CNPJ;90;FRIO;11/07/2019;;;;01/07/2019;;;VENDA PERDIDA;11:04:28
-04291824000119;VENDA LIBERADA;DANIEL;TCP COMERCIO E LOCACAO DE ARTIGOS MEDICOS E HOSPIT;FERNANDA;BOA VISTA;15;R$ 267,00;;98;;;;;;11-2651-2777;;financeiro@tcpneuro.com.br;;;;;"Fernanda pediu para eu mandar um proposta para ela analisar. paga todo mês os 267 e nunca passa do pacote contratado.
+;VENDA LIBERADA;DANIEL;TCP COMERCIO E LOCACAO DE ARTIGOS MEDICOS E HOSPIT;FERNANDA;BOA VISTA;15;R$267,00;;98;;;;;;11-2651-2777;;financeiro@tcpneuro.com.br;;;;;"Fernanda pediu para eu mandar um proposta para ela analisar. paga todo mês os 267 e nunca passa do pacote contratado.
 
 e-mail enviado.
 
 Mandei e-mail pedindo feedback, leu e ainda não respondeu.
 Mandei e-mail encerrando o contato.";;05/06/2019;16:45:46;CPF;100;FRIO;11/07/2019;;;;01/07/2019;;;VENDA PERDIDA;11:08:11
-55078505000160;VENDA LIBERADA;DANIEL;TERMOBRONZE METAIS E LIGAS LTDA;JACINTA;BOA VISTA;;;;0;;;;;;11-2601-0150;;;;;;;"Retornar em outro horário, no momento que liguei ja havia encerrado o expediente. Mulher é supergrossa não quer SERASA de jeito algum.
+;VENDA LIBERADA;DANIEL;TERMOBRONZE METAIS E LIGAS LTDA;JACINTA;BOA VISTA;;;;0;;;;;;11-2601-0150;;;;;;;"Retornar em outro horário, no momento que liguei ja havia encerrado o expediente. Mulher é supergrossa não quer SERASA de jeito algum.
 
 
 ";;05/06/2019;16:54:20;;;FRIO;07/06/2019;;;;07/06/2019;;;VENDA PERDIDA;09:52:22
-02451252000162;VENDA LIBERADA;DANIEL;STAR RACER BRASIL LTDA;MONICA;PIRATA;50;;;998;;;;;;12-3654-3600;;financeiro@starracer.com.br;;;;;"Utiliza Protector Brasil.
+;VENDA LIBERADA;DANIEL;STAR RACER BRASIL LTDA;MONICA;PIRATA;50;;;998;;;;;;12-3654-3600;;financeiro@starracer.com.br;;;;;"Utiliza Protector Brasil.
 
 Faz uma média de 50 a 60 consultas por mês, mandar proposta em cima de consultas basicas e completas. Mandar e-mail a os cuidados de Jaqueline.
 
@@ -269,21 +269,21 @@ Proposta enviada atraves do e-mail do Murilo.
 
 Direto não quer Serasa nem de Graça.
 ";;05/06/2019;17:15:37;CNPJ;;FRIO;01/08/2019;;;;15/07/2019;;;VENDA PERDIDA;14:44:02
-11485195000123;VENDA LIBERADA;DANIEL;SUPRIMAIS COM DE SUPRIMENTOS E EQUIP REPROG;PATRICIA;;;;;0;;;;;;19-3829-2275;;;;;;;"responsavel não estava na empresa retornar para tentar um contato.
+;VENDA LIBERADA;DANIEL;SUPRIMAIS COM DE SUPRIMENTOS E EQUIP REPROG;PATRICIA;;;;;0;;;;;;19-3829-2275;;;;;;;"responsavel não estava na empresa retornar para tentar um contato.
 
 17:30 retornar a responsavel estava em outra ligação.
 
 Falei com a Patricia ela falou que não tem necessidade do serviço.
 ";;05/06/2019;17:19:57;;;FRIO;27/06/2019;;;;17/06/2019;;;VENDA PERDIDA;14:57:24
-05070738000149;VENDA LIBERADA;DANIEL;SOLUCAO SISTEMAS DE HIGIENE E LIMPEZA LTDA EPP;SCHEILA;;;;;145;;;;;;11-5013-3030;4;rh@solucaoservicos.com;;;;;"Retornar amanha falar com a Bianca não estava mais na empresa.
+;VENDA LIBERADA;DANIEL;SOLUCAO SISTEMAS DE HIGIENE E LIMPEZA LTDA EPP;SCHEILA;;;;;145;;;;;;11-5013-3030;4;rh@solucaoservicos.com;;;;;"Retornar amanha falar com a Bianca não estava mais na empresa.
 
 Bianca esta de farias a retorna no dia 24/06.
 
 Falei com a Bianca e ela falou que é para eu falar com a Scheila utilizam apenas para RH, contato somente por e-mail. Mandei e-mail pedindo atendimento.
 
 Mandei e-mail pedindo feed back.";;05/06/2019;17:32:19;;;FRIO;30/07/2019;;;;05/08/2019;;;EM NEGOCIAÇÃO;14:06:38
-18033864000175;VENDA LIBERADA;DANIEL;PROTETINTAS DISTRIBUIDORA DE TINTAS LTDA EPP;ALEXANDRE;;;;;0;;;;;;11-5579-3435;;;;;;;Tem que falar com o Alexandre, falei com um senhor que falou que não precisam porque so vendem a vista ou no cartão.;;05/06/2019;17:38:17;;;FRIO;06/06/2019;;;;06/06/2019;;;VENDA PERDIDA;17:24:17
-49664741000166;VENDA LIBERADA;DANIEL;PLASTIDUR INDUSTRIA E COMERCIO DE PLASTICOS LTDA E;MONICA;;;;;208;;;;;;11-2211-0025;;ricardo@plastidur.com.br;;;;;"retornar as 13:30 procurar por Monica, ainda não tinha chego quando liguei.
+;VENDA LIBERADA;DANIEL;PROTETINTAS DISTRIBUIDORA DE TINTAS LTDA EPP;ALEXANDRE;;;;;0;;;;;;11-5579-3435;;;;;;;Tem que falar com o Alexandre, falei com um senhor que falou que não precisam porque so vendem a vista ou no cartão.;;05/06/2019;17:38:17;;;FRIO;06/06/2019;;;;06/06/2019;;;VENDA PERDIDA;17:24:17
+;VENDA LIBERADA;DANIEL;PLASTIDUR INDUSTRIA E COMERCIO DE PLASTICOS LTDA E;MONICA;;;;;208;;;;;;11-2211-0025;;ricardo@plastidur.com.br;;;;;"retornar as 13:30 procurar por Monica, ainda não tinha chego quando liguei.
 
 retornar na segunda, ja tinha ido embora.
 
@@ -291,34 +291,34 @@ retornar amanhã ja tinha ido embora.
 
 Enviado proposta de para análise.
 mandei e-mail pedindo um feedback/ enviado outro e-mail pedindo posição.";;06/06/2019;09:18:48;;;FRIO;30/07/2019;;;;05/08/2019;;;EM NEGOCIAÇÃO;14:10:52
-56131857000103;VENDA LIBERADA;DANIEL;RONALDO T.P. FLORES-ME;RONALDO;;;;;0;;;;;;11-3879-3879;;ronaldo@aunimaq.com.br;;;;;tem que ficar tentando contato com ele durante a tarde ou por e-mail.;;06/06/2019;09:23:00;;;FRIO;06/06/2019;;;;07/06/2019;;;VENDA PERDIDA;17:24:58
-05236564000141;VENDA LIBERADA;DANIEL;SISTEMA INOVACAO INTEGRACAO EM DISTR LTDA;MARIA CARMELINA;BOA VISTA;20;R$ 120,00;R$ 6,00;145;;;;;;35-3531-6382;;mcarmelina@hotmail.com;;;;;"MARIA CARMELINA, não estava na empresa e Stefania que faz as consultas não sabia faklar quanto paga porque é nova na empresa, retornara a tarde por volta das 15:00.
+;VENDA LIBERADA;DANIEL;RONALDO T.P. FLORES-ME;RONALDO;;;;;0;;;;;;11-3879-3879;;ronaldo@aunimaq.com.br;;;;;tem que ficar tentando contato com ele durante a tarde ou por e-mail.;;06/06/2019;09:23:00;;;FRIO;06/06/2019;;;;07/06/2019;;;VENDA PERDIDA;17:24:58
+;VENDA LIBERADA;DANIEL;SISTEMA INOVACAO INTEGRACAO EM DISTR LTDA;MARIA CARMELINA;BOA VISTA;20;R$120,00;R$6,00;145;;;;;;35-3531-6382;;mcarmelina@hotmail.com;;;;;"MARIA CARMELINA, não estava na empresa e Stefania que faz as consultas não sabia faklar quanto paga porque é nova na empresa, retornara a tarde por volta das 15:00.
 
 enviado e-mail com proposta.
 
 mandei e-mail pendindo uma resposta da proposta.
  Mandei e-mail encerrando o contato não consegui mais contato com a responsavel.";;06/06/2019;09:31:31;CNPJ;100;MORNO;17/06/2019;;;;17/06/2019;;;VENDA PERDIDA;16:23:39
-09504405000131;VENDA LIBERADA;DANIEL;TEEJET TECHNOLOGIES SOUTH AMERICA PROD AGRIC LTDA;CARLOS;BOA VISTA;;;;0;;;;;;11-4612-0049;;carlos.nascimento@teejet.com;;;;;"falei com o Carlos ele falou que o diretor dele recebeu uma proposta a um mês a atrás e não teve interesse em mudar, fazem bem poucas consultas cadastram um cliente novo por mês no maximo quase não utilizam o serviço.
+;VENDA LIBERADA;DANIEL;TEEJET TECHNOLOGIES SOUTH AMERICA PROD AGRIC LTDA;CARLOS;BOA VISTA;;;;0;;;;;;11-4612-0049;;carlos.nascimento@teejet.com;;;;;"falei com o Carlos ele falou que o diretor dele recebeu uma proposta a um mês a atrás e não teve interesse em mudar, fazem bem poucas consultas cadastram um cliente novo por mês no maximo quase não utilizam o serviço.
 
 mandei um e-mail para ficar com o meu contato caso futuramente eles venham a precisar utilizar mais o serviço.";;06/06/2019;09:38:16;;;FRIO;06/06/2019;;;;21/06/2019;;;VENDA PERDIDA;
-00717438000195;VENDA LIBERADA;DANIEL;TELETRONIC COM EQUIP SERG LTDA;RODRIGO;;;;;0;;;;;;61-3363-9291;;;;;;;"retornar a tarde, resposnsavel não tinha chego ainda. retornar no periodo da manha 9:00.
+;VENDA LIBERADA;DANIEL;TELETRONIC COM EQUIP SERG LTDA;RODRIGO;;;;;0;;;;;;61-3363-9291;;;;;;;"retornar a tarde, resposnsavel não tinha chego ainda. retornar no periodo da manha 9:00.
 
 tentei contato e o resposnsavel não estava
 
 Quase não utiliza quando utiliza  usa no maximo 6 consultas mês e 70% de seus clientes são orgãos públicos, quansão empresas privadas ele pede pagamento antecipado, mandei meu contato caso precise de nossos serviços futuramente.";;06/06/2019;09:47:13;;;FRIO;27/06/2019;;;;27/06/2019;;;VENDA PERDIDA;15:37:01
-05325067000110;VENDA LIBERADA;DANIEL;TODO A BRASIL COMERCIO DE PRESENTES LTDA ME;CLAUDIA;;;;;0;;;;;;11-3229-8066;;;;;;;"retornara a tarde a responsavel não se encontrava.
+;VENDA LIBERADA;DANIEL;TODO A BRASIL COMERCIO DE PRESENTES LTDA ME;CLAUDIA;;;;;0;;;;;;11-3229-8066;;;;;;;"retornara a tarde a responsavel não se encontrava.
 
 tentei contato mas ninguem atende.
 
 Utiliza a empresa Omini para vender a prazo e fazer consultas.";;06/06/2019;10:05:09;;;FRIO;17/06/2019;;;;17/06/2019;;;VENDA PERDIDA;16:33:14
-02435748000142;VENDA LIBERADA;DANIEL;TUDO PET COMERCIAL EIRELI EPP;MARCIA;BOA VISTA;30;R$ 200,00;R$ 6,60;145;;;;;;11-2372-0304;;marcia@tudopet.com.br;;;;;"retornara a tarde e falar com a Marcia.
+;VENDA LIBERADA;DANIEL;TUDO PET COMERCIAL EIRELI EPP;MARCIA;BOA VISTA;30;R$200,00;R$6,60;145;;;;;;11-2372-0304;;marcia@tudopet.com.br;;;;;"retornara a tarde e falar com a Marcia.
 
 ja foi enviado proposta dia 06/06 mandei e-mail cobrando alguma posição.
 
 mandei e-mail pedindo feedback, não tive resposta.
 
 Mandei e-mail concluido o atendimento e ficando a disposição.";;06/06/2019;10:08:24;CNPJ;;FRIO;27/06/2019;;;;01/07/2019;;;VENDA PERDIDA;15:40:22
-62204045000135;VENDA LIBERADA;DANIEL;SIGRAMAR COMERCIO DE GRANITOS MARMORES LTDA;TARDINI;;;;;0;;;;;;16-3515-7051;;tardini@sigramarribeirao.com.br;;;;;"resposnsável não estava na empresa retornara a tarde.
+;VENDA LIBERADA;DANIEL;SIGRAMAR COMERCIO DE GRANITOS MARMORES LTDA;TARDINI;;;;;0;;;;;;16-3515-7051;;tardini@sigramarribeirao.com.br;;;;;"resposnsável não estava na empresa retornara a tarde.
 
 retornar na segunda não estava mais na empresa
 
@@ -326,353 +326,353 @@ retornar em outros horario o responsavel não tem hora certa para estar na empre
 
 Mandei e-mail pedindo atendimento
 Nenhuma posição.";;06/06/2019;10:13:16;;;FRIO;11/07/2019;;;;01/07/2019;;;VENDA PERDIDA;14:30:02
-06341274000120;VENDA LIBERADA;DANIEL;SOVAN EQUIP SEG LTDA;VICENTE;BOA VISTA;50;R$ 230,00;R$ 4,80;0;;;;;;15-3219-5014;;vicente@sovan-brasil.com.br;;;;;"A consulta que ele faz é a Perfil Risco, vem pontualidade, toda a parte de restrição, nunca mudou para a Serasa porque ninguem consegue chegar no valor que ele paga.
+;VENDA LIBERADA;DANIEL;SOVAN EQUIP SEG LTDA;VICENTE;BOA VISTA;50;R$230,00;R$4,80;0;;;;;;15-3219-5014;;vicente@sovan-brasil.com.br;;;;;"A consulta que ele faz é a Perfil Risco, vem pontualidade, toda a parte de restrição, nunca mudou para a Serasa porque ninguem consegue chegar no valor que ele paga.
 
 mandei um e-mail perguntando se ele pode enviar a fatura.
 
 não respondeu ao e-mail tentei contato novamente não podia atender.";;06/06/2019;10:19:52;CNPJ;;MORNO;14/06/2019;;;;10/06/2019;;;VENDA PERDIDA;16:32:57
-16815333000109;VENDA LIBERADA;DANIEL;SERGIO TADEU MELEIRO MADEIRAS EIRELI EPP;TAMARA;SERASA;;;;0;;;;;;11-2030-3616;;;;;;;ja utiliza os serviços da Serasa em outro CNPJ.;;06/06/2019;11:09:03;;;FRIO;06/06/2019;;;;21/06/2019;;;VENDA PERDIDA;
-64824444000205;VENDA LIBERADA;DANIEL;VALFLANGE INDUSTRIA E COMERCIO DE ACESSORIOS INDUS;MARIANA;;;;;280;;;;;;11-2783-4889;;mariana@valflange.com.br;;;;;"mandar e-mail pendido atendimento, a unica forma de primeiro contato é por e-mail.
+;VENDA LIBERADA;DANIEL;SERGIO TADEU MELEIRO MADEIRAS EIRELI EPP;TAMARA;SERASA;;;;0;;;;;;11-2030-3616;;;;;;;ja utiliza os serviços da Serasa em outro CNPJ.;;06/06/2019;11:09:03;;;FRIO;06/06/2019;;;;21/06/2019;;;VENDA PERDIDA;
+;VENDA LIBERADA;DANIEL;VALFLANGE INDUSTRIA E COMERCIO DE ACESSORIOS INDUS;MARIANA;;;;;280;;;;;;11-2783-4889;;mariana@valflange.com.br;;;;;"mandar e-mail pendido atendimento, a unica forma de primeiro contato é por e-mail.
 
 mandei e-mail ofertando parceria.
 
 Mandei e-mail com proposta com e sem fidelidade.
 
 Mandei e-mail pedindo um feed Back.";;06/06/2019;11:13:45;;;FRIO;30/07/2019;;;;05/08/2019;;;EM NEGOCIAÇÃO;14:16:55
-01334141000103;VENDA LIBERADA;DANIEL;TORNITEC MAQUINAS OPERATRIZES LTDA;;;;;;0;;;;;;11-3277-4468;;;;;;;Atendente bem grossa não deixou eu ofertar e falou que não tem interesse.;;06/06/2019;11:29:02;;;FRIO;06/06/2019;;;;21/06/2019;;;VENDA PERDIDA;
-06335969000108;VENDA LIBERADA;DANIEL;TERRA BRASIL IND COM COCO LTDA;;;;;;0;;;;;;51-3662-8310;;;;;;;Mudou para imbiliaria e não efetuam analise de crédito passam tudo direto para o banco os financiamentos.;;06/06/2019;11:39:24;;;FRIO;06/06/2019;;;;21/06/2019;;;VENDA PERDIDA;
-64288947000122;VENDA LIBERADA;DANIEL;SKIPPY IND COM LTDA;LILIAN;CDL;;;;0;;;;;;32-3235-2226;;;;;;;fechou contrato com a CDL no dia anterior a ligação, retornar o contato após 12 meses.;;06/06/2019;11:47:57;;;FRIO;06/06/2019;;;;01/07/2020;;;EM NEGOCIAÇÃO;
-05731186000172;VENDA LIBERADA;DANIEL;SODIC TELEMATICA LTDA;JOAO OU DANIELA;;;;;0;;;;;;11-3393-3340;;;;;;;"retornar a tarde, nenhum dos dois responsaveis estavam na sala retornar 10:00
+;VENDA LIBERADA;DANIEL;TORNITEC MAQUINAS OPERATRIZES LTDA;;;;;;0;;;;;;11-3277-4468;;;;;;;Atendente bem grossa não deixou eu ofertar e falou que não tem interesse.;;06/06/2019;11:29:02;;;FRIO;06/06/2019;;;;21/06/2019;;;VENDA PERDIDA;
+;VENDA LIBERADA;DANIEL;TERRA BRASIL IND COM COCO LTDA;;;;;;0;;;;;;51-3662-8310;;;;;;;Mudou para imbiliaria e não efetuam analise de crédito passam tudo direto para o banco os financiamentos.;;06/06/2019;11:39:24;;;FRIO;06/06/2019;;;;21/06/2019;;;VENDA PERDIDA;
+;VENDA LIBERADA;DANIEL;SKIPPY IND COM LTDA;LILIAN;CDL;;;;0;;;;;;32-3235-2226;;;;;;;fechou contrato com a CDL no dia anterior a ligação, retornar o contato após 12 meses.;;06/06/2019;11:47:57;;;FRIO;06/06/2019;;;;01/07/2020;;;EM NEGOCIAÇÃO;
+;VENDA LIBERADA;DANIEL;SODIC TELEMATICA LTDA;JOAO OU DANIELA;;;;;0;;;;;;11-3393-3340;;;;;;;"retornar a tarde, nenhum dos dois responsaveis estavam na sala retornar 10:00
 
 quando seleciona a opção 3 da ura cai a ligação.
 
 uitimamente telefone não completa a ligação.";;06/06/2019;11:53:52;;;FRIO;28/06/2019;;;;28/06/2019;;;VENDA PERDIDA;09:44:48
-05233795000100;VENDA LIBERADA;DANIEL;TECMASTER AUTOMACAO COML LTDA;SILVIA;;;;;0;;;;;;61-3553-8500;;silvia@tecmasternet.com.br;;;;;No momento so atende a grandes redes e não fazem abertura de novos cadastros, mas ja estão pensando em atender um publico menor, ai vão precisar mandei um e-mail com o meu contato.;;06/06/2019;13:53:07;;;FRIO;06/06/2019;;;;21/06/2019;;;VENDA PERDIDA;
-50649003000129;VENDA LIBERADA;DANIEL;SYNCROFILM DISTRIBUIDORA LTDA;;;;;;0;;;;;;11-5112-2222;;syncrofilm@sincrofilm.com.br;;;;;"retornar mais tarde os responsaveis não se encontravam. 8:00
+;VENDA LIBERADA;DANIEL;TECMASTER AUTOMACAO COML LTDA;SILVIA;;;;;0;;;;;;61-3553-8500;;silvia@tecmasternet.com.br;;;;;No momento so atende a grandes redes e não fazem abertura de novos cadastros, mas ja estão pensando em atender um publico menor, ai vão precisar mandei um e-mail com o meu contato.;;06/06/2019;13:53:07;;;FRIO;06/06/2019;;;;21/06/2019;;;VENDA PERDIDA;
+;VENDA LIBERADA;DANIEL;SYNCROFILM DISTRIBUIDORA LTDA;;;;;;0;;;;;;11-5112-2222;;syncrofilm@sincrofilm.com.br;;;;;"retornar mais tarde os responsaveis não se encontravam. 8:00
 
 secretaria não quiz passar o nome de nenhum responsável, so passou o e-mail e disse que é para mandar o e-mail que a diretoria direciona ao responsável.
 
 mendei e-mail pedindo atendimento.
 
 não obtive nenhuma resposta.";;06/06/2019;14:49:24;;;FRIO;28/06/2019;;;;19/06/2019;;;VENDA PERDIDA;09:45:56
-61791232000108;VENDA LIBERADA;DANIEL;POLINS EMBALAGENS PLASTICAS LTDA ME;PAULO;BOA VISTA;4;;;0;;;;;;11-3751-0850;;financeiro@polinsembalagens.com;;;;;"retornar no periodo da manhã, melhor horario 11:00, no momento da ligação o Paulo não estava na empresa.
+;VENDA LIBERADA;DANIEL;POLINS EMBALAGENS PLASTICAS LTDA ME;PAULO;BOA VISTA;4;;;0;;;;;;11-3751-0850;;financeiro@polinsembalagens.com;;;;;"retornar no periodo da manhã, melhor horario 11:00, no momento da ligação o Paulo não estava na empresa.
 
 mandei uma proposta de R$62,00 com 30%.
 
 Mandei e-mail pedindo feedback, ate o momento nenhuma resposta.
 tinha voltado o e-mail mandei novamente.
 Enviei e-mail concluindo o contato.";;06/06/2019;14:58:30;;;FRIO;01/08/2019;;;;15/07/2019;;;VENDA PERDIDA;14:46:39
-08404772000109;VENDA LIBERADA;DANIEL;VERMAG DO BRASIL EQUIP SERV P/ IND ALIMENT LTDA;FLAVIA;BOA VISTA;;;R$ 3,50;0;;;;;;48-3286-3009;;;;;;;faz uma ou duas consultas por mês tem contrato com a associação, ja fez cotação com a Serasa e para eles não vale apena ter contrato com a Serasa por que vai ficar muito mais caro que com a Boa Vista.;;06/06/2019;15:19:12;;;FRIO;06/06/2019;;;;21/06/2019;;;VENDA PERDIDA;
-07064875000104;VENDA LIBERADA;DANIEL;SPAN VALE COM PROD ALIMENT LTDA;GUIMAMAES;;;;;0;;;;;;12-3672-2300;;guimaraes@sorveplan.com.br;;;;;"ligar no periodo da manha para falar com o diretor, no momento da ligação ele não estava.
+;VENDA LIBERADA;DANIEL;VERMAG DO BRASIL EQUIP SERV P/ IND ALIMENT LTDA;FLAVIA;BOA VISTA;;;R$3,50;0;;;;;;48-3286-3009;;;;;;;faz uma ou duas consultas por mês tem contrato com a associação, ja fez cotação com a Serasa e para eles não vale apena ter contrato com a Serasa por que vai ficar muito mais caro que com a Boa Vista.;;06/06/2019;15:19:12;;;FRIO;06/06/2019;;;;21/06/2019;;;VENDA PERDIDA;
+;VENDA LIBERADA;DANIEL;SPAN VALE COM PROD ALIMENT LTDA;GUIMAMAES;;;;;0;;;;;;12-3672-2300;;guimaraes@sorveplan.com.br;;;;;"ligar no periodo da manha para falar com o diretor, no momento da ligação ele não estava.
 
 Secretaria falou que é dificil contato com ele e que o jeito mais facil de contato e por e-mail caso ele não responda é para retornar na segunda-feira.
 
 Mandei e-mail pedindo atendimento.
 nenhuma posição nem leu o e-mail.
 ";;06/06/2019;15:28:06;;;FRIO;11/07/2019;;;;02/07/2019;;;VENDA PERDIDA;14:34:37
-09516649000134;VENDA LIBERADA;DANIEL;PLASTICOS DOUBLE DO BRASIL LTDA ME;ELISANGELA;BOA VISTA;20;;R$ 4,91;145;;;;;;11-2724-3158;;plasticosdouble@gmail.com;;;;;"Define Risco, mandar proposta crednet porque ela utiliza mais consultas basicas.
+;VENDA LIBERADA;DANIEL;PLASTICOS DOUBLE DO BRASIL LTDA ME;ELISANGELA;BOA VISTA;20;;R$4,91;145;;;;;;11-2724-3158;;plasticosdouble@gmail.com;;;;;"Define Risco, mandar proposta crednet porque ela utiliza mais consultas basicas.
 
 e-mail enviado com proposta.
 
 Mandei e-mail pedindo feedback.
 reenviei não tive nenhuma posição.
 Respondeu que o mercadio esta parado e que assim que movimentar ela reve esta assunto.";;06/06/2019;15:37:01;CNPJ;95;MORNO;11/07/2019;;;;02/09/2019;;;EM NEGOCIAÇÃO;15:41:46
-18912484000100;VENDA LIBERADA;DANIEL;TF ROLAMENTOS LTDA ME;PEREIRA;;;;;0;;;;;;11-3596-9667;;pereira@tfrolamentos.com;;;;;No momento não tem interesse estão sendo bem atendidos por atual fornecedor, mas mandei e-mail caso mudem de ideia.;;06/06/2019;15:50:58;;;FRIO;06/06/2019;;;;21/06/2019;;;VENDA PERDIDA;
-12418918000134;VENDA LIBERADA;DANIEL;PROFIAD IMPORTACAO E EXPORTACAO LTDA;GIOVANE;CDL;;;R$ 2,17;1300;;;;;;31-2567-9165;;adm@profiad.com.br;;;;;"Dependendo do valor que  a gente for cobrar eles podem fazer a migração, mandei e-mail pedindo mais detalhes da utilização porque no momento da ligação não foi passado.
+;VENDA LIBERADA;DANIEL;TF ROLAMENTOS LTDA ME;PEREIRA;;;;;0;;;;;;11-3596-9667;;pereira@tfrolamentos.com;;;;;No momento não tem interesse estão sendo bem atendidos por atual fornecedor, mas mandei e-mail caso mudem de ideia.;;06/06/2019;15:50:58;;;FRIO;06/06/2019;;;;21/06/2019;;;VENDA PERDIDA;
+;VENDA LIBERADA;DANIEL;PROFIAD IMPORTACAO E EXPORTACAO LTDA;GIOVANE;CDL;;;R$2,17;1300;;;;;;31-2567-9165;;adm@profiad.com.br;;;;;"Dependendo do valor que  a gente for cobrar eles podem fazer a migração, mandei e-mail pedindo mais detalhes da utilização porque no momento da ligação não foi passado.
 
 mandei e-mail pedindo feedback.
 17874860000157 Brassoldas. mandei para análise.";;06/06/2019;16:37:30;;;MORNO;11/07/2019;;;;17/07/2019;;;EM NEGOCIAÇÃO;15:40:50
-47967468000113;VENDA LIBERADA;DANIEL;RICERA IMPORTACAO EXPORTACAO E COMERCIO LTDA;;;;;;0;;;;;;11-2108-5666;;financeiro2@aylla.com.br;;;;;"retornar segunda a responsavel não estava, a menina da recepção é muito devagar não intende o que estou ofertando e não passa a ligação.
+;VENDA LIBERADA;DANIEL;RICERA IMPORTACAO EXPORTACAO E COMERCIO LTDA;;;;;;0;;;;;;11-2108-5666;;financeiro2@aylla.com.br;;;;;"retornar segunda a responsavel não estava, a menina da recepção é muito devagar não intende o que estou ofertando e não passa a ligação.
 
 ninguem atende.
 
 ninguem atende o telefone tentado vários contatos.";;06/06/2019;16:52:35;;;FRIO;28/06/2019;;;;18/06/2019;;;VENDA PERDIDA;09:57:53
-04257174000195;VENDA LIBERADA;DANIEL;SATORI IMPORTACAO & EXPORTACAO LTDA;ELAINE;BOA VISTA;15;R$ 180,00;;145;NÃO;;;;;47-32464849;;financeiro@satori.com.br;;;;;"falei com a resposnsavel e mandei e-mail com oferta.
+;VENDA LIBERADA;DANIEL;SATORI IMPORTACAO & EXPORTACAO LTDA;ELAINE;BOA VISTA;15;R$180,00;;145;NÃO;;;;;47-32464849;;financeiro@satori.com.br;;;;;"falei com a resposnsavel e mandei e-mail com oferta.
 
 Mandei e-mail pedindo feedback.
 reenviei e-mail pedindo posição.";;07/06/2019;09:35:03;CNPJ;95;MORNO;11/07/2019;;;;15/07/2019;;;EM NEGOCIAÇÃO;15:43:28
-02124228000119;VENDA LIBERADA;DANIEL;POTENCIA AQUECIMENTOS INDUSTRIAIS LTDA ME;;;;;;0;;;;;;11-2722-3723;;;;;;;"Ninguem atende o telefone.
+;VENDA LIBERADA;DANIEL;POTENCIA AQUECIMENTOS INDUSTRIAIS LTDA ME;;;;;;0;;;;;;11-2722-3723;;;;;;;"Ninguem atende o telefone.
 
 após varias tentativas de contato ninguem atende o telefone.";;18/06/2019;14:58:12;;;FRIO;28/06/2019;;;;24/06/2019;;;VENDA PERDIDA;10:01:46
-66907346000186;VENDA LIBERADA;DANIEL;TOPPETRO COMERCIO DE DERIVADOS DE PETROLEO LTDA;MARI;BOA VISTA;;R$ 100,00;;0;;;;;;11-2215-1799;;vendas@toppetro.com.br;;;;;retornar depois do contrato de permanencia acabar,acabou de ser renovado.;;18/06/2019;15:10:59;;;FRIO;18/06/2019;;;;08/06/2020;;;EM NEGOCIAÇÃO;
-10584112000190;VENDA LIBERADA;DANIEL;RAFAEL ARRUDA NEVES ME;RAFAEL;BOA VISTA;17;;;0;;;;;;11-2261-2340;;rafael@sevenmed.com.br;;;;;"Retornar a tarde procurar por Rafael ele se encontra a partir das 14:00.
+;VENDA LIBERADA;DANIEL;TOPPETRO COMERCIO DE DERIVADOS DE PETROLEO LTDA;MARI;BOA VISTA;;R$100,00;;0;;;;;;11-2215-1799;;vendas@toppetro.com.br;;;;;retornar depois do contrato de permanencia acabar,acabou de ser renovado.;;18/06/2019;15:10:59;;;FRIO;18/06/2019;;;;08/06/2020;;;EM NEGOCIAÇÃO;
+;VENDA LIBERADA;DANIEL;RAFAEL ARRUDA NEVES ME;RAFAEL;BOA VISTA;17;;;0;;;;;;11-2261-2340;;rafael@sevenmed.com.br;;;;;"Retornar a tarde procurar por Rafael ele se encontra a partir das 14:00.
 
 10 e na outra 7
 
 Proposta enviado de R$98,00 com 35%.";;19/06/2019;09:59:15;CNPJ;;QUENTE;11/07/2019;;;;16/07/2019;;;EM NEGOCIAÇÃO;17:03:07
-15388506000197;VENDA LIBERADA;DANIEL;RCK COMERCIO LTDA ME;DORIVAL;NÃO QUIS INFORMAR;;;;0;;;;;;47-3423-2733;;sedcontabilidade@terra.com.br;;;;dorival@sdcontabilidade.com;"É uam contabilidade pediu para eu passar um e-mail para ele conhecer os serviços e mandar para todos os clientes dele.
+;VENDA LIBERADA;DANIEL;RCK COMERCIO LTDA ME;DORIVAL;NÃO QUIS INFORMAR;;;;0;;;;;;47-3423-2733;;sedcontabilidade@terra.com.br;;;;dorival@sdcontabilidade.com;"É uam contabilidade pediu para eu passar um e-mail para ele conhecer os serviços e mandar para todos os clientes dele.
 
 Enviei e-mail oferecendo uma parceria.";;19/06/2019;10:02:54;;;MORNO;19/06/2019;;;;01/07/2020;;;EM NEGOCIAÇÃO;
-62195177000148;VENDA LIBERADA;DANIEL;TELEIMPORT ELETRONICA LTDA;MICHELI;;0;;;0;;;;;;11-3222-2122;;micheli.teleimport@gmail.com;;;;;"Quem faz as consultas é dono da empresa que é bem dificil de encontrar ele é para mandar e-mail pedindo atendimento para a secretaria que ela encaminh para ele.
+;VENDA LIBERADA;DANIEL;TELEIMPORT ELETRONICA LTDA;MICHELI;;0;;;0;;;;;;11-3222-2122;;micheli.teleimport@gmail.com;;;;;"Quem faz as consultas é dono da empresa que é bem dificil de encontrar ele é para mandar e-mail pedindo atendimento para a secretaria que ela encaminh para ele.
 
 Mandei e-mail pedindo atendimento
 
 e-mail enviado dia 11/07 sem resposta.";;;;;;FRIO;05/08/2019;;;;18/07/2019;;;VENDA PERDIDA;10:09:19
-52099983000169;VENDA LIBERADA;DANIEL;JESUS DE MARI ARTEFATOS DE CIMENTO LTDA;INGRID;BOA VISTA;;;;0;;;;;;11-1146-7654;;;;;;;Falei com A Ingrid que falou que a Serasa não é tão boa quanto a Boa Vista é quando expliquei e diferença não quis mais continuar a ligação.;;02/07/2019;15:48:25;;;FRIO;02/07/2019;;;;17/07/2019;;;VENDA PERDIDA;
-83046656000172;VENDA LIBERADA;DANIEL;MAESTRO DO BRASIL INDUSTRIA METALURGICA LTDA;CRISTIANE;;;;;0;;;;;;48-3466-6500;;;;;;;"Está tratando com a Catia.
+;VENDA LIBERADA;DANIEL;JESUS DE MARI ARTEFATOS DE CIMENTO LTDA;INGRID;BOA VISTA;;;;0;;;;;;11-1146-7654;;;;;;;Falei com A Ingrid que falou que a Serasa não é tão boa quanto a Boa Vista é quando expliquei e diferença não quis mais continuar a ligação.;;02/07/2019;15:48:25;;;FRIO;02/07/2019;;;;17/07/2019;;;VENDA PERDIDA;
+;VENDA LIBERADA;DANIEL;MAESTRO DO BRASIL INDUSTRIA METALURGICA LTDA;CRISTIANE;;;;;0;;;;;;48-3466-6500;;;;;;;"Está tratando com a Catia.
 
 ";;02/07/2019;16:25:16;;;FRIO;03/07/2019;;;;02/07/2019;;;VENDA PERDIDA;16:49:15
-05741680000118;NÃO ESTÁ VALIDO;DANIEL;IMPLACIL DE BORTOLI MATERIAL ODONTOLOGICO LTDA;MARIANA;SERASA;;;;0;;;;;;11-3342-5100;;;;;;;Falouq eu ja tuilia serviços da Serasa;;02/07/2019;16:57:29;;;FRIO;02/07/2019;;;;17/07/2019;;;VENDA PERDIDA;
-57026585000136;VENDA LIBERADA;DANIEL;LUPUS ARTEF METALURGICOS LTDA;VANESSA;;100;;;100;;;;;;15-3384-8484;;administrativo@luposlubrificacao.com.br;;;;;"Realmente não tem contrato com a Serasa em nenhuma CNPJ, todos estão aparecendo venda liberada..
+;NÃO ESTÁ VALIDO;DANIEL;IMPLACIL DE BORTOLI MATERIAL ODONTOLOGICO LTDA;MARIANA;SERASA;;;;0;;;;;;11-3342-5100;;;;;;;Falouq eu ja tuilia serviços da Serasa;;02/07/2019;16:57:29;;;FRIO;02/07/2019;;;;17/07/2019;;;VENDA PERDIDA;
+;VENDA LIBERADA;DANIEL;LUPUS ARTEF METALURGICOS LTDA;VANESSA;;100;;;100;;;;;;15-3384-8484;;administrativo@luposlubrificacao.com.br;;;;;"Realmente não tem contrato com a Serasa em nenhuma CNPJ, todos estão aparecendo venda liberada..
 
 Enviar contrato e entrar em contato para veruificar se ela recebeu a proposta, ela estava de férias.
 
 Completa.
 ";;02/07/2019;17:39:08;CNPJ;95;FRIO;07/08/2019;;;;20/08/2019;;;EM NEGOCIAÇÃO;15:54:07
-66886144000103;VENDA LIBERADA;DANIEL;LADDER AUTOMACAO INDUSTRIAL LTDA;MATEUS;;;;;0,00;;;;;;11-4224-0300;;financeiro@ladder.com.br;;;;;Falei com Jeferson de ele informou que não tratam deste assunto por telefone apenas por e-mail e para mandar este o assunto no e-mail passado e a pessoa responsavél vai responder se tiver interesse. Mas não quis passar o nome do responsável.;;25/07/2019;17:22:22;;;FRIO;25/07/2019;;;;;;;VENDA PERDIDA;
-12955885000161;VENDA LIBERADA;DANIEL;LOTUSBLUME COMERCIAL TEXTIL LTDA;;;;;;0;;;;;;11-2021-0120;;;;;;;ninguem atende.;;03/07/2019;17:32:48;;;FRIO;03/07/2019;;;;04/07/2019;;;EM NEGOCIAÇÃO;
-43574433000163;OFERTA MONITORAMENTO;DANIEL;FIORELLA PROD TEXTEIS LTDA;;;;;;0;;;;;;11-4718-8000;;;;;;;ja utiliza os serviços da Serasa e não tem interesse me fazer monitoramento.;;03/07/2019;17:35:53;;;FRIO;03/07/2019;;;;18/07/2019;;;VENDA PERDIDA;
-16667539000139;VENDA LIBERADA;DANIEL;TIDAS TECNOLOGIA LTDA ME;GEISON;SPC BRASIL;3;;;0;;;;;;47-3520-6868;;;;47-99153-8778;;whasApp. Geison;"Agendado Visita para dia 25/07.
+;VENDA LIBERADA;DANIEL;LADDER AUTOMACAO INDUSTRIAL LTDA;MATEUS;;;;;0;;;;;;11-4224-0300;;financeiro@ladder.com.br;;;;;Falei com Jeferson de ele informou que não tratam deste assunto por telefone apenas por e-mail e para mandar este o assunto no e-mail passado e a pessoa responsavél vai responder se tiver interesse. Mas não quis passar o nome do responsável.;;25/07/2019;17:22:22;;;FRIO;25/07/2019;;;;;;;VENDA PERDIDA;
+;VENDA LIBERADA;DANIEL;LOTUSBLUME COMERCIAL TEXTIL LTDA;;;;;;0;;;;;;11-2021-0120;;;;;;;ninguem atende.;;03/07/2019;17:32:48;;;FRIO;03/07/2019;;;;04/07/2019;;;EM NEGOCIAÇÃO;
+;OFERTA MONITORAMENTO;DANIEL;FIORELLA PROD TEXTEIS LTDA;;;;;;0;;;;;;11-4718-8000;;;;;;;ja utiliza os serviços da Serasa e não tem interesse me fazer monitoramento.;;03/07/2019;17:35:53;;;FRIO;03/07/2019;;;;18/07/2019;;;VENDA PERDIDA;
+;VENDA LIBERADA;DANIEL;TIDAS TECNOLOGIA LTDA ME;GEISON;SPC BRASIL;3;;;0;;;;;;47-3520-6868;;;;47-99153-8778;;whasApp. Geison;"Agendado Visita para dia 25/07.
 Ronaldo e Charlene.";;04/07/2019;14:59:58;;;QUENTE;11/07/2019;;;;25/07/2019;;;EM NEGOCIAÇÃO;17:27:22
-04114308000119;VENDA LIBERADA;DANIEL;AMOR DOMINI SERVIÇOS POSTUMOS E SOCIAS LTDA;GINO;;;;;0;;;;;;49-3222-5533;;gerencia@parquedasaudadelages.com.br;;;;admgeral@parquedasaudadelages.com.br;"precisam de clientes acima de 40 anos
+;VENDA LIBERADA;DANIEL;AMOR DOMINI SERVIÇOS POSTUMOS E SOCIAS LTDA;GINO;;;;;0;;;;;;49-3222-5533;;gerencia@parquedasaudadelages.com.br;;;;admgeral@parquedasaudadelages.com.br;"precisam de clientes acima de 40 anos
 com renda
 filtro de risco.
 
 vao verificar a possibilidade de enviar banco de dados.
 49-99154-5533 Telefone do Gino
 49-99982-5927 Telefone Rachel";;04/07/2019;16:25:52;;;QUENTE;14/08/2019;;;;19/07/2019;;;EM NEGOCIAÇÃO;16:34:29
-68059674000103;NÃO ESTÁ VALIDO;DANIEL;GEVISA S/A;;;;;;0;;;;;;19-2102-8555;;;;;;;"ninguém atende
+;NÃO ESTÁ VALIDO;DANIEL;GEVISA S/A;;;;;;0;;;;;;19-2102-8555;;;;;;;"ninguém atende
 
 ninguem atende.";;09/07/2019;14:51:13;;;FRIO;10/07/2019;;;;11/07/2019;;;EM NEGOCIAÇÃO;10:59:41
-17919549000187;NÃO ESTÁ VALIDO;DANIEL;IND PAPEIS P/ EMB IRMAOS SIQUEIRA LTDA;KARINA;;;;;0;;;;;;11-2954-6248;;;;35-3371-2323;;;"ninguem atende.
+;NÃO ESTÁ VALIDO;DANIEL;IND PAPEIS P/ EMB IRMAOS SIQUEIRA LTDA;KARINA;;;;;0;;;;;;11-2954-6248;;;;35-3371-2323;;;"ninguem atende.
 
 Ligar amanhã a responsável é a Karina";;09/07/2019;14:55:17;;;FRIO;10/07/2019;;;;11/07/2019;;;EM NEGOCIAÇÃO;11:32:38
-76360874000111;NÃO ESTÁ VALIDO;DANIEL;INPLAVEL IND PLAST LTDA;MOACIR;;;;;0;;;;;;47-3439-5454;;moacir.financeiro@implavel.com.br;;;;;Secretaria foi passar o telefone e o Moacir falou que esta sendo bem atendido e não tem interesse de trocar no momento.;;09/07/2019;14:58:47;;;FRIO;09/07/2019;;;;10/07/2019;;;VENDA PERDIDA;
-43296599000165;ANALISE DE EXCEÇÃO;DANIEL;MINERIOS OURO BRANCO LTDA;DANIELLE;SERASA;;;;0;;;;;;11-3986-6101;;;;;;;"Secretária Isabella, falou que utiliza Serasa.
+;NÃO ESTÁ VALIDO;DANIEL;INPLAVEL IND PLAST LTDA;MOACIR;;;;;0;;;;;;47-3439-5454;;moacir.financeiro@implavel.com.br;;;;;Secretaria foi passar o telefone e o Moacir falou que esta sendo bem atendido e não tem interesse de trocar no momento.;;09/07/2019;14:58:47;;;FRIO;09/07/2019;;;;10/07/2019;;;VENDA PERDIDA;
+;ANALISE DE EXCEÇÃO;DANIEL;MINERIOS OURO BRANCO LTDA;DANIELLE;SERASA;;;;0;;;;;;11-3986-6101;;;;;;;"Secretária Isabella, falou que utiliza Serasa.
 
 retornara a tarde.";;12/07/2019;11:48:36;;;MORNO;12/07/2019;;;;12/07/2019;;;EM NEGOCIAÇÃO;
-01883423000160;VENDA LIBERADA;DANIEL;IND COM PLAST ZANINI LTDA;SERGIO;;;;;0;;;;;;48-3466-0399;;;;;;;;;12/07/2019;15:41:46;;;FRIO;12/07/2019;;;;15/07/2019;;;EM NEGOCIAÇÃO;
-85294759000187;VENDA LIBERADA;DANIEL;FEELING ESTOF LTDA;MARLI;;;;;0;;;;;;47-3376-9300;;financeiro@feelingestofados.com.br;;;;;A secretaria falou, que eles não tem interesse, e que era pra eu mandar e-mail para quando eles tiverem interesse entrar em contato.;;12/07/2019;15:45:22;;;FRIO;12/07/2019;;;;27/07/2019;;;VENDA PERDIDA;
-10548541000102;ANALISE DE EXCEÇÃO;DANIEL;SILVA COMÉRCIO E DISTRIBUIÇÃO DE SELANTES LTDA;EMERSON;SPC BRASIL;;;;0;;;;;;49-3225-3114;;;;;;;"Emerson não estava.
+;VENDA LIBERADA;DANIEL;IND COM PLAST ZANINI LTDA;SERGIO;;;;;0;;;;;;48-3466-0399;;;;;;;;;12/07/2019;15:41:46;;;FRIO;12/07/2019;;;;15/07/2019;;;EM NEGOCIAÇÃO;
+;VENDA LIBERADA;DANIEL;FEELING ESTOF LTDA;MARLI;;;;;0;;;;;;47-3376-9300;;financeiro@feelingestofados.com.br;;;;;A secretaria falou, que eles não tem interesse, e que era pra eu mandar e-mail para quando eles tiverem interesse entrar em contato.;;12/07/2019;15:45:22;;;FRIO;12/07/2019;;;;27/07/2019;;;VENDA PERDIDA;
+;ANALISE DE EXCEÇÃO;DANIEL;SILVA COMÉRCIO E DISTRIBUIÇÃO DE SELANTES LTDA;EMERSON;SPC BRASIL;;;;0;;;;;;49-3225-3114;;;;;;;"Emerson não estava.
 retornar na segunda.";;12/07/2019;16:01:04;;;FRIO;12/07/2019;;;;15/07/2019;;;EM NEGOCIAÇÃO;
-01379987000160;VENDA LIBERADA;DANIEL;INDALTEX COMERCIO E SERVICOS LTDA;CRISTIANE;BOA VISTA;;;;0;;;;;;;;;;;;;Falou que não tem interesse em ter contrato com a Serasa e falou que não tem motivo nenhum apenas não querem.;;12/07/2019;16:04:17;;;FRIO;12/07/2019;;;;27/07/2019;;;VENDA PERDIDA;
-08762826000108;VENDA LIBERADA;DANIEL;L&R BORGES INDUSTRIA COMERCIO EXPORTACAO E IMPORTA;CLAUDIA;;;;;1100;;;;;;48-3254-7700;;contasareceber@hidrolight.com.br;;;;;"Hidrolight do Brasil 
+;VENDA LIBERADA;DANIEL;INDALTEX COMERCIO E SERVICOS LTDA;CRISTIANE;BOA VISTA;;;;0;;;;;;;;;;;;;Falou que não tem interesse em ter contrato com a Serasa e falou que não tem motivo nenhum apenas não querem.;;12/07/2019;16:04:17;;;FRIO;12/07/2019;;;;27/07/2019;;;VENDA PERDIDA;
+;VENDA LIBERADA;DANIEL;L&R BORGES INDUSTRIA COMERCIO EXPORTACAO E IMPORTA;CLAUDIA;;;;;1100;;;;;;48-3254-7700;;contasareceber@hidrolight.com.br;;;;;"Hidrolight do Brasil 
 
 Mandei proposta dia 07/05 e agora mandei um e-mail pedindo um feedback.";;12/07/2019;16:10:08;;;FRIO;12/07/2019;;;;15/07/2019;;;EM NEGOCIAÇÃO;16:30:53
-71966436000188;VENDA LIBERADA;DANIEL;KA SOLUTION TECNOLOGIA EM SOFTWARE LTDA;RENATA;SPC BRASIL;110;;;0;;;;;;11-5061-1616;;renatac@kasolution.com.br;;;;;Renata falou que vai passar a proposta para a gerente dela e se ouver interesse da Ka Solution ela me mantem informado..;;15/07/2019;10:20:38;PJ e PF;60;FRIO;15/07/2019;;;;17/07/2019;;;EM NEGOCIAÇÃO;13:45:31
-08930759000185;ANALISE DE EXCEÇÃO;DANIEL;FORVET COMERCIO IMPORTACAO E EXPORTACAO DE PRODUTO;RITA;SPC BRASIL;120;;;764;;;;;;11-4178-7041;;ritagaiao@terra.com.br;;;;;"A secretaria falou utilizam os serviços do SPC.
+;VENDA LIBERADA;DANIEL;KA SOLUTION TECNOLOGIA EM SOFTWARE LTDA;RENATA;SPC BRASIL;110;;;0;;;;;;11-5061-1616;;renatac@kasolution.com.br;;;;;Renata falou que vai passar a proposta para a gerente dela e se ouver interesse da Ka Solution ela me mantem informado..;;15/07/2019;10:20:38;PJ e PF;60;FRIO;15/07/2019;;;;17/07/2019;;;EM NEGOCIAÇÃO;13:45:31
+;ANALISE DE EXCEÇÃO;DANIEL;FORVET COMERCIO IMPORTACAO E EXPORTACAO DE PRODUTO;RITA;SPC BRASIL;120;;;764;;;;;;11-4178-7041;;ritagaiao@terra.com.br;;;;;"A secretaria falou utilizam os serviços do SPC.
 
 Mandei proposta de 764,00 com 35% de desconto.
 
 Pedi para a Rita se podia agendar um call.";;16/07/2019;15:01:15;PJ e PF;70;FRIO;16/07/2019;;;;19/07/2019;;;EM NEGOCIAÇÃO;
-03140352000130;ANALISE DE EXCEÇÃO;DANIEL;FONTE FOMENTO E COBRANCA MERCANTIL LTDA ME;GILDA;BOA VISTA;;;;0;;;;;;47-3425-0156;;;;;;;"Falou que esta bem atendida pelo boa vista, e não tem interesse no momento e se eu quiser ligar mês que vem para fazer novo contato e ver se mudou a vontade deles fica a nosso critério.
+;ANALISE DE EXCEÇÃO;DANIEL;FONTE FOMENTO E COBRANCA MERCANTIL LTDA ME;GILDA;BOA VISTA;;;;0;;;;;;47-3425-0156;;;;;;;"Falou que esta bem atendida pelo boa vista, e não tem interesse no momento e se eu quiser ligar mês que vem para fazer novo contato e ver se mudou a vontade deles fica a nosso critério.
 
 Ela acha que a Boa Vista compra as informações da Serasa. E ainda teima que sim.";;16/07/2019;16:35:18;;;FRIO;16/07/2019;;;;16/08/2019;;;EM NEGOCIAÇÃO;
-55783898000103;VENDA LIBERADA;DANIEL;FARBAPLAST INDL COML LTDA;KATIA;BOA VISTA;300;;R$ 4,09;0;;;;;;11-4051-2911;;contasareceber@castor.com.br;;;;;"Falei com a Katia, e ela falou que precisa da informação de comportamento de pagamento e informações de sócios.
+;VENDA LIBERADA;DANIEL;FARBAPLAST INDL COML LTDA;KATIA;BOA VISTA;300;;R$4,09;0;;;;;;11-4051-2911;;contasareceber@castor.com.br;;;;;"Falei com a Katia, e ela falou que precisa da informação de comportamento de pagamento e informações de sócios.
 
 MAndei e-mail pedido se faz reciprocidade.
 ";;16/07/2019;16:50:11;CNPJ;;MORNO;16/07/2019;;;;19/07/2019;;;EM NEGOCIAÇÃO;
-50154061000181;NÃO ESTÁ VALIDO;DANIEL;FESTPAN ALIM IMP EXP LTDA;EDNA;;;;;0;;;;;;11-4390-3000;;cobranca7@festpan.com.br;;;;;"tinha contrato 2008 27/06/2008
+;NÃO ESTÁ VALIDO;DANIEL;FESTPAN ALIM IMP EXP LTDA;EDNA;;;;;0;;;;;;11-4390-3000;;cobranca7@festpan.com.br;;;;;"tinha contrato 2008 27/06/2008
 hoje certificado TOP PME
 
 Falou que ja esta negociando com o representante Alexandre e o contrato ja esta na mase diretora.";;16/07/2019;17:31:18;;;MORNO;16/07/2019;;;;16/07/2019;;;VENDA PERDIDA;
-78255916000180;VENDA LIBERADA;DANIEL;FIEDLER AUTOM INDL LTDA;YUDI;;;;;0;;;;;;47-3144-5000;;jk@fiedler.com.br;;;;;falou que no momento não tem interesse em fazer mudança de bureu de crédito.;;17/07/2019;10:13:37;;;FRIO;17/07/2019;;;;04/11/2019;;;EM NEGOCIAÇÃO;
-02840044000155;VENDA LIBERADA;DANIEL;GP CABOS IND COM LTDA;JESSICA;BOA VISTA;;;;0;;;;;;11-2967-4711;;;;;;;tiveram bastante problemas com a Serasa e a diretoria não tem interesse em retornar.;;17/07/2019;10:17:08;;;FRIO;17/07/2019;;;;04/11/2019;;;EM NEGOCIAÇÃO;
-58841081000132;VENDA LIBERADA;DANIEL;IMCAL - IND MOVEIS CANEIRA LTDA;JUNIOR;;;;;0;;;;;;17-3283-9100;;financeiro@imcal.com.br;;;;;"O Junior estava em reunião e não podia atender no momento da ligação, a secretaria pediu para eu mandar um e-mail que seria mais facil ter contato com ele poe este canal.
+;VENDA LIBERADA;DANIEL;FIEDLER AUTOM INDL LTDA;YUDI;;;;;0;;;;;;47-3144-5000;;jk@fiedler.com.br;;;;;falou que no momento não tem interesse em fazer mudança de bureu de crédito.;;17/07/2019;10:13:37;;;FRIO;17/07/2019;;;;04/11/2019;;;EM NEGOCIAÇÃO;
+;VENDA LIBERADA;DANIEL;GP CABOS IND COM LTDA;JESSICA;BOA VISTA;;;;0;;;;;;11-2967-4711;;;;;;;tiveram bastante problemas com a Serasa e a diretoria não tem interesse em retornar.;;17/07/2019;10:17:08;;;FRIO;17/07/2019;;;;04/11/2019;;;EM NEGOCIAÇÃO;
+;VENDA LIBERADA;DANIEL;IMCAL - IND MOVEIS CANEIRA LTDA;JUNIOR;;;;;0;;;;;;17-3283-9100;;financeiro@imcal.com.br;;;;;"O Junior estava em reunião e não podia atender no momento da ligação, a secretaria pediu para eu mandar um e-mail que seria mais facil ter contato com ele poe este canal.
 
 mandei e-mail pedindo para agendar um call.";;17/07/2019;10:19:51;;;FRIO;17/07/2019;;;;22/07/2019;;;EM NEGOCIAÇÃO;
-8877357;VENDA LIBERADA;DANIEL;FUFFY INDUSTRIA E COMERCIO DE CALCADOS LTDA EPP;EDMAR;;;;;0;;;;;;18-3642-7397;;edimarfuffy.com.br;;;;;"Valida Turbo
+;VENDA LIBERADA;DANIEL;FUFFY INDUSTRIA E COMERCIO DE CALCADOS LTDA EPP;EDMAR;;;;;0;;;;;;18-3642-7397;;edimarfuffy.com.br;;;;;"Valida Turbo
 
 Edimar falou que a empresa e muito pequena e faz bem poucas consultas, não ultiliza nem mesmo o pacote que tem com a associação da cidade.";;17/07/2019;10:25:53;;;FRIO;17/07/2019;;;;17/07/2019;;;VENDA PERDIDA;
-51091478;VENDA LIBERADA;DANIEL;DANZER INDUSTRIA E COMERCIO DE CALCADOS LTDA;ELISANGELA;ASSOCIAÇÃO;;;;0;;;;;;18-3642-1955;;;;;;;"retornar a tarde, estavam em reunião.
+;VENDA LIBERADA;DANIEL;DANZER INDUSTRIA E COMERCIO DE CALCADOS LTDA;ELISANGELA;ASSOCIAÇÃO;;;;0;;;;;;18-3642-1955;;;;;;;"retornar a tarde, estavam em reunião.
 liguei a tarde ja tinham saido retornar as 8:00
 
 Uitliza através de um convenio com o Sindicato dos calçados, retornar mais tarde e falar com a Elisangela.";;17/07/2019;10:33:38;;;FRIO;18/07/2019;;;;17/07/2019;;;EM NEGOCIAÇÃO;10:45:48
-81557472;VENDA LIBERADA;DANIEL;CEFRAM MADEIRAS LTDA;NILCE;BOA VISTA;5;R$ 95,00;;62;;;;;;49-3223-3223;;nilce@cefram.com.br;;;;;"Celso ou Dona Mercedes
+;VENDA LIBERADA;DANIEL;CEFRAM MADEIRAS LTDA;NILCE;BOA VISTA;5;R$95,00;;62;;;;;;49-3223-3223;;nilce@cefram.com.br;;;;;"Celso ou Dona Mercedes
 Básica.
 
 mandei proposta de parceria valor R$62,00 com 30% de desconto.";;17/07/2019;10:56:33;CNPJ;100;FRIO;17/07/2019;;;;19/07/2019;;;EM NEGOCIAÇÃO;
-21144090;VENDA LIBERADA;DANIEL;M7 INDUSTRIA E COMERCIO DE COMPENSADOS E LAMINADOS LTDA;SANDRA;;;;;0;;;;;;49-3227-3845;;;;;;;"Liguei e era pra retornar mais tarde.
+;VENDA LIBERADA;DANIEL;M7 INDUSTRIA E COMERCIO DE COMPENSADOS E LAMINADOS LTDA;SANDRA;;;;;0;;;;;;49-3227-3845;;;;;;;"Liguei e era pra retornar mais tarde.
 retornei mas ninguem atende.
 
 Só faz exportação, não utiliza os serviços de consulta.";;17/07/2019;17:08:26;;;FRIO;18/07/2019;;;;18/07/2019;;;VENDA PERDIDA;10:27:40
-3717276;VENDA LIBERADA;DANIEL;CH TECNOLOGIA LTDA EPP;THAIS;;;;;0;;;;;;31-3311-0800;;thais.soares@chtecnologia.com.br;;;;;"Falei com Amanda que pediu para eu mandar um e-mail ou ligar mais tarde para falar com Thais.
+;VENDA LIBERADA;DANIEL;CH TECNOLOGIA LTDA EPP;THAIS;;;;;0;;;;;;31-3311-0800;;thais.soares@chtecnologia.com.br;;;;;"Falei com Amanda que pediu para eu mandar um e-mail ou ligar mais tarde para falar com Thais.
 
 mandei e-mail pedindo atendimento.";;18/07/2019;11:02:13;;;FRIO;18/07/2019;;;;22/07/2019;;;EM NEGOCIAÇÃO;
-61147757000105;VENDA LIBERADA;DANIEL;METALURGICA ROA IND COM LTDA;CAROL E CRISTINA;BOA VISTA;40;R$ 900,00;;0;;;;;;11-3809-7640;;cristina@roa.com.br;;;;financeiro@roa.com.br;"Falei com Fabiana
+;VENDA LIBERADA;DANIEL;METALURGICA ROA IND COM LTDA;CAROL E CRISTINA;BOA VISTA;40;R$900,00;;0;;;;;;11-3809-7640;;cristina@roa.com.br;;;;financeiro@roa.com.br;"Falei com Fabiana
 
 ";;18/07/2019;11:30:07;CNPJ;80;FRIO;18/07/2019;;;;22/07/2019;;;EM NEGOCIAÇÃO;
-07175512000138;NÃO ESTÁ VALIDO;DANIEL;FLATS SERVICOS DE INTERMEDIACAO DE NEGOCIOS LTDA;BARBARA;;;;;0;;;;;;11-3885-0846;;barbara@net.com.br;;;;;não estava mais na empresa retornar amanha de manha a partir das 9:00;;18/07/2019;17:28:41;;;FRIO;18/07/2019;;;;19/07/2019;;;EM NEGOCIAÇÃO;
-55014617000158;MONITORAMENTO E PEFIN;DANIEL;H. LOUIS BAXMANN PROD METALURG LTDA;LETICIA;SERASA;;;;0;;;;;;11-4674-1277;;;;;;;Leticia falou que ja utiliza Serasa Experian e não precisa de outros serviços.;;22/07/2019;10:04:39;;;FRIO;22/07/2019;;;;22/07/2019;;;VENDA PERDIDA;
-03601330000120;VENDA LIBERADA;DANIEL;EURO COMERCIO EXTERIOR EIRELI;HENRIQUE;;;;;0;;;;;;11-4800-4500;;;;;;;retornar a tarde só vem a tarde.;;22/07/2019;10:12:54;;;FRIO;22/07/2019;;;;22/07/2019;;;EM NEGOCIAÇÃO;
-01697279000177;NÃO ESTÁ VALIDO;DANIEL;HYDAC TECNOLOGIA LTDA;LUIS;SERASA;;;;0;;;;;;11-4393-6600;;;;;;;Ja utiliza os serviços da Serasa e tem um gerente que atende eles, semana passad até cancelaram um serviço quie tinha contratado enão era tão bom.;;22/07/2019;11:35:36;;;FRIO;22/07/2019;;;;22/07/2019;;;VENDA PERDIDA;
-83413328;VENDA LIBERADA;DANIEL;TRANSPORTADORA COMERCIAL QUIOCA LTDA EPP;FERNANDO;NÃO QUIS INFORMAR;;;;0;;;;;;49-3521-9009;;;;;;;Não utiliza não tem necessidade;;22/07/2019;14:23:05;;;FRIO;22/07/2019;;;;22/07/2019;;;VENDA PERDIDA;
-81597338;VENDA LIBERADA;DANIEL;AGE COMBUSTIVEIS LTDA;;;;;;0;;;;;;49-3521-0166;;;;;;;"Ninguem atende o telefone.
+;NÃO ESTÁ VALIDO;DANIEL;FLATS SERVICOS DE INTERMEDIACAO DE NEGOCIOS LTDA;BARBARA;;;;;0;;;;;;11-3885-0846;;barbara@net.com.br;;;;;não estava mais na empresa retornar amanha de manha a partir das 9:00;;18/07/2019;17:28:41;;;FRIO;18/07/2019;;;;19/07/2019;;;EM NEGOCIAÇÃO;
+;MONITORAMENTO E PEFIN;DANIEL;H. LOUIS BAXMANN PROD METALURG LTDA;LETICIA;SERASA;;;;0;;;;;;11-4674-1277;;;;;;;Leticia falou que ja utiliza Serasa Experian e não precisa de outros serviços.;;22/07/2019;10:04:39;;;FRIO;22/07/2019;;;;22/07/2019;;;VENDA PERDIDA;
+;VENDA LIBERADA;DANIEL;EURO COMERCIO EXTERIOR EIRELI;HENRIQUE;;;;;0;;;;;;11-4800-4500;;;;;;;retornar a tarde só vem a tarde.;;22/07/2019;10:12:54;;;FRIO;22/07/2019;;;;22/07/2019;;;EM NEGOCIAÇÃO;
+;NÃO ESTÁ VALIDO;DANIEL;HYDAC TECNOLOGIA LTDA;LUIS;SERASA;;;;0;;;;;;11-4393-6600;;;;;;;Ja utiliza os serviços da Serasa e tem um gerente que atende eles, semana passad até cancelaram um serviço quie tinha contratado enão era tão bom.;;22/07/2019;11:35:36;;;FRIO;22/07/2019;;;;22/07/2019;;;VENDA PERDIDA;
+;VENDA LIBERADA;DANIEL;TRANSPORTADORA COMERCIAL QUIOCA LTDA EPP;FERNANDO;NÃO QUIS INFORMAR;;;;0;;;;;;49-3521-9009;;;;;;;Não utiliza não tem necessidade;;22/07/2019;14:23:05;;;FRIO;22/07/2019;;;;22/07/2019;;;VENDA PERDIDA;
+;VENDA LIBERADA;DANIEL;AGE COMBUSTIVEIS LTDA;;;;;;0;;;;;;49-3521-0166;;;;;;;"Ninguem atende o telefone.
 
 Valida Turbo.";;22/07/2019;14:36:16;;;FRIO;22/07/2019;;;;26/07/2019;;;EM NEGOCIAÇÃO;
-54481148000203;VENDA LIBERADA;DANIEL;ESTRUTURAL MONTAGENS EMPREEND LTDA;;;;;;0;;;;;;11-3931-0231;;;;;;;ninguem atende o telefone.;;22/07/2019;14:39:23;;;FRIO;22/07/2019;;;;26/07/2019;;;EM NEGOCIAÇÃO;
-03886705000146;VENDA LIBERADA;DANIEL;INDUSTRIAS RAYMOUNDS EIRELI;SANDRA;BOA VISTA;;;;0;;;;;;11-4012-1100;;sandra@raymounds.com.br;;;;;diz que não tem interesse em fazer parceria com a Serasa está muito bem atendida com a Boa Vista, mandei meu contato para ela salvar caso precise futuramente.;;22/07/2019;14:42:22;;;FRIO;22/07/2019;;;;22/07/2019;;;VENDA PERDIDA;
-54768148000108;NÃO ESTÁ VALIDO;DANIEL;FOGOES SHOP LTDA EPP;REINALDO;;;;;0;;;;;;11-3034-2465;;;;;;;retornar as 16:00.;;22/07/2019;15:16:23;;;FRIO;22/07/2019;;;;22/07/2019;;;EM NEGOCIAÇÃO;
-01823999000131;ANALISE DE EXCEÇÃO;DANIEL;IND COM ROUPAS TEMAPLUS LTDA;;;;;;0;;;;;;11-2694-4597;;;;;;;"Ninguem atende o telefone.
+;VENDA LIBERADA;DANIEL;ESTRUTURAL MONTAGENS EMPREEND LTDA;;;;;;0;;;;;;11-3931-0231;;;;;;;ninguem atende o telefone.;;22/07/2019;14:39:23;;;FRIO;22/07/2019;;;;26/07/2019;;;EM NEGOCIAÇÃO;
+;VENDA LIBERADA;DANIEL;INDUSTRIAS RAYMOUNDS EIRELI;SANDRA;BOA VISTA;;;;0;;;;;;11-4012-1100;;sandra@raymounds.com.br;;;;;diz que não tem interesse em fazer parceria com a Serasa está muito bem atendida com a Boa Vista, mandei meu contato para ela salvar caso precise futuramente.;;22/07/2019;14:42:22;;;FRIO;22/07/2019;;;;22/07/2019;;;VENDA PERDIDA;
+;NÃO ESTÁ VALIDO;DANIEL;FOGOES SHOP LTDA EPP;REINALDO;;;;;0;;;;;;11-3034-2465;;;;;;;retornar as 16:00.;;22/07/2019;15:16:23;;;FRIO;22/07/2019;;;;22/07/2019;;;EM NEGOCIAÇÃO;
+;ANALISE DE EXCEÇÃO;DANIEL;IND COM ROUPAS TEMAPLUS LTDA;;;;;;0;;;;;;11-2694-4597;;;;;;;"Ninguem atende o telefone.
 ";;22/07/2019;15:21:31;;;FRIO;22/07/2019;;;;22/07/2019;;;VENDA PERDIDA;
-11164128000107;ANALISE DE EXCEÇÃO;DANIEL;GLASS VALE INDUSTRIA E COMERCIO DE VIDROS LTDA EPP;JEAN;NÃO QUIS INFORMAR;;;;0;;;;;;12-2134-4800;;jeancarlo@glassvale.com.br;;;;;O responsável não estava na empresa, retornar amanhã.;;22/07/2019;15:31:50;;;FRIO;22/07/2019;;;;23/07/2019;;;EM NEGOCIAÇÃO;
-52060498000181;VENDA LIBERADA;DANIEL;MADEIREIRA LANO LTDA;FERNANDO;;;;;0;;;;;;11-4061-1120;;;;;;;retornar as 16:30 estava em outra ligação.;;22/07/2019;15:47:21;;;FRIO;22/07/2019;;;;22/07/2019;;;EM NEGOCIAÇÃO;
-12350642000108;VENDA LIBERADA;DANIEL;INDUSTRIA CARIMBRAS;;BOA VISTA;;;;0;;;;;;42-3235-7500;;;;;;;;;22/07/2019;16:40:14;;;FRIO;22/07/2019;;;;12/08/2019;;;EM NEGOCIAÇÃO;
-480542000109;NÃO ESTÁ VALIDO;DANIEL;RINQUEDOS ANJO - ANJO - INDUSTRIA E COMERCIO DE PLASTICOS LTDA;REINANDO;SERASA;;;;0;;;;;;15-3383-9988;;;;;;;Ja utiliza Serasa e é atendido por uma gerente.;;22/07/2019;16:41:42;;;FRIO;22/07/2019;;;;22/07/2019;;;VENDA PERDIDA;
-75755447;VENDA LIBERADA;DANIEL;T F PAPER BRASIL LTDA;;;;;;0;;;;;;42-3229-4646 ;;;;;;;"Telefone cai no Subway e não encontrei outro telefone
+;ANALISE DE EXCEÇÃO;DANIEL;GLASS VALE INDUSTRIA E COMERCIO DE VIDROS LTDA EPP;JEAN;NÃO QUIS INFORMAR;;;;0;;;;;;12-2134-4800;;jeancarlo@glassvale.com.br;;;;;O responsável não estava na empresa, retornar amanhã.;;22/07/2019;15:31:50;;;FRIO;22/07/2019;;;;23/07/2019;;;EM NEGOCIAÇÃO;
+;VENDA LIBERADA;DANIEL;MADEIREIRA LANO LTDA;FERNANDO;;;;;0;;;;;;11-4061-1120;;;;;;;retornar as 16:30 estava em outra ligação.;;22/07/2019;15:47:21;;;FRIO;22/07/2019;;;;22/07/2019;;;EM NEGOCIAÇÃO;
+;VENDA LIBERADA;DANIEL;INDUSTRIA CARIMBRAS;;BOA VISTA;;;;0;;;;;;42-3235-7500;;;;;;;;;22/07/2019;16:40:14;;;FRIO;22/07/2019;;;;12/08/2019;;;EM NEGOCIAÇÃO;
+;NÃO ESTÁ VALIDO;DANIEL;RINQUEDOS ANJO - ANJO - INDUSTRIA E COMERCIO DE PLASTICOS LTDA;REINANDO;SERASA;;;;0;;;;;;15-3383-9988;;;;;;;Ja utiliza Serasa e é atendido por uma gerente.;;22/07/2019;16:41:42;;;FRIO;22/07/2019;;;;22/07/2019;;;VENDA PERDIDA;
+;VENDA LIBERADA;DANIEL;T F PAPER BRASIL LTDA;;;;;;0;;;;;;42-3229-4646 ;;;;;;;"Telefone cai no Subway e não encontrei outro telefone
 valida turbo";;22/07/2019;17:01:54;;;FRIO;22/07/2019;;;;22/07/2019;;;VENDA PERDIDA;
-7475073;VENDA LIBERADA;DANIEL;TRANSPORTADORA SCHRAIER LTDA ME;JOAO;;;;;0;;;;;;42-3028-0006;;farinheirousa@hotmail.com;;;;;"Mandar proposta por e-mail.
+;VENDA LIBERADA;DANIEL;TRANSPORTADORA SCHRAIER LTDA ME;JOAO;;;;;0;;;;;;42-3028-0006;;farinheirousa@hotmail.com;;;;;"Mandar proposta por e-mail.
 Valida Turbo.";;22/07/2019;17:05:24;;;FRIO;22/07/2019;;;;26/07/2019;;;EM NEGOCIAÇÃO;17:06:39
-53736161000104;VENDA LIBERADA;DANIEL; ASCA BRINQUEDOS LTDA;CAMILA;DISTRIBUIDOR;5;;;488;;;;;;19-3541-0100;;vendas@ascatoys.com;;;;;"fazem de 5 a 10 consultas, mas vão aumentar de 15 a 20.
+;VENDA LIBERADA;DANIEL; ASCA BRINQUEDOS LTDA;CAMILA;DISTRIBUIDOR;5;;;488;;;;;;19-3541-0100;;vendas@ascatoys.com;;;;;"fazem de 5 a 10 consultas, mas vão aumentar de 15 a 20.
 
 Mandei proposta com duas proposta uma de 10 consultas e outra de 20 consultas.
 
 Precisam de um relatorio completo. mandei propos ta com duas opções. basicas e completas.";;22/07/2019;17:29:19;CNPJ;100;MORNO;24/07/2019;;;;24/07/2019;;;EM NEGOCIAÇÃO;10:33:55
-00142835000186;VENDA LIBERADA;DANIEL;A S F & JR INDUSTRIA PLASTICA LTDA;WAGNER;;;;;0;;;;;;11-2085-4190;;;;;;;retornar amanha não estava mais na empresa.;;22/07/2019;17:31:09;;;FRIO;22/07/2019;;;;23/07/2019;;;EM NEGOCIAÇÃO;
-58516881;VENDA LIBERADA;DANIEL;HUSK ELETROMETALURGICA LTDA;ADILSON;CDL;;;;0;;;;;;11-3611-6193;;adilson@husk.com.br;;;;;Se faz 5 consultas no ano é muito, por em quanto não é viavel.;;22/07/2019;17:57:44;;;FRIO;22/07/2019;;;;23/07/2019;;;EM NEGOCIAÇÃO;
-44701662;VENDA LIBERADA;DANIEL;CERAMICA ANTIGUA INDUSTRIA E COMERCIO LTDA;;;;;;0;;;;;;19-35434211;;;;;;;"responsavel estava ocupado.
+;VENDA LIBERADA;DANIEL;A S F & JR INDUSTRIA PLASTICA LTDA;WAGNER;;;;;0;;;;;;11-2085-4190;;;;;;;retornar amanha não estava mais na empresa.;;22/07/2019;17:31:09;;;FRIO;22/07/2019;;;;23/07/2019;;;EM NEGOCIAÇÃO;
+;VENDA LIBERADA;DANIEL;HUSK ELETROMETALURGICA LTDA;ADILSON;CDL;;;;0;;;;;;11-3611-6193;;adilson@husk.com.br;;;;;Se faz 5 consultas no ano é muito, por em quanto não é viavel.;;22/07/2019;17:57:44;;;FRIO;22/07/2019;;;;23/07/2019;;;EM NEGOCIAÇÃO;
+;VENDA LIBERADA;DANIEL;CERAMICA ANTIGUA INDUSTRIA E COMERCIO LTDA;;;;;;0;;;;;;19-35434211;;;;;;;"responsavel estava ocupado.
 Valida Turbo";;23/07/2019;09:48:47;;;FRIO;23/07/2019;;;;23/07/2019;;;EM NEGOCIAÇÃO;09:50:20
-06273302000110;MONITORAMENTO E PEFIN;DANIEL;BIG BOX BRASIL IND. E COM. LTDA;;;;;;0;;;;;;11-2412-7952;;;;;;;Recepcionista falou que fecharam um contrato com a Serasa recentemente.;;23/07/2019;15:01:07;;;FRIO;23/07/2019;;;;22/07/2019;;;VENDA PERDIDA;15:22:57
-62176615000120;NÃO ESTÁ VALIDO;DANIEL;BRASKIT ND. COM. BRINQUEDOS LTDA LTDA;;;;;;0;;;;;;11-4649-6646;;;;;;;secretaria falou que ja utiliza serviços da Serasa;;23/07/2019;15:05:05;;;FRIO;23/07/2019;;;;23/07/2019;;;VENDA PERDIDA;
-22647880000125;VENDA LIBERADA;DANIEL; BRINQUEDOS COMETA LTDA;MARCIA;;;;;0;;;;;;11-2372-0304;;marcia@tudopet.com.br;;;;;Mandar e-mail pedindo atendimento, secretaria não quis passar a ligação.;;23/07/2019;15:09:42;;;FRIO;23/07/2019;;;;23/07/2019;;;EM NEGOCIAÇÃO;
-59920405000190;VENDA LIBERADA;DANIEL;BRINQUEDOS DIVPLAST LTDA;DANIELA;;;;;0;;;;;;11-40243920;;;;;;;Falei com a responsavel que informou que o representante que é responsavel por fazer as consultas.;;23/07/2019;15:39:00;;;FRIO;23/07/2019;;;;23/07/2019;;;VENDA PERDIDA;
-60882354000139;VENDA LIBERADA;DANIEL;BRINQUEDOS HORIZONTE INDUSTRIA E COMERCIO LTDA ME;EDUARDO;;;;;0;;;;;;11-4021-0782;;;;;;;"retornar as 16:40 falar com o responsavel, estava em reunião.
+;MONITORAMENTO E PEFIN;DANIEL;BIG BOX BRASIL IND. E COM. LTDA;;;;;;0;;;;;;11-2412-7952;;;;;;;Recepcionista falou que fecharam um contrato com a Serasa recentemente.;;23/07/2019;15:01:07;;;FRIO;23/07/2019;;;;22/07/2019;;;VENDA PERDIDA;15:22:57
+;NÃO ESTÁ VALIDO;DANIEL;BRASKIT ND. COM. BRINQUEDOS LTDA LTDA;;;;;;0;;;;;;11-4649-6646;;;;;;;secretaria falou que ja utiliza serviços da Serasa;;23/07/2019;15:05:05;;;FRIO;23/07/2019;;;;23/07/2019;;;VENDA PERDIDA;
+;VENDA LIBERADA;DANIEL; BRINQUEDOS COMETA LTDA;MARCIA;;;;;0;;;;;;11-2372-0304;;marcia@tudopet.com.br;;;;;Mandar e-mail pedindo atendimento, secretaria não quis passar a ligação.;;23/07/2019;15:09:42;;;FRIO;23/07/2019;;;;23/07/2019;;;EM NEGOCIAÇÃO;
+;VENDA LIBERADA;DANIEL;BRINQUEDOS DIVPLAST LTDA;DANIELA;;;;;0;;;;;;11-40243920;;;;;;;Falei com a responsavel que informou que o representante que é responsavel por fazer as consultas.;;23/07/2019;15:39:00;;;FRIO;23/07/2019;;;;23/07/2019;;;VENDA PERDIDA;
+;VENDA LIBERADA;DANIEL;BRINQUEDOS HORIZONTE INDUSTRIA E COMERCIO LTDA ME;EDUARDO;;;;;0;;;;;;11-4021-0782;;;;;;;"retornar as 16:40 falar com o responsavel, estava em reunião.
 
 retronar após as 13:00";;23/07/2019;15:42:30;;;FRIO;24/07/2019;;;;24/07/2019;;;EM NEGOCIAÇÃO;10:36:54
-57824161000117;VENDA LIBERADA;DANIEL;BRINQUEDOS MARALEX EIRELI - EPP;;;;;;0;;;;;;15-3383-9500;;;;;;;ninguem atende.;;23/07/2019;15:50:10;;;FRIO;23/07/2019;;;;07/08/2019;;;EM NEGOCIAÇÃO;
-62596911000180;VENDA LIBERADA;DANIEL;BRINQUEDOS PLASTILINDO LTDA;RENATO;;;;;0;;;;;;11-4191-1271;;;;;;;O responsavel estava em viagem retornar na data agendada.;;23/07/2019;15:58:03;;;FRIO;23/07/2019;;;;29/07/2019;;;EM NEGOCIAÇÃO;
- 11894930000152;VENDA LIBERADA;DANIEL;BRINQUEDOS ZUCATOYS INDUSTRIA E COMERCIO LTDA - EPP;ALINE;;;;;0;;;;;;16-3810-7000;;alineberdusco@zucatoys.com.br;;;;;"mandar e-mail pedindo atendimento, secretaria não tem autorização para passar a ligação primeiro contato tem que ser por e-mail.
+;VENDA LIBERADA;DANIEL;BRINQUEDOS MARALEX EIRELI - EPP;;;;;;0;;;;;;15-3383-9500;;;;;;;ninguem atende.;;23/07/2019;15:50:10;;;FRIO;23/07/2019;;;;07/08/2019;;;EM NEGOCIAÇÃO;
+;VENDA LIBERADA;DANIEL;BRINQUEDOS PLASTILINDO LTDA;RENATO;;;;;0;;;;;;11-4191-1271;;;;;;;O responsavel estava em viagem retornar na data agendada.;;23/07/2019;15:58:03;;;FRIO;23/07/2019;;;;29/07/2019;;;EM NEGOCIAÇÃO;
+;VENDA LIBERADA;DANIEL;BRINQUEDOS ZUCATOYS INDUSTRIA E COMERCIO LTDA - EPP;ALINE;;;;;0;;;;;;16-3810-7000;;alineberdusco@zucatoys.com.br;;;;;"mandar e-mail pedindo atendimento, secretaria não tem autorização para passar a ligação primeiro contato tem que ser por e-mail.
 
 e-mail enviado";;23/07/2019;16:10:09;;;FRIO;23/07/2019;;;;26/07/2019;;;EM NEGOCIAÇÃO;
-51474716000161;VENDA LIBERADA;DANIEL;METALURGICA TUZZI LIMITADA;ELIANE;BOA VISTA;50;;;1000;;;;;;16-3810-7055;;elaine.tavares@tuzzi.com.br;;16-3810-7000;;;"Mandar e-mail em cima da média de consultas passadas.
+;VENDA LIBERADA;DANIEL;METALURGICA TUZZI LIMITADA;ELIANE;BOA VISTA;50;;;1000;;;;;;16-3810-7055;;elaine.tavares@tuzzi.com.br;;16-3810-7000;;;"Mandar e-mail em cima da média de consultas passadas.
 
 Enviado proposta com 3 opção:
 opção 1, 364,00 com 30% OFF
 opção 2, 764,00 com 35% OFF
 opção 3, 1.000,00 com 45% OFF
 ";;23/07/2019;16:43:10;PJ e PF;98;MORNO;23/07/2019;;;;25/07/2019;;;EM NEGOCIAÇÃO;17:56:22
-01537246000160;VENDA LIBERADA;DANIEL;BS TOYS INDUSTRIA E COMERCIO DE BRINQUEDOS LTDA;CRISTINA;;;;;0;;;;;;15-3326-2254;;credito@bstoys.com.br;;;;;"primeiro contato somente por e-mail.
+;VENDA LIBERADA;DANIEL;BS TOYS INDUSTRIA E COMERCIO DE BRINQUEDOS LTDA;CRISTINA;;;;;0;;;;;;15-3326-2254;;credito@bstoys.com.br;;;;;"primeiro contato somente por e-mail.
 
 e-mail enviado.";;24/07/2019;10:39:56;;;FRIO;24/07/2019;;;;29/07/2019;;;EM NEGOCIAÇÃO;
-00202187000106;VENDA LIBERADA;DANIEL;CALESITA INDÚSTRIA DE BRINQUEDOS;GEZIANE;SERASA;;;;0;;;;;;47-3242-2222;;;;;;;quando liguei ja tinha solicitado o cancelamento do serviço com a serasa, tinha mudado para a concorrencia.;;24/07/2019;10:46:46;;;FRIO;24/07/2019;;;;24/07/2020;;;EM NEGOCIAÇÃO;
-57464109000105;VENDA LIBERADA;DANIEL;CARDOSO IND. COM. PLAST. LTDA.;LILIAN;SERASA;;;;0;;;;;;11-2132-9455;;;;;;;falei com a responsável e a mesma me falou que utiliza Serasa e é atendida por Alexandre.;;24/07/2019;10:54:58;;;FRIO;24/07/2019;;;;24/07/2019;;;EM NEGOCIAÇÃO;
-00684106000151;VENDA LIBERADA;DANIEL;CENTRAL LA RUEDITA DISTRIBUIDORA LTDA ME;;serasa;0;;;;;;;;;41-3653-2323;;central@ruedita.com.br;;;;;"Secretaria falou que ela ja utiliza Serasa, mas está dando venda liberada.
+;VENDA LIBERADA;DANIEL;CALESITA INDÚSTRIA DE BRINQUEDOS;GEZIANE;SERASA;;;;0;;;;;;47-3242-2222;;;;;;;quando liguei ja tinha solicitado o cancelamento do serviço com a serasa, tinha mudado para a concorrencia.;;24/07/2019;10:46:46;;;FRIO;24/07/2019;;;;24/07/2020;;;EM NEGOCIAÇÃO;
+;VENDA LIBERADA;DANIEL;CARDOSO IND. COM. PLAST. LTDA.;LILIAN;SERASA;;;;0;;;;;;11-2132-9455;;;;;;;falei com a responsável e a mesma me falou que utiliza Serasa e é atendida por Alexandre.;;24/07/2019;10:54:58;;;FRIO;24/07/2019;;;;24/07/2019;;;EM NEGOCIAÇÃO;
+;VENDA LIBERADA;DANIEL;CENTRAL LA RUEDITA DISTRIBUIDORA LTDA ME;;serasa;0;;;;;;;;;41-3653-2323;;central@ruedita.com.br;;;;;"Secretaria falou que ela ja utiliza Serasa, mas está dando venda liberada.
 Mandei e-mail solicitando atendimento.";;24/07/2019;;;;FRIO;24/07/2019;;;;;;;;11:19:07
-4664637000133;NÃO ESTÁ VALIDO;DANIEL;COPAG DA AMAZÔNIA S/A ;LUIz;SERASA;;;;0;;;;;;11-2164-3650;;;;;;;falei com o Luis e ele me falou que utilizam os dois Serasa e Boa Vista.;;24/07/2019;11:26:07;;;FRIO;24/07/2019;;;;24/07/2019;;;VENDA PERDIDA;
-48725956000187;VENDA LIBERADA;DANIEL;COTIPLAS IND E COMERCIO DE ARTEFATOS PLASTICOS LTDA;;;;;;0;;;;;;15-3383-9100;;;;;;;ninguem atende.;;24/07/2019;11:27:55;;;FRIO;24/07/2019;;;;24/07/2019;;;EM NEGOCIAÇÃO;
-90987595000103;VENDA LIBERADA;DANIEL;DISMAT - INDUSTRIA DE BRINQUEDOS LTDA;;;;;;0;;;;;;;;proposta@dismat.com.br;;;;;"primeiro contato por e-mail.
+;NÃO ESTÁ VALIDO;DANIEL;COPAG DA AMAZÔNIA S/A ;LUIz;SERASA;;;;0;;;;;;11-2164-3650;;;;;;;falei com o Luis e ele me falou que utilizam os dois Serasa e Boa Vista.;;24/07/2019;11:26:07;;;FRIO;24/07/2019;;;;24/07/2019;;;VENDA PERDIDA;
+;VENDA LIBERADA;DANIEL;COTIPLAS IND E COMERCIO DE ARTEFATOS PLASTICOS LTDA;;;;;;0;;;;;;15-3383-9100;;;;;;;ninguem atende.;;24/07/2019;11:27:55;;;FRIO;24/07/2019;;;;24/07/2019;;;EM NEGOCIAÇÃO;
+;VENDA LIBERADA;DANIEL;DISMAT - INDUSTRIA DE BRINQUEDOS LTDA;;;;;;0;;;;;;;;proposta@dismat.com.br;;;;;"primeiro contato por e-mail.
 
 e-mail mandado.";;24/07/2019;11:50:16;;;FRIO;24/07/2019;;;;08/08/2019;;;EM NEGOCIAÇÃO;
-67025452000107;VENDA LIBERADA;DANIEL;DISTRIBUIDORA SULAMERICANA IMP. EXP. LTDA.;MIRANDA;BOA VISTA;20;;;0;;;;;;11-3611-6616;;miranda@sulamericanas.com.br;;;;;"11-9-9260-5593 (Whats App)
+;VENDA LIBERADA;DANIEL;DISTRIBUIDORA SULAMERICANA IMP. EXP. LTDA.;MIRANDA;BOA VISTA;20;;;0;;;;;;11-3611-6616;;miranda@sulamericanas.com.br;;;;;"11-9-9260-5593 (Whats App)
 
 Faz de 20 a 30 consultas mês.";;24/07/2019;11:56:35;CNPJ;;FRIO;24/07/2019;;;;26/07/2019;;;EM NEGOCIAÇÃO;
-08816636000118;VENDA LIBERADA;DANIEL;DIVERTOYS IND. E COM. LTDA;ABEL;;;;;0;;;;;;15-3383-9600;;;;;;;retornar após as 15:00, o responsavel não estava ne empresa.;;24/07/2019;13:51:36;;;FRIO;24/07/2019;;;;24/07/2019;;;EM NEGOCIAÇÃO;
-70939574000296;VENDA LIBERADA;DANIEL;FABRICA DE ARTEF. DE LATEX SÃO ROQUE S/A;CRISTIANO;SERASA;;;;0;;;;;;11-4713-5000;;;;;;;Falei com o responsavel e o mesmo me falou que ja utiliza serasa.;;24/07/2019;14:13:30;;;FRIO;24/07/2019;;;;24/07/2019;;;VENDA PERDIDA;
-60643293000157;VENDA LIBERADA;DANIEL;ELKA PLASTICOS LTDA;SYLVANE;BOA VISTA;;;;0;;;;;;11-2238-5500;;sylvane@elka.com.br;;;;;"Já tentei varios contatos por telefone e e-mail, mas é bem grossa e não tem interesse em mudar de boa vista para Serasa Experian.
+;VENDA LIBERADA;DANIEL;DIVERTOYS IND. E COM. LTDA;ABEL;;;;;0;;;;;;15-3383-9600;;;;;;;retornar após as 15:00, o responsavel não estava ne empresa.;;24/07/2019;13:51:36;;;FRIO;24/07/2019;;;;24/07/2019;;;EM NEGOCIAÇÃO;
+;VENDA LIBERADA;DANIEL;FABRICA DE ARTEF. DE LATEX SÃO ROQUE S/A;CRISTIANO;SERASA;;;;0;;;;;;11-4713-5000;;;;;;;Falei com o responsavel e o mesmo me falou que ja utiliza serasa.;;24/07/2019;14:13:30;;;FRIO;24/07/2019;;;;24/07/2019;;;VENDA PERDIDA;
+;VENDA LIBERADA;DANIEL;ELKA PLASTICOS LTDA;SYLVANE;BOA VISTA;;;;0;;;;;;11-2238-5500;;sylvane@elka.com.br;;;;;"Já tentei varios contatos por telefone e e-mail, mas é bem grossa e não tem interesse em mudar de boa vista para Serasa Experian.
 
 h";;24/07/2019;14:14:58;;;FRIO;27/09/2019;;;;08/08/2019;;;VENDA PERDIDA;15:50:03
-29154333000157.;VENDA LIBERADA;DANIEL;FLOC INDÚSTRIA IND. E COM. LTDA.;;;;;;0;;;;;;;;;;;;;telefone não encontrado, mas deixado recado com oferta no site.;;24/07/2019;14:37:39;;;FRIO;24/07/2019;;;;24/07/2019;;;VENDA PERDIDA;
-05608597000175;VENDA LIBERADA;DANIEL;VERONA INDUSTRIA DE PLASTICOS LTDA;;;;;;0;;;;;;41-3513-9683;;;;;;;ninguem atende o telefone.;;24/07/2019;14:38:59;;;FRIO;24/07/2019;;;;25/07/2019;;;EM NEGOCIAÇÃO;
-43422278000160;NÃO ESTÁ VALIDO;DANIEL;GROW JOGOS E BRINQUEDOS LTDA;KYOTO;DISTRIBUIDOR;0;;;0;;;;;;11-4393-3048;;;;;;;"retonar as 15:00 falar com Leonardo.
+;VENDA LIBERADA;DANIEL;FLOC INDÚSTRIA IND. E COM. LTDA.;;;;;;0;;;;;;;;;;;;;telefone não encontrado, mas deixado recado com oferta no site.;;24/07/2019;14:37:39;;;FRIO;24/07/2019;;;;24/07/2019;;;VENDA PERDIDA;
+;VENDA LIBERADA;DANIEL;VERONA INDUSTRIA DE PLASTICOS LTDA;;;;;;0;;;;;;41-3513-9683;;;;;;;ninguem atende o telefone.;;24/07/2019;14:38:59;;;FRIO;24/07/2019;;;;25/07/2019;;;EM NEGOCIAÇÃO;
+;NÃO ESTÁ VALIDO;DANIEL;GROW JOGOS E BRINQUEDOS LTDA;KYOTO;DISTRIBUIDOR;0;;;0;;;;;;11-4393-3048;;;;;;;"retonar as 15:00 falar com Leonardo.
 utiliza Gade solution distribuidor
 faz bem poucas consultas não nem o minimo.";;24/07/2019;;;;FRIO;24/07/2019;;;;24/07/2019;;;VENDA PERDIDA;16:07:33
-02458329000126;VENDA LIBERADA;DANIEL;IBB INDUSTRIA BRASILEIRA DE BRINQUEDOS LTDA;MONICA;;;;;0;;;;;;18-3301-4160;;;;;;;Falei com a Monica e ela me falou que usa serasa e é cliente coorporativo.;;24/07/2019;15:40:53;;;FRIO;24/07/2019;;;;25/07/2019;;;VENDA PERDIDA;
-15605065000138;VENDA LIBERADA;DANIEL;LHAS GALÁPAGOS COMÉRCIO DE BRINQUEDOS E SERVIÇOS LTDA;FERNANDO;SERASA;;;;0;;;;;;11-25030130;;;;;;;"falei com o fernando e ele me falou que ja são clientes da Serasa.
+;VENDA LIBERADA;DANIEL;IBB INDUSTRIA BRASILEIRA DE BRINQUEDOS LTDA;MONICA;;;;;0;;;;;;18-3301-4160;;;;;;;Falei com a Monica e ela me falou que usa serasa e é cliente coorporativo.;;24/07/2019;15:40:53;;;FRIO;24/07/2019;;;;25/07/2019;;;VENDA PERDIDA;
+;VENDA LIBERADA;DANIEL;LHAS GALÁPAGOS COMÉRCIO DE BRINQUEDOS E SERVIÇOS LTDA;FERNANDO;SERASA;;;;0;;;;;;11-25030130;;;;;;;"falei com o fernando e ele me falou que ja são clientes da Serasa.
 URA engraçada";;24/07/2019;15:53:59;;;FRIO;24/07/2019;;;;24/07/2019;;;VENDA PERDIDA;
-94326287000198;VENDA LIBERADA;DANIEL;INDUSTRIA DE BRINQUEDOS JUNGES LTDA;GEISON;;;;;0;;;;;;51-3695-1654;;;;;;;ligar daqui alguns minutos o responsavel estava em reuniao.;;24/07/2019;16:10:15;;;FRIO;24/07/2019;;;;24/07/2019;;;EM NEGOCIAÇÃO;
-13372976000137;NÃO ESTÁ VALIDO;DANIEL;K SAAD BICICLETAS;TATIANE;DISTRIBUIDOR;46;;;0;;;;;;19-3891-5589;;tatiane@verdenbike.com;;;;;"SCN
+;VENDA LIBERADA;DANIEL;INDUSTRIA DE BRINQUEDOS JUNGES LTDA;GEISON;;;;;0;;;;;;51-3695-1654;;;;;;;ligar daqui alguns minutos o responsavel estava em reuniao.;;24/07/2019;16:10:15;;;FRIO;24/07/2019;;;;24/07/2019;;;EM NEGOCIAÇÃO;
+;NÃO ESTÁ VALIDO;DANIEL;K SAAD BICICLETAS;TATIANE;DISTRIBUIDOR;46;;;0;;;;;;19-3891-5589;;tatiane@verdenbike.com;;;;;"SCN
 JUNHO CREDIT BUREAU 13
 JUNHO RELATO 46 
 RELATO MAIS
 JULHO 146 CONSULTAS 
 Usa distribuidor";;24/07/2019;16:50:40;CNPJ;;FRIO;24/07/2019;;;;24/07/2019;;;VENDA PERDIDA;
-59400853000163;VENDA LIBERADA;DANIEL;LIDER INDUSTRIA COMERCIO E REPRESENTACOES DE BRINQUEDOS LTDA;;;;;;0;;;;;;11-4544-1305;;;;;;;ninguem atende o telefone.;;24/07/2019;16:55:35;;;FRIO;24/07/2019;;;;08/08/2019;;;EM NEGOCIAÇÃO;
-02394305000150;VENDA LIBERADA;DANIEL;LUA DE CRISTAL IND. E COMÉRCIO DE BRINQUEDOS LTDA;KELLY;;;;;0;;;;;;11-4448-2904;;kelly@luadecristal.com.br;;;;;"não atende o telefone primeiro contato apenas por e-mail.
+;VENDA LIBERADA;DANIEL;LIDER INDUSTRIA COMERCIO E REPRESENTACOES DE BRINQUEDOS LTDA;;;;;;0;;;;;;11-4544-1305;;;;;;;ninguem atende o telefone.;;24/07/2019;16:55:35;;;FRIO;24/07/2019;;;;08/08/2019;;;EM NEGOCIAÇÃO;
+;VENDA LIBERADA;DANIEL;LUA DE CRISTAL IND. E COMÉRCIO DE BRINQUEDOS LTDA;KELLY;;;;;0;;;;;;11-4448-2904;;kelly@luadecristal.com.br;;;;;"não atende o telefone primeiro contato apenas por e-mail.
 
 mandei e-mail pedindo atendimento.";;24/07/2019;16:59:52;;;FRIO;24/07/2019;;;;26/07/2019;;;EM NEGOCIAÇÃO;17:02:50
-74638651000148;VENDA LIBERADA;DANIEL;MAGIC TOYS DO BRASIL IND. COMÉRCIO LTDA.;;;;;;0;;;;;;11-2436-3800;;;;;;;retornar amanhã o responsavel ja tinha ido embora;;24/07/2019;17:07:13;;;FRIO;24/07/2019;;;;25/07/2019;;;EM NEGOCIAÇÃO;
-60582178000624;NÃO ESTÁ VALIDO;DANIEL;IORGA OLEOS PROTETIVOS IND LTDA;TATIANE;;;;;0;;;;;;11-4012-3100;;financeiro@condat.com.br;;;;;mandar a apresentação por e-mail primeiro contato so por e-mail.;;24/07/2019;17:14:28;;;FRIO;24/07/2019;;;;24/07/2019;;;VENDA PERDIDA;
-66681131000190;VENDA LIBERADA;DANIEL;INTAC COML & IMPORTADORA LTDA;DIANA;BOA VISTA;;;;0;;;;;;;;;;;;;retornar amanhã falar com a Diana.;;24/07/2019;17:45:19;;;FRIO;24/07/2019;;;;24/07/2019;;;EM NEGOCIAÇÃO;
-67869602000150;VENDA LIBERADA;DANIEL;LUNAMETAIS COM ACOS METAIS LTDA;MATEUS;SERASA;;;;0;;;;;;11-5514-0060;;;;;;;Faz consulta através de um outro CNPJ. Da Brasluna.;;25/07/2019;10:34:46;;;FRIO;25/07/2019;;;;25/07/2019;;;VENDA PERDIDA;
-60580768000103;NÃO ESTÁ VALIDO;DANIEL;IRMAOS PERFEITO LTDA;MARIA;SERASA;;;;0;;;;;;11-3395-4400;;maria@perfeito.com.br;;;;;Falei com a Maria e ela falou que ja utiliza os Serviços da Serasa.;;25/07/2019;10:41:33;;;FRIO;25/07/2019;;;;25/07/2019;;;VENDA PERDIDA;
-16873897000106;NÃO ESTÁ VALIDO;DANIEL;GROOVY FOREVER CONFECCOES LTDA EPP;DOUGLAS;ASSOCIAÇÃO;;;;0;;;;;;11-3223-7423;;;;;;;"ja tuiliza o serviço de consulta via string disponibilizado através da softerhose.
+;VENDA LIBERADA;DANIEL;MAGIC TOYS DO BRASIL IND. COMÉRCIO LTDA.;;;;;;0;;;;;;11-2436-3800;;;;;;;retornar amanhã o responsavel ja tinha ido embora;;24/07/2019;17:07:13;;;FRIO;24/07/2019;;;;25/07/2019;;;EM NEGOCIAÇÃO;
+;NÃO ESTÁ VALIDO;DANIEL;IORGA OLEOS PROTETIVOS IND LTDA;TATIANE;;;;;0;;;;;;11-4012-3100;;financeiro@condat.com.br;;;;;mandar a apresentação por e-mail primeiro contato so por e-mail.;;24/07/2019;17:14:28;;;FRIO;24/07/2019;;;;24/07/2019;;;VENDA PERDIDA;
+;VENDA LIBERADA;DANIEL;INTAC COML & IMPORTADORA LTDA;DIANA;BOA VISTA;;;;0;;;;;;;;;;;;;retornar amanhã falar com a Diana.;;24/07/2019;17:45:19;;;FRIO;24/07/2019;;;;24/07/2019;;;EM NEGOCIAÇÃO;
+;VENDA LIBERADA;DANIEL;LUNAMETAIS COM ACOS METAIS LTDA;MATEUS;SERASA;;;;0;;;;;;11-5514-0060;;;;;;;Faz consulta através de um outro CNPJ. Da Brasluna.;;25/07/2019;10:34:46;;;FRIO;25/07/2019;;;;25/07/2019;;;VENDA PERDIDA;
+;NÃO ESTÁ VALIDO;DANIEL;IRMAOS PERFEITO LTDA;MARIA;SERASA;;;;0;;;;;;11-3395-4400;;maria@perfeito.com.br;;;;;Falei com a Maria e ela falou que ja utiliza os Serviços da Serasa.;;25/07/2019;10:41:33;;;FRIO;25/07/2019;;;;25/07/2019;;;VENDA PERDIDA;
+;NÃO ESTÁ VALIDO;DANIEL;GROOVY FOREVER CONFECCOES LTDA EPP;DOUGLAS;ASSOCIAÇÃO;;;;0;;;;;;11-3223-7423;;;;;;;"ja tuiliza o serviço de consulta via string disponibilizado através da softerhose.
 ";;25/07/2019;11:16:51;;;FRIO;25/07/2019;;;;25/07/2019;;;VENDA PERDIDA;
-95790523000195;ANALISE DE EXCEÇÃO;DANIEL;MOLDUNOBRE MOLDURAS LTDA;ADRIANA;;;;;0;;;;;;48-3652-1193;;;;;;;"retornara a tarde.
+;ANALISE DE EXCEÇÃO;DANIEL;MOLDUNOBRE MOLDURAS LTDA;ADRIANA;;;;;0;;;;;;48-3652-1193;;;;;;;"retornara a tarde.
 retornei e ela estava em ligação com um cliente.";;25/07/2019;11:46:56;;;FRIO;25/07/2019;;;;25/07/2019;;;EM NEGOCIAÇÃO;
-67671222000107;NÃO ESTÁ VALIDO;DANIEL;FRANGOESTE AVICULTURA LTDA;CARLOS;SERASA;;;;0;;;;;;15-3285-8200;;;;;;;falei com o responsavel e ele utiliza os serviços direto com a Serasa.;;25/07/2019;14:16:45;;;FRIO;25/07/2019;;;;25/07/2019;;;VENDA PERDIDA;
-04948894000105;VENDA LIBERADA;DANIEL;GIASSI PACK LTDA;ZILE;SERASA;;;;0;;;;;;48-3468-7000;;;;;;;uitliza o serviço de consulta através de um outro cnpj.;;25/07/2019;14:19:19;;;FRIO;25/07/2019;;;;25/07/2019;;;VENDA PERDIDA;
-82275918000108;ANALISE DE EXCEÇÃO;DANIEL;HIDROSP SIST HIDR LTDA;REGINALDO OU RAFAEL;;;;;0;;;;;;11-3744-4467;;;;;;;ligar a partir das 9:00.;;25/07/2019;17:46:56;;;FRIO;30/07/2019;;;;26/07/2019;;;EM NEGOCIAÇÃO;11:52:50
-958125;ANALISE DE EXCEÇÃO;DANIEL;EQUIBRASIL LTDA;ELAINE;CDL;;;;0;;;;;;47-3521-7159;;;;;;;"Valida Turbo
+;NÃO ESTÁ VALIDO;DANIEL;FRANGOESTE AVICULTURA LTDA;CARLOS;SERASA;;;;0;;;;;;15-3285-8200;;;;;;;falei com o responsavel e ele utiliza os serviços direto com a Serasa.;;25/07/2019;14:16:45;;;FRIO;25/07/2019;;;;25/07/2019;;;VENDA PERDIDA;
+;VENDA LIBERADA;DANIEL;GIASSI PACK LTDA;ZILE;SERASA;;;;0;;;;;;48-3468-7000;;;;;;;uitliza o serviço de consulta através de um outro cnpj.;;25/07/2019;14:19:19;;;FRIO;25/07/2019;;;;25/07/2019;;;VENDA PERDIDA;
+;ANALISE DE EXCEÇÃO;DANIEL;HIDROSP SIST HIDR LTDA;REGINALDO OU RAFAEL;;;;;0;;;;;;11-3744-4467;;;;;;;ligar a partir das 9:00.;;25/07/2019;17:46:56;;;FRIO;30/07/2019;;;;26/07/2019;;;EM NEGOCIAÇÃO;11:52:50
+;ANALISE DE EXCEÇÃO;DANIEL;EQUIBRASIL LTDA;ELAINE;CDL;;;;0;;;;;;47-3521-7159;;;;;;;"Valida Turbo
 
 Não utiliza serviços de consulta tem cadastro com o CDL mas não utiliza so vende avista e no cartão.";;29/07/2019;14:45:45;;;FRIO;29/07/2019;;;;29/07/2019;;;VENDA PERDIDA;
-15533925;VENDA LIBERADA;DANIEL;NOVA PG MADEIRAS EIRELI ME;;;;;;0;;;;;;47-3352-1816;;;;;;;trabalha so de manhã.;;29/07/2019;14:53:08;;;FRIO;29/07/2019;;;;31/07/2019;;;EM NEGOCIAÇÃO;
-86910353000144;ANALISE DE EXCEÇÃO;DANIEL;POLIVIDROS COMERCIAL LTDA;JOSI;;;;;0;;;;;;47 3383-3600;;financeiro02@polividroscomercial.com.br;;0800 644 0111;;;"Primeiro contato por e-mail.
+;VENDA LIBERADA;DANIEL;NOVA PG MADEIRAS EIRELI ME;;;;;;0;;;;;;47-3352-1816;;;;;;;trabalha so de manhã.;;29/07/2019;14:53:08;;;FRIO;29/07/2019;;;;31/07/2019;;;EM NEGOCIAÇÃO;
+;ANALISE DE EXCEÇÃO;DANIEL;POLIVIDROS COMERCIAL LTDA;JOSI;;;;;0;;;;;;47 3383-3600;;financeiro02@polividroscomercial.com.br;;0800 644 0111;;;"Primeiro contato por e-mail.
 
 Mandado e-mail pedindo atendimento.";;30/07/2019;14:20:42;;;FRIO;30/07/2019;;;;29/07/2019;;;EM NEGOCIAÇÃO;
-51.323.061/0001-20;VENDA LIBERADA;DANIEL;A2 VIDROS;;;;;;0;;;;;;11-3682-2529;;;;;;;"retornar no periodo da tarde, estavam em reunião.
+;VENDA LIBERADA;DANIEL;A2 VIDROS;;;;;;0;;;;;;11-3682-2529;;;;;;;"retornar no periodo da tarde, estavam em reunião.
 
 Pedir para falar com o financeiro de manha falei com a Katia.";;31/07/2019;09:50:41;;;FRIO;31/07/2019;;;;31/07/2019;;;EM NEGOCIAÇÃO;
-00756110000188;VENDA LIBERADA;DANIEL;ALUSUPRA ALUMÍNIO;DOUGLAS;NÃO QUIS INFORMAR;;;;0;;;;;;48-3242-036;;suporte@alusupra.com.br;;;;;Falei com o responsavel por TI e o mesmo falou que ia repassar o e-mail para o financeiro.;;31/07/2019;09:58:02;;;FRIO;31/07/2019;;;;05/08/2019;;;EM NEGOCIAÇÃO;
-09177724000180;ANALISE DE EXCEÇÃO;DANIEL;AMAZON TEMPER (SC);;;;;;0;;;;;;49-3433-7594;;financeiro1@amazontempersc.com.br;;;;;"Pedir informações por e-mail.
+;VENDA LIBERADA;DANIEL;ALUSUPRA ALUMÍNIO;DOUGLAS;NÃO QUIS INFORMAR;;;;0;;;;;;48-3242-036;;suporte@alusupra.com.br;;;;;Falei com o responsavel por TI e o mesmo falou que ia repassar o e-mail para o financeiro.;;31/07/2019;09:58:02;;;FRIO;31/07/2019;;;;05/08/2019;;;EM NEGOCIAÇÃO;
+;ANALISE DE EXCEÇÃO;DANIEL;AMAZON TEMPER (SC);;;;;;0;;;;;;49-3433-7594;;financeiro1@amazontempersc.com.br;;;;;"Pedir informações por e-mail.
 
 mandei e-mail pedindo atendimento";;31/07/2019;11:18:34;;;FRIO;31/07/2019;;;;05/08/2019;;;EM NEGOCIAÇÃO;
-05129413000194;ANALISE DE EXCEÇÃO;DANIEL;ART VIDROS;FABRICIO;CDL;80;;;0;;;;;;48-3434-6900;;controladoria@artvidrosmf.com.br;;;;;"O responsavel estava em reunião e pediu para retornar após as 15:00.
+;ANALISE DE EXCEÇÃO;DANIEL;ART VIDROS;FABRICIO;CDL;80;;;0;;;;;;48-3434-6900;;controladoria@artvidrosmf.com.br;;;;;"O responsavel estava em reunião e pediu para retornar após as 15:00.
 80 a 100 consulta 80%
 
 ";;31/07/2019;11:25:40;;;FRIO;01/08/2019;;;;31/07/2019;;;EM NEGOCIAÇÃO;14:42:51
-07456119000112;NÃO ESTÁ VALIDO;DANIEL; BEDISVA BENEFICIAMENTO E DISTRIBUICAO DE VIDROS E ACESSORIOS LTDA - ME;SILVIA;SERASA;;;;0;;;;;;14-3814-6515;;;;;;;Responsavel falou que utiliza Serasa mandei o CNPJ para o Valide.;;01/08/2019;16:38:13;;;FRIO;01/08/2019;;;;02/08/2019;;;EM NEGOCIAÇÃO;
-51224749000153;VENDA LIBERADA;DANIEL;INDUSTECNICA EQUIP INDL LTDA;MARCO BRAMA;;;;;0;;;;;;11-5548-4333;;m.brama@amf.de;;;;;"falei com o Alisson pediu para rertornar no dia posterior o contato para falar com o responsavel.
+;NÃO ESTÁ VALIDO;DANIEL; BEDISVA BENEFICIAMENTO E DISTRIBUICAO DE VIDROS E ACESSORIOS LTDA - ME;SILVIA;SERASA;;;;0;;;;;;14-3814-6515;;;;;;;Responsavel falou que utiliza Serasa mandei o CNPJ para o Valide.;;01/08/2019;16:38:13;;;FRIO;01/08/2019;;;;02/08/2019;;;EM NEGOCIAÇÃO;
+;VENDA LIBERADA;DANIEL;INDUSTECNICA EQUIP INDL LTDA;MARCO BRAMA;;;;;0;;;;;;11-5548-4333;;m.brama@amf.de;;;;;"falei com o Alisson pediu para rertornar no dia posterior o contato para falar com o responsavel.
 
 Mandei e- mail pedinso se o Brama éra o responsavel mesmo.";;07/08/2019;16:24:15;;;FRIO;25/09/2019;;;;30/09/2019;;;EM NEGOCIAÇÃO;16:37:58
-21575709000276;VENDA LIBERADA;DANIEL;SANTA CASA DE MISERICORDIA DE JUIZ DE FORA;JULIANA;;;;;0;;;;;;32-3229-2820;;juliana.dornelas@santacasajs.org.br;;;;;"ofertado MS perfil 40 a 82 anos renda 1.000
+;VENDA LIBERADA;DANIEL;SANTA CASA DE MISERICORDIA DE JUIZ DE FORA;JULIANA;;;;;0;;;;;;32-3229-2820;;juliana.dornelas@santacasajs.org.br;;;;;"ofertado MS perfil 40 a 82 anos renda 1.000
 Juiz de fora (MG)
 
 Não tinha interesse falou que poderia ofertar a outro cemiterio.
 
 Cemiterio Parque da Saudade.";;14/08/2019;11:16:54;;;FRIO;14/08/2019;;;;19/08/2019;;;EM NEGOCIAÇÃO;
-1235;VENDA LIBERADA;DANIEL;CEMITÉRIO PARQUE POÇOS DE CALDAS;ELIANE;;;;;0;;;;;;35-3716-1017;;paxnegocioseparticipacoes@gmail.com;;;;;"retornar a tarde a responsavel tinha saido para o almoço.
+;VENDA LIBERADA;DANIEL;CEMITÉRIO PARQUE POÇOS DE CALDAS;ELIANE;;;;;0;;;;;;35-3716-1017;;paxnegocioseparticipacoes@gmail.com;;;;;"retornar a tarde a responsavel tinha saido para o almoço.
 
 Enviado e-mail com a quantidade de clientes para a cidade Poços de caldas.
 ";;14/08/2019;11:37:42;;;FRIO;14/08/2019;;;;20/08/2019;;;EM NEGOCIAÇÃO;16:10:19
-123456;VENDA LIBERADA;DANIEL;JARDINS CEMITÉRIO PARQUE;ANA TERRA;;;;;0;;;;;;31-3438-6400;;;;;;;"retornar na segunda feira a responsável não estava.
+;VENDA LIBERADA;DANIEL;JARDINS CEMITÉRIO PARQUE;ANA TERRA;;;;;0;;;;;;31-3438-6400;;;;;;;"retornar na segunda feira a responsável não estava.
 
 Cidade de Betim MG.";;15/08/2019;11:37:53;;;FRIO;15/08/2019;;;;15/08/2019;;;EM NEGOCIAÇÃO;11:40:24
-1234567;VENDA LIBERADA;DANIEL;CEMITÉRIO PARQUE CAMPO DAS FLORES;FERNANDA;;;;;0;;;;;;33-3331-5522;;parquecampodasflores@hotmail.com;;;;;"Enviei proposta e tela com a quantidade de clientes!
+;VENDA LIBERADA;DANIEL;CEMITÉRIO PARQUE CAMPO DAS FLORES;FERNANDA;;;;;0;;;;;;33-3331-5522;;parquecampodasflores@hotmail.com;;;;;"Enviei proposta e tela com a quantidade de clientes!
 
 Proposta: R$364,00
 Cidade: Manhuacu MG.
 12.562
  ";;15/08/2019;14:28:04;;;MORNO;15/08/2019;;;;19/08/2019;;;EM NEGOCIAÇÃO;
-1425;VENDA LIBERADA;DANIEL;FUNERÁRIA FERRACIOLI 24 HORAS;ROSANGELA OU WILSON;;;;;0;;;;;;35-3423-1035;;;;;;;"liguei e o responsavel estava ocupado
+;VENDA LIBERADA;DANIEL;FUNERÁRIA FERRACIOLI 24 HORAS;ROSANGELA OU WILSON;;;;;0;;;;;;35-3423-1035;;;;;;;"liguei e o responsavel estava ocupado
 
 Pouso Alegre MG
 34.239
 ";;15/08/2019;17:13:15;;;MORNO;30/08/2019;;;;15/08/2019;;;EM NEGOCIAÇÃO;16:16:01
-2,64988E+13;VENDA LIBERADA;DANIEL;CEMITERIO JARDIM DA SUDADE;LUIS;;;;;0;;;;;;41-3028-2089;;luis.mexia@jardimdasaudade.com;;;;;"enviado proposta de R$3.200 valor unitario 0,26 com 45% de desconto.
+;VENDA LIBERADA;DANIEL;CEMITERIO JARDIM DA SUDADE;LUIS;;;;;0;;;;;;41-3028-2089;;luis.mexia@jardimdasaudade.com;;;;;"enviado proposta de R$3.200 valor unitario 0,26 com 45% de desconto.
 
 Luis pediu aprovação da diretoria, e precisa de pelo menos 500 CPF para teste.
 
 quantidade de CPF/ assima de 40 anos sem nenhum tipo de filtro.
 Curitiba/ Pinhais/ Blumenau
 1.096.000";;27/08/2019;16:25:01;;;MORNO;30/08/2019;;;;02/09/2019;;;EM NEGOCIAÇÃO;15:58:53
-135165486;;;CEMITERIO PARQUE CAMPOS GERAIS;RICARDO;;;;;0;;;;;;42-3238-1515;;;;;;;Ligar amanhã as 10:00 da manha procurar por Ricardo;;29/08/2019;15:41:54;;;FRIO;29/08/2019;;;;30/08/2019;;;EM NEGOCIAÇÃO;
-1536546453;VENDA LIBERADA;DANIEL;CEMITÉRIO PARQUE DAS ALLAMANDAS;KAREN;;;;;0;;;;;;43-3371-8200;;compras@parqueallamandas.com.br;;;;;"Estou falando com Lilian, mandei a proposta de 10.000 CPF e 2.000 CPF.
+;;;CEMITERIO PARQUE CAMPOS GERAIS;RICARDO;;;;;0;;;;;;42-3238-1515;;;;;;;Ligar amanhã as 10:00 da manha procurar por Ricardo;;29/08/2019;15:41:54;;;FRIO;29/08/2019;;;;30/08/2019;;;EM NEGOCIAÇÃO;
+;VENDA LIBERADA;DANIEL;CEMITÉRIO PARQUE DAS ALLAMANDAS;KAREN;;;;;0;;;;;;43-3371-8200;;compras@parqueallamandas.com.br;;;;;"Estou falando com Lilian, mandei a proposta de 10.000 CPF e 2.000 CPF.
 
 Enviei e-mail para saber se tem interesse.";;30/08/2019;16:18:30;;;FRIO;02/09/2019;;;;02/09/2019;;;EM NEGOCIAÇÃO;15:22:56
-3216568451;VENDA LIBERADA;DANIEL;CEMITÉRIO PARQUE DE MARINGÁ;;;;;;0;;;;;;44-3265-6677;;;;;;;Responsavel estava em reuniao ligar amanha de manha.;;02/09/2019;15:23:05;;;FRIO;02/09/2019;;;;03/09/2019;;;EM NEGOCIAÇÃO;
-1531645648;VENDA LIBERADA;DANIEL;FUNERARIA PREVER;ROGER;;;;;0;;;;;;44-3027-6750;;roger.darici@gestaoprever.com.br;;;;;"mandar apresentação das cidades de Maringa e Pato Branco.
+;VENDA LIBERADA;DANIEL;CEMITÉRIO PARQUE DE MARINGÁ;;;;;;0;;;;;;44-3265-6677;;;;;;;Responsavel estava em reuniao ligar amanha de manha.;;02/09/2019;15:23:05;;;FRIO;02/09/2019;;;;03/09/2019;;;EM NEGOCIAÇÃO;
+;VENDA LIBERADA;DANIEL;FUNERARIA PREVER;ROGER;;;;;0;;;;;;44-3027-6750;;roger.darici@gestaoprever.com.br;;;;;"mandar apresentação das cidades de Maringa e Pato Branco.
 
 enviado apresentação.
 
 150.850 CPF.";;02/09/2019;15:45:27;;;FRIO;02/09/2019;;;;03/09/2019;;;EM NEGOCIAÇÃO;
-6546845312;VENDA LIBERADA;DANIEL;CEMITERIO PARQUE DOS EUCALIPTOS;ANDERSON;;;;;0;;;;;;42-3304-7028;;;;;;;"Liguei e o responsavel não estava, retornar amanha de manha
+;VENDA LIBERADA;DANIEL;CEMITERIO PARQUE DOS EUCALIPTOS;ANDERSON;;;;;0;;;;;;42-3304-7028;;;;;;;"Liguei e o responsavel não estava, retornar amanha de manha
 
 Cidade de Guarapuava, 68.674.";;02/09/2019;16:52:40;;;FRIO;03/09/2019;;;;03/09/2019;;;EM NEGOCIAÇÃO;17:06:24
-15156564;VENDA LIBERADA;DANIEL;FUNERARIA NOSSA SENHORA DE BELEM ;RAFAEL;;;;;0;;;;;;4236231823;;;;;;;ligar de manha falar com Rafael;;03/09/2019;17:06:37;;;FRIO;03/09/2019;;;;04/09/2019;;;EM NEGOCIAÇÃO;
-231516565;VENDA LIBERADA;DANIEL;CEMITERIO JARDIM DA PAZ MARANHAO;REGINA;;;;;0;;;;;;98-3303-0450;;regina@jardimdapazma.com.br;;;;;liguei e falei com ela recebeu meu e-mail mas so vai ter como responder semana que vem porque esta em semana de fechamento de folha de pagamento.;;04/09/2019;16:11:17;;;FRIO;04/09/2019;;;;09/09/2019;;;EM NEGOCIAÇÃO;
-151545615368;VENDA LIBERADA;DANIEL;PAX NACIONAL PREVER;JULIANA;;;;;0;;;;;;65-3315-2700;;midiajoosep@outlook.com;;;;;"mandar proposta com dados de cuiaba mas eles antem varias regiões.
+;VENDA LIBERADA;DANIEL;FUNERARIA NOSSA SENHORA DE BELEM ;RAFAEL;;;;;0;;;;;;4236231823;;;;;;;ligar de manha falar com Rafael;;03/09/2019;17:06:37;;;FRIO;03/09/2019;;;;04/09/2019;;;EM NEGOCIAÇÃO;
+;VENDA LIBERADA;DANIEL;CEMITERIO JARDIM DA PAZ MARANHAO;REGINA;;;;;0;;;;;;98-3303-0450;;regina@jardimdapazma.com.br;;;;;liguei e falei com ela recebeu meu e-mail mas so vai ter como responder semana que vem porque esta em semana de fechamento de folha de pagamento.;;04/09/2019;16:11:17;;;FRIO;04/09/2019;;;;09/09/2019;;;EM NEGOCIAÇÃO;
+;VENDA LIBERADA;DANIEL;PAX NACIONAL PREVER;JULIANA;;;;;0;;;;;;65-3315-2700;;midiajoosep@outlook.com;;;;;"mandar proposta com dados de cuiaba mas eles antem varias regiões.
 
 Enviei proposta aguardando posição.
 
 Mandei e-mail cobarndo posição e informando que vou dispobilizar a outra empresa da região caso ele não alguma posição.";;05/09/2019;09:39:53;;;FRIO;11/09/2019;;;;16/09/2019;;;EM NEGOCIAÇÃO;14:35:52
-561654685;VENDA LIBERADA;DANIEL;FUNERARIA E PAX NIPO BRASILEIRA;;;;;;0;;;;;;67-3321-7859;;;;;;;Retiornar o contato após as 16:20, os resposnsaveis não estavam.;;11/09/2019;15:43:02;;;FRIO;11/09/2019;;;;12/09/2019;;;EM NEGOCIAÇÃO;
-01146076000192;VENDA LIBERADA;DANIEL;CEMITERIO POPULAR PARK MONTE DAS OLIVEIRAS LTDA;DAIANE;;;;;0;;;;;;67-3324-3315;;pax.mundial@hotmail.com;;;;;"mandar quantidade de CPF que temos disponivel para cidade de Campo Grande MS
+;VENDA LIBERADA;DANIEL;FUNERARIA E PAX NIPO BRASILEIRA;;;;;;0;;;;;;67-3321-7859;;;;;;;Retiornar o contato após as 16:20, os resposnsaveis não estavam.;;11/09/2019;15:43:02;;;FRIO;11/09/2019;;;;12/09/2019;;;EM NEGOCIAÇÃO;
+;VENDA LIBERADA;DANIEL;CEMITERIO POPULAR PARK MONTE DAS OLIVEIRAS LTDA;DAIANE;;;;;0;;;;;;67-3324-3315;;pax.mundial@hotmail.com;;;;;"mandar quantidade de CPF que temos disponivel para cidade de Campo Grande MS
  filtro: idade 40 a 82 anos.
 e-mail enviado.";;12/09/2019;10:20:18;;;MORNO;12/09/2019;;;;16/09/2019;;;EM NEGOCIAÇÃO;
-535648646;VENDA LIBERADA;DANIEL;FUNERARIA VILA VELHA;DANIELA;;;;;0;;;;;;27-3045-6800;;funerariavilavelha@hotmail.com;;;;;"mandar proposta cliente falou que no momento não esta prospectando novos clientes pedi para dar um retorno.
+;VENDA LIBERADA;DANIEL;FUNERARIA VILA VELHA;DANIELA;;;;;0;;;;;;27-3045-6800;;funerariavilavelha@hotmail.com;;;;;"mandar proposta cliente falou que no momento não esta prospectando novos clientes pedi para dar um retorno.
 
 e-mail enviado";;16/09/2019;14:28:32;;;FRIO;25/09/2019;;;;23/09/2019;;;VENDA PERDIDA;16:21:30
-35156484;VENDA LIBERADA;DANIEL;FUNERARIA E CREMATORIO PARQUE DA PAZ;CINARA;;;;;0;;;;;;27-3149-8414;;sinara.parquedapaz@gmail.com;;;;;"negociação do Junynho
+;VENDA LIBERADA;DANIEL;FUNERARIA E CREMATORIO PARQUE DA PAZ;CINARA;;;;;0;;;;;;27-3149-8414;;sinara.parquedapaz@gmail.com;;;;;"negociação do Junynho
 
 mandar proposta patrao dela vai analisar.";;16/09/2019;14:56:00;;;MORNO;25/09/2019;;;;18/09/2019;;;VENDA PERDIDA;16:21:15
-79402426000121;ANALISE DE EXCEÇÃO;DANIEL;DISBAL DISTRIBUIDORA BALESTRIN LTDA - GRUPO BALESTRIN;FRANCISCO;CDL;250;;;0;NÃO;;;;;49-3527-7600;;financeiro@grupobalestrin.com.br;;;;;Enviei proposta em cima da média de 250 consultas basicas, cliente utiliza consultas em parceria com o CDL;;27/09/2019;15:53:56;CNPJ;100;MORNO;27/09/2019;;;;30/09/2019;;;EM NEGOCIAÇÃO;
+;ANALISE DE EXCEÇÃO;DANIEL;DISBAL DISTRIBUIDORA BALESTRIN LTDA - GRUPO BALESTRIN;FRANCISCO;CDL;250;;;0;NÃO;;;;;49-3527-7600;;financeiro@grupobalestrin.com.br;;;;;Enviei proposta em cima da média de 250 consultas basicas, cliente utiliza consultas em parceria com o CDL;;27/09/2019;15:53:56;CNPJ;100;MORNO;27/09/2019;;;;30/09/2019;;;EM NEGOCIAÇÃO;
