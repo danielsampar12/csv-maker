@@ -9,7 +9,7 @@ mongoose.connect('mongodb+srv://dgsampar:@Root@clustersemanaomnistack-pvlxj.mong
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
-
+mongoose.set('useFindAndModify', false);
 
 app.use(routes);
 
