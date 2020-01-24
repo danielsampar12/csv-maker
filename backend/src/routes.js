@@ -5,7 +5,7 @@ const routes = Router();
 
 routes.post('/clientes', EmpresaController.store);
 
-routes.get('/csv',EmpresaController.index);
+routes.get('/home',EmpresaController.index);
 routes.get('/clientes', SearchController.index);
 
 routes.put('/edit', EmpresaController.update);
