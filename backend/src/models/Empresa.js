@@ -12,7 +12,7 @@ const EmpresaSchema = new mongoose.Schema({
   valor_vcm: String,
   valor_consulta_un: String,
   vcm_ofertado: Number,
-  utiliza_negativacao: String,
+  utiliza_negativacao: Boolean,
   valor_gasto_negativacao: Number,
   valor_pago_negativa: Number,
   ddd: String,
