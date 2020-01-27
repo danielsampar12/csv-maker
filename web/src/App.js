@@ -2,11 +2,14 @@ import React from 'react';
 import './global.css';
 import './App.css';
 import './Sidebar.css';
+import './Main.css';
+
 
 
 function App() {
   return (
     <div id="app">
+     
       <aside>
         <strong>Cadastrar</strong>
         <form>
@@ -56,8 +59,35 @@ function App() {
         </form>
       </aside>
       <main>
+      <ul>
+        <li className="emp-item">
+          <header>
+            <div className="emp-info">
+              <strong>Razão Social Da Empresa</strong>
+              <span>CPNJ</span>
+            </div>
+          </header>
+          <p>Valor VCM</p>
+          <p>Representante</p>
+          <p>Responsavel</p>
+          <p>DDD1 + Telefone1</p>
+          <a href="">Ler mais</a>
+        </li>
 
-
+        <li className="emp-item">
+          <header>
+            <div className="emp-info">
+              <strong>Razão Social Da Empresa</strong>
+              <span>CPNJ</span>
+            </div>
+          </header>
+          <p>Valor VCM</p>
+          <p>Representante</p>
+          <p>Responsavel</p>
+          <p>DDD1 + Telefone1</p>
+          <a href="">Ler mais</a>
+        </li>
+      </ul>
       </main>
     </div>
   );

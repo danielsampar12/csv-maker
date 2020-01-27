@@ -52,7 +52,7 @@ aside form button[type=submit]{
   width: 100%;
   border: 0;
   margin-top: 30px;
-  background: #7d40e7;
+  background: #0683bd;
   border-radius: 2px;
   padding: 15px 20px;
   font-size: 16px;
@@ -63,7 +63,7 @@ aside form button[type=submit]{
 }
 
 aside form button[type=submit]:hover{
-  background-color: #6931ca;
+  background-color: #005c87;
 }
 
 aside form button[id=readMore]{
@@ -71,11 +71,13 @@ aside form button[id=readMore]{
   border: 0;
   padding: 5px 5px;
   margin-top: 15px;
-  background: #a1e1ff;
+  background: #0683bd;
+  color: #FFF;
   cursor: pointer;
   transition: background 0.5s;
 }
 
 aside form button[id=readMore]:hover{
-  background-color: #52c8ff;
+  background-color: #005c87;
 }
+
