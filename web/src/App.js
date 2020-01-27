@@ -1,12 +1,14 @@
-import React, {useState} from 'react';
+import React from 'react';
+import {useState, useEffect} from 'react';
+import api from './services/api';
 import './global.css';
 import './App.css';
 import './Sidebar.css';
 import './Main.css';
 
 
-
 function App() {
+  const[emps, setEmps] = useState([]);
   const[cnpj, setCnpj] = useState('');
   const[razao_social, setRazaoSocial] = useState('');
   const[representante, setRepresentante] = useState('');
@@ -16,10 +18,34 @@ function App() {
   const[ddd1, setDDD1] = useState('');
   const[telefone1, setTelefone1] = useState('');
 
+  useEffect(() => {
+    async function loadEmps(){
+      const response = await api.get('/clientes');
+      setEmps(response.data);
+    }
+    loadEmps();
+  }, []);
+
   async function handleAddEmp(e){
     e.preventDefault();
-    
-
+    const response = await api.post('/clientes', {
+      cnpj,
+      razao_social,
+      representante,
+      responsavel,
+      valor_vcm,
+      endereco,
+      ddd1,
+      telefone1,
+    });
+    setCnpj('');
+    setRazaoSocial('');
+    setRepresentante('');
+    setResponsavel('');
+    setValorVCM('');
+    setEndereco('');
+    setDDD1('');
+    setTelefone1('');
   }
 
   return (
@@ -117,33 +143,21 @@ function App() {
       </aside>
       <main>
       <ul>
+        {emps.map(emp => (
         <li className="emp-item">
           <header>
             <div className="emp-info">
-              <strong>Razão Social Da Empresa</strong>
-              <span>CPNJ</span>
+              <strong>{emp.razao_social}</strong>
+              <span>{emp.cnpj}</span>
             </div>
           </header>
-          <p>Valor VCM</p>
-          <p>Representante</p>
-          <p>Responsavel</p>
-          <p>DDD1 + Telefone1</p>
-          <a href="">Ler mais</a>
+          <p>{emp.valor_vcm}</p>
+          <p>{emp.representante}</p>
+          <p>{emp.responsavel}</p>
+        <p>{`(${emp.ddd1})${emp.telefone1}`}</p>
+          
         </li>
-
-        <li className="emp-item">
-          <header>
-            <div className="emp-info">
-              <strong>Razão Social Da Empresa</strong>
-              <span>CPNJ</span>
-            </div>
-          </header>
-          <p>Valor VCM</p>
-          <p>Representante</p>
-          <p>Responsavel</p>
-          <p>DDD1 + Telefone1</p>
-          <a href="">Ler mais</a>
-        </li>
+        ))}
       </ul>
       </main>
     </div>

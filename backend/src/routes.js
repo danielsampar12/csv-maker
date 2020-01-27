@@ -5,8 +5,8 @@ const routes = Router();
 
 routes.post('/clientes', EmpresaController.store);
 
-routes.get('/home',EmpresaController.index);
-routes.get('/clientes', SearchController.index);
+routes.get('/clientes',EmpresaController.index);
+routes.get('/search', SearchController.index);
 
 routes.put('/edit', EmpresaController.update);
 routes.delete('/delete', EmpresaController.destroy);
