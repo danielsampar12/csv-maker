@@ -1,9 +1,9 @@
 import React, {useState} from 'react';
+import api from './services/api';
 import './global.css';
 import './App.css';
 import './Sidebar.css';
 import './Main.css';
-
 
 
 function App() {
@@ -18,8 +18,17 @@ function App() {
 
   async function handleAddEmp(e){
     e.preventDefault();
-    
-
+    const response = await api.post('/clientes', {
+      cnpj,
+      razao_social,
+      representante,
+      responsavel,
+      valor_vcm,
+      endereco,
+      ddd1,
+      telefone1,
+    });
+    console.log(response.data);
   }
 
   return (
