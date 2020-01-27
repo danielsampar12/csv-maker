@@ -1,0 +1,58 @@
+main{
+  flex: 1;
+
+}
+
+main ul{
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+  list-style: none;
+}
+
+li.emp-item {
+  background: #FFF;
+  box-shadow: 0 0 14px 0 rgba(0, 0, 0, 0.02);
+  border-radius: 2px;
+  padding: 20px;
+  width: 100%;
+}
+
+li.emp-item header{
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+}
+
+li.emp-item header .emp-info{
+  margin-left: 10px;
+}
+
+.emp-info strong{
+  display: block;
+  font-size: 16px;
+  color: black;
+}
+
+.emp-info span{
+  font-size: 13px;
+  color: #333;
+  margin-top: 2px;
+}
+
+li.emp-item p {
+  color: #666;
+  font-size: 14px;
+  line-height: 20px;
+  margin: 10px, 0;
+}
+
+li.emp-item a{
+  color: #0683bd;
+  font-size: 13px;
+  text-decoration: none;
+}
+
+li.emp-item a :hover{
+  color: #005c87;
+}
