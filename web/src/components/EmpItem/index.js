@@ -1,6 +1,7 @@
 import React from 'react';
 import './style.css';
 
+
 function EmpItem({ emp }){
   return(
     <li className="emp-item">
@@ -16,7 +17,6 @@ function EmpItem({ emp }){
           <p>Endereco: {emp.endereco}</p>
           <p>Cidade: {emp.cidade}</p>
           <p>{`(${emp.ddd})${emp.telefone}`}</p>
-          
         </li>
   );
 }
