@@ -15,8 +15,8 @@ function App() {
   const[responsavel, setResponsavel] = useState('');
   const[valor_vcm, setValorVCM] = useState('');
   const[endereco, setEndereco] = useState('');
-  const[ddd1, setDDD1] = useState('');
-  const[telefone1, setTelefone1] = useState('');
+  const[ddd, setDDD] = useState('');
+  const[telefone, setTelefone] = useState('');
 
   useEffect(() => {
     async function loadEmps(){
@@ -35,8 +35,8 @@ function App() {
       responsavel,
       valor_vcm,
       endereco,
-      ddd1,
-      telefone1,
+      ddd,
+      telefone,
     });
     setCnpj('');
     setRazaoSocial('');
@@ -44,8 +44,8 @@ function App() {
     setResponsavel('');
     setValorVCM('');
     setEndereco('');
-    setDDD1('');
-    setTelefone1('');
+    setDDD('');
+    setTelefone('');
   }
 
   return (
@@ -122,8 +122,8 @@ function App() {
               name="ddd1" 
               id="ddd1" 
               required
-              value={ddd1}
-              onChange={e => setDDD1(e.target.value)}/>
+              value={ddd}
+              onChange={e => setDDD(e.target.value)}/>
             </div>
 
             <div className="input-block">
@@ -133,8 +133,8 @@ function App() {
               name="telefone1" 
               id="telefone1" 
               required
-              value={telefone1}
-              onChange={e => setTelefone1(e.target.value)}/>
+              value={telefone}
+              onChange={e => setTelefone(e.target.value)}/>
             </div>
           </div>
           <button type="submit">Salvar</button>
@@ -154,7 +154,7 @@ function App() {
           <p>{emp.valor_vcm}</p>
           <p>{emp.representante}</p>
           <p>{emp.responsavel}</p>
-        <p>{`(${emp.ddd1})${emp.telefone1}`}</p>
+        <p>{`(${emp.ddd})${emp.telefone}`}</p>
           
         </li>
         ))}
