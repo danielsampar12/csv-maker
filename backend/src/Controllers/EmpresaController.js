@@ -48,6 +48,8 @@ module.exports = {
           dias: request.body.dias,
           status: request.body.status,
           hr_ultimo_contato: request.body.hr_ultimo_contato,
+          endereco: request.body.endereco,
+          cidade: request.body.cidade,
         });
       }
       console.log(emp);
@@ -92,7 +94,9 @@ module.exports = {
           data_retorno: request.body.data_retorno,
           dias: request.body.dias,
           status: request.body.status,
-          hr_ultimo_contato: request.body.hr_ultimo_contato
+          hr_ultimo_contato: request.body.hr_ultimo_contato,
+          endereco: request.body.endereco,
+          cidade: request.body.cidade,
     }}, {upsert: true}, (err, doc) => {
       if(err){
         console.log("Something wrong when updating data!" + err);
