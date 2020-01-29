@@ -1,8 +1,13 @@
 import React from 'react';
 import './style.css';
 
-
-function EmpItem({ emp }){
+function EmpItem({ emp, onClick }){
+  
+  async function handleClick(e){ 
+    await onClick({
+      emp,
+    });
+  }
   return(
     <li className="emp-item">
           <header>
@@ -17,6 +22,7 @@ function EmpItem({ emp }){
           <p>Endereco: {emp.endereco}</p>
           <p>Cidade: {emp.cidade}</p>
           <p>{`(${emp.ddd})${emp.telefone}`}</p>
+          <button onClick={handleClick}>Delete</button>
         </li>
   );
 }

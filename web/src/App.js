@@ -20,7 +20,7 @@ function App() {
       setEmps(response.data);
     }
     loadEmps();
-  }, []);
+  }, [emps]);
 
   async function handleAddEmp(data){
     const response = await api.post('/clientes', data);
@@ -29,13 +29,15 @@ function App() {
 
   async function handleDeleteEmp(data){
     console.log(data)
-    const response = await api.delete('/delete', data);
-    let registros = emps.filter((emp) => {
+    await api.delete('/delete', data);
+    
+    /*let registros = emps.filter((emp) => {
       return emp.cnpj !== data;
     });
     console.log(response);
     console.log(registros);
     //setEmps({re})
+    */
   }
   
   return (
@@ -48,7 +50,9 @@ function App() {
       <main>
       <ul>
         {emps.map(emp => (
-         <EmpItem key={emp._id} emp={emp}/>
+          
+         <EmpItem key={emp._id} emp={emp} onClick={handleDeleteEmp}/>
+         
         ))}
       </ul>
       </main>

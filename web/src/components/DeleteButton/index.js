@@ -3,11 +3,11 @@ import './style.css';
 
 function DeleteButton({onSubmit}){
   const [cnpj, setCnpj] = useState('');
-
+  
   async function handleOnClick(e){
     e.preventDefault();
     await onSubmit({
-      cnpj,
+      cnpj: cnpj
     });
     setCnpj('');
   }
