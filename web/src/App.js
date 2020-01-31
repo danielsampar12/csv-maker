@@ -4,6 +4,7 @@ import api from './services/api';
 import EmpItem from './components/EmpItem';
 import EmpForm from './components/EmpForm';
 import DeleteButton from './components/DeleteButton';
+import EditButton from './components/EditButton'
 import './global.css';
 import './App.css';
 import './Sidebar.css';
@@ -20,6 +21,7 @@ function App() {
       setEmps(response.data);
     }
     loadEmps();
+
   }, [emps]);
 
   async function handleAddEmp(data){
@@ -46,6 +48,7 @@ function App() {
         <>
           <EmpItem key={emp._id} emp={emp}/>
           <DeleteButton key={index} emp={emp} onClick={handleDeleteEmp}/>
+          <EditButton emp={emp}/>
         </>
         ))}
       </ul>
