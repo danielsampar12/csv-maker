@@ -9,10 +9,12 @@ routes.get('/clientes',EmpresaController.index);
 routes.get('/search', SearchController.index);
 
 routes.put('/edit', EmpresaController.update);
-routes.delete('/delete', EmpresaController.destroy);
+routes.delete('/clientes', EmpresaController.delete);
 
+
+/*
 routes.get('/', (request, response) =>{
   return response.json({message: 08577607933});
 })
-
+*/
 module.exports = routes;

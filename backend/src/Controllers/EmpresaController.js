@@ -1,5 +1,5 @@
 const Empresa = require('../models/Empresa');
-const objectId = require('mongodb').ObjectID;
+const {ObjectId} = require('mongodb');
 
 module.exports = {
   async index(request, response){
@@ -8,6 +8,7 @@ module.exports = {
   },
 
   async store(request, response){
+      console.log(request.body);
       const {cnpj} = request.body;
       let emp = await Empresa.findOne({cnpj});
       if(!emp){
@@ -107,8 +108,8 @@ module.exports = {
     return response.json(emp);
   },
  
-  async destroy(request, response){
-    const emp = await Empresa.findOneAndDelete({cnpj: request.body.cnpj}, (err, result) =>{
+  async delete(request, response){
+    const emp = await Empresa.findOneAndDelete({cnpj: request.query.cnpj}, (err, result) =>{
       if(err){
         console.log('Something went wrong deleting the data' + err);
       }
@@ -117,4 +118,5 @@ module.exports = {
     return response.json(emp);
   }
  
+  
 };
