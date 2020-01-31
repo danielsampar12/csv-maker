@@ -1,21 +1,8 @@
 import React from 'react';
 import './style.css';
 
-function EmpItem({ emp, onClick }){
-  //eslint-disable-next-line
-  async function handleClick(e){ 
-    await onClick({
-      cnpj: emp.cnpj,
-      razao_social: emp.razao_social,
-      valor_vcm: emp.valor_vcm,
-      representante: emp.representante,
-      responsavel: emp.responsavel,
-      endereco: emp.endereco,
-      cidade: emp.cidade,
-      ddd: emp.ddd,
-      telefone: emp.telefone,
-    });
-  }
+function EmpItem({ emp }){
+  
   return(
     <li className="emp-item">
           <header>

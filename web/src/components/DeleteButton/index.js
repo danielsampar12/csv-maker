@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React from 'react';
 import './style.css';
 
 function DeleteButton({emp, onClick}){ 
@@ -17,7 +17,7 @@ function DeleteButton({emp, onClick}){
     });
   }
   return(
-    <button onClick={handleClick}>Delete</button>
+    <button id="delete" onClick={handleClick}>Delete</button>
   );
 }
 
