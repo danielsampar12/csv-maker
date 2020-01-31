@@ -1,28 +1,23 @@
 import React, {useState} from 'react';
 import './style.css';
 
-function DeleteButton({onSubmit}){
-  const [cnpj, setCnpj] = useState('');
-  
-  async function handleOnClick(e){
-    e.preventDefault();
-    await onSubmit({
-      cnpj: cnpj
+function DeleteButton({emp, onClick}){ 
+  async function handleClick(e){ 
+    e.preventDefault()
+    await onClick({
+      cnpj: emp.cnpj,
+      razao_social: emp.razao_social,
+      valor_vcm: emp.valor_vcm,
+      representante: emp.representante,
+      responsavel: emp.responsavel,
+      endereco: emp.endereco,
+      cidade: emp.cidade,
+      ddd: emp.ddd,
+      telefone: emp.telefone,
     });
-    setCnpj('');
   }
-
   return(
-    <form onSubmit={handleOnClick}>
-      <label htmlFor="cnpjDelete">Deletar por CNPJ:</label>
-      <input 
-        name="cnpjDelete" 
-        id="cnpjDelete" 
-        required
-        value={cnpj}
-        onChange={e => setCnpj(e.target.value)}/>
-        <button type="submit">Delete</button>
-    </form>
+    <button onClick={handleClick}>Delete</button>
   );
 }
 

@@ -23,20 +23,21 @@ function App() {
   }, [emps]);
 
   async function handleAddEmp(data){
+    console.log(data);
     const response = await api.post('/clientes', data);
     setEmps([...emps, response.data]);
   }
 
   async function handleDeleteEmp(data){
     console.log(data)
-    await api.delete('/delete', data);
+    api.delete('/clientes', {params: {cnpj: data.cnpj}});
     
     /*let registros = emps.filter((emp) => {
-      return emp.cnpj !== data;
+      return emp.cnpj !== data.cnpj;
     });
     console.log(response);
     console.log(registros);
-    //setEmps({re})
+    //setEmps([])
     */
   }
   
@@ -45,14 +46,15 @@ function App() {
       <aside>
         <strong>Cadastrar</strong>
         <EmpForm onSubmit={handleAddEmp}/>
-        <DeleteButton onSubmit={handleDeleteEmp}/>
+        
       </aside>
       <main>
       <ul>
-        {emps.map(emp => (
-          
-         <EmpItem key={emp._id} emp={emp} onClick={handleDeleteEmp}/>
-         
+        {emps.map((emp, index) => (
+        <>
+          <EmpItem key={emp._id} emp={emp}/>
+          <DeleteButton key={index} emp={emp} onClick={handleDeleteEmp}/>
+        </>
         ))}
       </ul>
       </main>

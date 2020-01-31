@@ -8,6 +8,7 @@ module.exports = {
   },
 
   async store(request, response){
+      console.log(request.body);
       const {cnpj} = request.body;
       let emp = await Empresa.findOne({cnpj});
       if(!emp){
@@ -107,13 +108,12 @@ module.exports = {
     return response.json(emp);
   },
  
-  async destroy(request, response){
-    const emp = await Empresa.findOneAndDelete({cnpj: request.body.cnpj}, (err, result) =>{
-      console.log(request.body.cnpj)
+  async delete(request, response){
+    const emp = await Empresa.findOneAndDelete({cnpj: request.query.cnpj}, (err, result) =>{
       if(err){
         console.log('Something went wrong deleting the data' + err);
       }
-      //console.log(result);
+      console.log(result);
     });
     return response.json(emp);
   }
