@@ -31,14 +31,6 @@ function App() {
   async function handleDeleteEmp(data){
     console.log(data)
     api.delete('/clientes', {params: {cnpj: data.cnpj}});
-    
-    /*let registros = emps.filter((emp) => {
-      return emp.cnpj !== data.cnpj;
-    });
-    console.log(response);
-    console.log(registros);
-    //setEmps([])
-    */
   }
   
   return (
