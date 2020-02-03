@@ -42,7 +42,22 @@ form .expanded-content input{
   border-bottom: 1px solid #eee;
 }
 
+form button[type=submit]{
+  border: 0;
+  float: right;
+  background: #0683bd;
+  padding: 5px 5px;
+  margin-top: 10px;
+  border-radius: 2px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #FFF;
+  cursor: pointer;
+  transition: background 0.5s;
+}
+
 button[id=editButton]{
+  width: 100%;
   background: #0683bd;
   padding: 10px 10px;
   margin-top: 0;

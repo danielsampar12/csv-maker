@@ -10,3 +10,8 @@ main ul{
   list-style: none;
 }
 
+main .buttons{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
