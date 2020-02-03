@@ -11,7 +11,9 @@ function EmpItem({ emp }){
               <span>CNPJ: {emp.cnpj}</span>
             </div>
           </header>
+          <p>Nome Fantasia: {emp.nome_fantasia}</p>
           <p>VCM: {emp.valor_vcm}</p>
+          <p>Valide: {emp.valide}</p>
           <p>Representante: {emp.representante}</p>
           <p>Responsavel: {emp.responsavel}</p>
           <p>Endereco: {emp.endereco}</p>
