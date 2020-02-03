@@ -1,37 +1,52 @@
 import React,{useState} from 'react';
 import './style.css'
 
-function EditButton({emp, onClick}){
+function EditButton({emp, onSubmit}){
   const[razao_social, setRazaoSocial] = useState('');
   const[representante, setRepresentante] = useState('');
   const[responsavel, setResponsavel] = useState('');
-  //eslint-disable-next-line
   const[valor_vcm, setValorVCM] = useState('');
-  //eslint-disable-next-line
   const[endereco, setEndereco] = useState('');
-  //eslint-disable-next-line
   const[cidade, setCidade] = useState('');
-  //eslint-disable-next-line
   const[ddd, setDDD] = useState('');
-  //eslint-disable-next-line
   const[telefone, setTelefone] = useState('');
   const[expanded, setExpanded] = useState(false);
   
-  function handleEditSubmit(e){
-
+  async function handleEditSubmit(e){
+    e.preventDefault()
+    await onSubmit({
+      cnpj: emp.cnpj,
+      razao_social,
+      representante,
+      responsavel,
+      valor_vcm,
+      endereco,
+      cidade,
+      ddd,
+      telefone,
+    });
+    setExpanded(false);
+    setRazaoSocial('');
+    setRepresentante('');
+    setResponsavel('');
+    setValorVCM('');
+    setEndereco('');
+    setCidade('');
+    setDDD('');
+    setTelefone('');
   }
 
   function expandedText(){
-    if(expanded == false){
+    if(expanded === false){
       setExpanded(true);
     }else{
       setExpanded(false);
     }
   }
   
-  function getMoreTextDiv(){
+  function getMoreTextDiv(expanded){
     if(expanded){
-      return <form action="update">
+      return <form action="update" onSubmit={handleEditSubmit}>
               <strong>Você está editando o registro do CNPJ: {emp.cnpj}</strong>
                 <div className="expanded-content">
                 <label htmlFor="razao_social">Razão Social:</label>
@@ -67,12 +82,13 @@ function EditButton({emp, onClick}){
                 <input name="telefone" id="telefone" required value={telefone} onChange={e => setTelefone(e.target.value)}/>
                 </div>
                 </div>
+                <button type="submit">Salvar</button>
             </form>
     }else{
       return null;
     }
   }
-  let expandedDiv = getMoreTextDiv();
+  let expandedDiv = getMoreTextDiv(expanded);
   return(
     <div>
       <button id="editButton" onClick={expandedText}>Edit</button>

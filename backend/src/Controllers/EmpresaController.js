@@ -59,6 +59,7 @@ module.exports = {
   },
 
   async update(request, response){
+    console.log(request.body);
     const emp = await Empresa.findOneAndUpdate({cnpj: request.body.cnpj}, {$set:{
           cnpj: request.body.cnpj,
           valide: request.body.valide,

@@ -31,10 +31,16 @@ function App() {
   }
 
   async function handleDeleteEmp(data){
-    console.log(data)
+    console.log(data);
     api.delete('/clientes', {params: {cnpj: data.cnpj}});
   }
   
+  async function handleEditEmp(data){
+    console.log(data);
+    const response = await api.put('/edit', data);
+    //setEmps
+  }
+
   return (
     <div id="app">
       <aside>
@@ -47,8 +53,10 @@ function App() {
         {emps.map((emp, index) => (
         <>
           <EmpItem key={emp._id} emp={emp}/>
+          <div className="buttons">
           <DeleteButton key={index} emp={emp} onClick={handleDeleteEmp}/>
-          <EditButton emp={emp}/>
+          <EditButton emp={emp} onSubmit={handleEditEmp}/>
+          </div>
         </>
         ))}
       </ul>
