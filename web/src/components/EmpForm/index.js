@@ -3,9 +3,11 @@ import React, {useState} from 'react';
 function EmpForm({onSubmit}){
   const[cnpj, setCnpj] = useState('');
   const[razao_social, setRazaoSocial] = useState('');
+  const[nome_fantasia, setNomeFantasia] = useState('');
   const[representante, setRepresentante] = useState('');
   const[responsavel, setResponsavel] = useState('');
   const[valor_vcm, setValorVCM] = useState('');
+  const[valide, setValide] = useState('');
   const[endereco, setEndereco] = useState('');
   const[cidade, setCidade] = useState('');
   const[ddd, setDDD] = useState('');
@@ -16,9 +18,11 @@ function EmpForm({onSubmit}){
     await onSubmit({
       cnpj,
       razao_social,
+      nome_fantasia,
       representante,
       responsavel,
       valor_vcm,
+      valide,
       endereco,
       ddd,
       telefone,
@@ -26,9 +30,11 @@ function EmpForm({onSubmit}){
     });
     setCnpj('');
     setRazaoSocial('');
+    setNomeFantasia('');
     setRepresentante('');
     setResponsavel('');
     setValorVCM('');
+    setValide('');
     setEndereco('');
     setCidade('');
     setDDD('');
@@ -59,6 +65,16 @@ function EmpForm({onSubmit}){
           </div>
           
           <div className="input-block">
+          <label htmlFor="nome_fantasia">Nome Fantasia:</label>
+          <input 
+            name="nome_fantasia" 
+            id="nome_fantasia" 
+            required
+            value={nome_fantasia}
+            onChange={e => setNomeFantasia(e.target.value)}/>
+          </div>
+
+          <div className="input-block">
           <label htmlFor="representante">Representante:</label>
           <input 
             name="representante" 
@@ -86,6 +102,16 @@ function EmpForm({onSubmit}){
             required
             value={valor_vcm}
             onChange={e => setValorVCM(e.target.value)}/>
+          </div>
+
+          <div className="input-block">
+          <label htmlFor="valide">Valide:</label>
+          <input 
+            name="valide" 
+            id="valide" 
+            required
+            value={valide}
+            onChange={e => setValide(e.target.value)}/>
           </div>
 
           <div className="input-block">
