@@ -1,0 +1,34 @@
+table #empresas{
+  width: 100%;
+}
+
+#empresas{
+  text-align: center;
+  border-collapse: collapse;
+  border: 3px solid #ddd;
+  width: 100%;
+}
+
+#empresas td, #empresas th{
+  border: 1px solid #ddd;
+  padding: 10px 10px;
+}
+
+#empresas tr:nth-child(even){background-color: #f2f2f2;}
+
+#empresas tr:hover {background-color: #ddd;}
+
+#empresas th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #0683bd;
+  color: white;
+}
+
+ h1{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}

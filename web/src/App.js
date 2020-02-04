@@ -5,6 +5,7 @@ import EmpItem from './components/EmpItem';
 import EmpForm from './components/EmpForm';
 import DeleteButton from './components/DeleteButton';
 import EditButton from './components/EditButton'
+import EmpTable from './components/EmpTable'
 import './global.css';
 import './App.css';
 import './Sidebar.css';
@@ -41,6 +42,10 @@ function App() {
     //setEmps
   }
 
+  function handleClick(){
+    window.open()
+  }
+
   return (
     <div id="app">
       <aside>
@@ -49,17 +54,30 @@ function App() {
         
       </aside>
       <main>
-      <ul>
+          <h1>Clientes RDSampar</h1>
+          <table id="empresas">
+            <thead>
+              <tr>
+                <th key="cnpjHeader">CNPJ</th>
+                <th key="razao_socialHeader">Razão Social</th>
+                <th key="nome_fantasiaHeader">Nome fantasia</th>
+                <th key="representanteHeader">Representante</th>
+                <th key="responsavelHeader">Responsavel</th>
+                <th key="valor_vcmHeader">Valor VCM</th>
+                <th key="valideHeader">Valide</th>
+                <th key="enderecoHeader">Endereço</th>
+                <th key="cidadeHeader">Cidade</th>
+                <th key="dddHeader">DDD</th>
+                <th key="telefoneHeader">Telefone</th>
+              </tr>
+            </thead>
         {emps.map((emp, index) => (
-        <>
-          <EmpItem key={emp._id} emp={emp}/>
-          <div className="buttons">
-          <DeleteButton key={index} emp={emp} onClick={handleDeleteEmp}/>
-          <EditButton emp={emp} onSubmit={handleEditEmp}/>
-          </div>
-        </>
+            <tbody>
+              <EmpTable emp={emp} key={index}/>
+              
+            </tbody>
         ))}
-      </ul>
+        </table>
       </main>
     </div>
   );

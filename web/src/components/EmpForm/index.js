@@ -155,8 +155,10 @@ function EmpForm({onSubmit}){
               onChange={e => setTelefone(e.target.value)}/>
             </div>
           </div>
+          <div className="buttons">
           <button type="submit">Salvar</button>
           <button id="readMore">mais</button>
+          </div>
         </form>
   );
 }
