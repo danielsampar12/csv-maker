@@ -3,9 +3,9 @@ import './style.css';
 
 
 function EmpTable({emp}){
+
   return(
-    <>
-    <h1 id="title">Empresas Clientes:</h1>
+    
     <tr key={emp.id}>
       <td>{emp.cnpj}</td>
       <td>{emp.razao_social}</td>
@@ -19,7 +19,7 @@ function EmpTable({emp}){
       <td>{emp.ddd}</td>
       <td>{emp.telefone}</td>
     </tr>
-    </>
+    
   );
 }
 
