@@ -1,17 +1,21 @@
 import React, {useState} from 'react';
+import ReadMore from'./ReadMore';
+
 
 function EmpForm({onSubmit}){
   const[cnpj, setCnpj] = useState('');
   const[razao_social, setRazaoSocial] = useState('');
   const[nome_fantasia, setNomeFantasia] = useState('');
   const[representante, setRepresentante] = useState('');
-  const[responsavel, setResponsavel] = useState('');
+  const[utiliza, setUtiliza] = useState('');
   const[valor_vcm, setValorVCM] = useState('');
   const[valide, setValide] = useState('');
-  const[endereco, setEndereco] = useState('');
+  const[status_negociacao, setStatusNegociacao] = useState('');
+  const[observacao, setObservacao] = useState('');
   const[cidade, setCidade] = useState('');
   const[ddd, setDDD] = useState('');
   const[telefone, setTelefone] = useState('');
+  const[expand, setExpand] = useState(false);
 
   async function handleSubmit(e){
     e.preventDefault();
@@ -20,10 +24,11 @@ function EmpForm({onSubmit}){
       razao_social,
       nome_fantasia,
       representante,
-      responsavel,
+      utiliza,
       valor_vcm,
       valide,
-      endereco,
+      status_negociacao,
+      observacao,
       ddd,
       telefone,
       cidade,
@@ -32,13 +37,22 @@ function EmpForm({onSubmit}){
     setRazaoSocial('');
     setNomeFantasia('');
     setRepresentante('');
-    setResponsavel('');
+    setUtiliza('');
     setValorVCM('');
     setValide('');
-    setEndereco('');
+    setStatusNegociacao('');
+    setObservacao('');
     setCidade('');
     setDDD('');
     setTelefone('');
+  }
+
+  function handleReadMore(){
+    if(!expand){
+      setExpand(true);
+    }else{
+      setExpand(false);
+    }
   }
 
   return(
@@ -85,13 +99,13 @@ function EmpForm({onSubmit}){
           </div>
 
           <div className="input-block">
-          <label htmlFor="responsavel">Responsavel:</label>
+          <label htmlFor="utiliza">Utiliza:</label>
           <input
-            name="responsavel" 
-            id="responsavel" 
+            name="utiliza" 
+            id="utiliza" 
             required
-            value={responsavel}
-            onChange={e => setResponsavel(e.target.value)}/>
+            value={utiliza}
+            onChange={e => setUtiliza(e.target.value)}/>
           </div>
 
           <div className="input-block">
@@ -113,17 +127,7 @@ function EmpForm({onSubmit}){
             value={valide}
             onChange={e => setValide(e.target.value)}/>
           </div>
-
-          <div className="input-block">
-          <label htmlFor="endereco">Endereço:</label>
-          <input 
-            name="endereco" 
-            id="endereco" 
-            required
-            value={endereco}
-            onChange={e => setEndereco(e.target.value)}/>
-          </div>
-          
+                   
           <div className="input-block">
           <label htmlFor="cidade">Cidade:</label>
           <input 
@@ -132,6 +136,26 @@ function EmpForm({onSubmit}){
             required
             value={cidade}
             onChange={e => setCidade(e.target.value)}/>
+          </div>
+
+          <div className="input-block">
+          <label htmlFor="status_negociacao">Status de Negociação:</label>
+          <input 
+            name="status_negociacao" 
+            id="status_negociacao" 
+            required
+            value={status_negociacao}
+            onChange={e => setStatusNegociacao(e.target.value)}/>
+          </div>
+
+          <div className="input-block">
+          <label htmlFor="observacao">Observação:</label>
+          <input 
+            name="observacao" 
+            id="observacao" 
+            required
+            value={observacao}
+            onChange={e => setObservacao(e.target.value)}/>
           </div>
 
           <div className="input-group">
@@ -155,9 +179,12 @@ function EmpForm({onSubmit}){
               onChange={e => setTelefone(e.target.value)}/>
             </div>
           </div>
+          <div className="input-block">
+            <ReadMore expand={expand} onSubmit={handleSubmit}/>
+          </div>
           <div className="buttons">
           <button type="submit">Salvar</button>
-          <button id="readMore">mais</button>
+          <button id="readMore" onClick={handleReadMore}>mais</button>
           </div>
         </form>
   );
