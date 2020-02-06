@@ -1,6 +1,6 @@
 import React from 'react';
 import {useState, useEffect} from 'react';
-import api from './services/api';
+
 import EditButton from './components/EditButton';
 import EmpForm from './components/EmpForm';
 import DeleteButton from './components/DeleteButton';
@@ -11,35 +11,54 @@ import './App.css';
 import './Sidebar.css';
 import './Main.css';
 
+import api from './services/api';
+import {connect, disconnect} from './services/socket';
 
 function App() {
   const[emps, setEmps] = useState([]);
-  const[cnpj, setCnpj] = useState('');
+ 
   
   useEffect(() => {
-    async function loadEmps(){
+    async function reloadEmps(){
       const response = await api.get('/clientes');
       setEmps(response.data);
+      setUpWebSocket();
     }
-    loadEmps();
-
+    reloadEmps();
   }, [emps]);
+
+  function setUpWebSocket(){
+    connect();
+  }
+
+  async function loadEmps(){
+    const response = await api.get('/clientes');
+    setEmps(response.data);
+  }
 
   async function handleAddEmp(data){
     console.log(data);
     const response = await api.post('/clientes', data);
     setEmps([...emps, response.data]);
+    
   }
 
   async function handleDeleteEmp(data){
     console.log(data);
+    let empresas = emps.filter((empresa) => {
+      return empresa.cnpj !== data.cnpj
+    });
+    console.log(empresas)
     api.delete('/clientes', {params: {cnpj: data.cnpj}});
+    setEmps(empresas)
+    //setEmps(emps);
   }
   
   async function handleEditEmp(data){
     console.log(data);
     const response = await api.put('/edit', data);
-    setEmps([...emps, response.data]);
+    loadEmps();
+    
     //setEmps
   }
 
@@ -76,6 +95,7 @@ function App() {
               {emps.map((emp, index) => (
                   <tbody>
                     <EmpTable emp={emp} key={index} onChange={handleEditEmp}/>
+                    <DeleteButton emp={emp} key={emp.cnpj} onClick={handleDeleteEmp}/>
                   </tbody>
               ))}
              
