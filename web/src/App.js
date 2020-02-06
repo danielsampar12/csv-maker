@@ -1,10 +1,10 @@
 import React from 'react';
 import {useState, useEffect} from 'react';
 import api from './services/api';
-
+import EditButton from './components/EditButton';
 import EmpForm from './components/EmpForm';
 import DeleteButton from './components/DeleteButton';
-
+import Editable from './components/Editable'
 import EmpTable from './components/EmpTable';
 import './global.css';
 import './App.css';
@@ -14,7 +14,8 @@ import './Main.css';
 
 function App() {
   const[emps, setEmps] = useState([]);
-
+  const[cnpj, setCnpj] = useState('');
+  
   useEffect(() => {
     async function loadEmps(){
       const response = await api.get('/clientes');
@@ -38,6 +39,7 @@ function App() {
   async function handleEditEmp(data){
     console.log(data);
     const response = await api.put('/edit', data);
+    setEmps([...emps, response.data]);
     //setEmps
   }
 
@@ -66,16 +68,17 @@ function App() {
                 <th key="cidadeHeader">Cidade</th>
                 <th key="status_negociacaoHeader">Status da Negociação</th>
                 <th key="observacaoHeader">Observação</th>
+                <th key="dddHeader">DDD</th>
                 <th key="telefoneHeader">(DDD)Telefone</th>
                 
               </tr>
             </thead>
               {emps.map((emp, index) => (
                   <tbody>
-                    <EmpTable emp={emp} key={index}/>
-                    
+                    <EmpTable emp={emp} key={index} onChange={handleEditEmp}/>
                   </tbody>
               ))}
+             
         </table>
       </main>
     </div>

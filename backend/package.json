@@ -8,12 +8,10 @@
   },
   "dependencies": {
     "cors": "^2.8.5",
-    "csv-parser": "^2.3.2",
-    "csvtojson": "^2.0.10",
     "express": "^4.17.1",
     "fs": "^0.0.1-security",
-    "json2csv": "^4.5.4",
-    "mongoose": "^5.8.9"
+    "mongoose": "^5.8.9",
+    "react-table": "^7.0.0-rc.15"
   },
   "devDependencies": {
     "nodemon": "^2.0.2"
