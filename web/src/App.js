@@ -25,13 +25,16 @@ function App() {
       setUpWebSocket();
     }
     reloadEmps();
-  }, []);
+  }, [emps]);
 
   function setUpWebSocket(){
     connect();
   }
 
-
+  async function loadEmps(){
+    const response = await api.get('/clientes');
+    setEmps(response.data);
+  }
 
   async function handleAddEmp(data){
     console.log(data);
@@ -54,7 +57,7 @@ function App() {
   async function handleEditEmp(data){
     console.log(data);
     const response = await api.put('/edit', data);
-    setEmps([...emps, response.data]);
+    loadEmps();
     
     //setEmps
   }
