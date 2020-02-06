@@ -30,11 +30,11 @@ function EmpTable({emp, onChange}){
     setStatusNegociacao(emp.status_negociacao);
     setDDD(emp.ddd);
     setTelefone(emp.telefone);
-  },[]);
+  },[change]);
 
   async function handleOnChange(e){
     e.preventDefault();
-    setChange(0);
+    setChange(change + 1);
     await onChange({
       cnpj: emp.cnpj,
       razao_social,
