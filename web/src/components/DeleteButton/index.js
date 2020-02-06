@@ -17,7 +17,7 @@ function DeleteButton({emp, onClick}){
     });
   }
   return(
-    <button id="delete" onClick={handleClick}>Delete</button>
+    <button id="delete" onClick={handleClick}></button>
   );
 }
 

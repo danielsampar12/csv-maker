@@ -1,4 +1,4 @@
-import React,{useState, useEffect} from 'react';
+import React,{useState} from 'react';
 import './style.css';
 import Editable from '../Editable';
 
@@ -45,7 +45,7 @@ function EmpTable({emp, onChange}){
       </td>
       <td>
       <Editable text={razao_social} placeholder={razao_social} type="input">
-          <input type="text" name="razao_social" placeholder="razao_social" value={razao_social}
+          <input type="text" name="razao_social" placeholder="Razão Social" value={razao_social}
            onChange={e => setRazaoSocial(e.target.value)} onBlur={handleOnChange}/>
       </Editable>  
       </td>
