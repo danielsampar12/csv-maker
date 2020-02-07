@@ -17,7 +17,20 @@ function PageClientes(){
     reloadEmps();
   }, [emps]);
   
-  
+  async function loadEmps(){
+    const response = await api.get('/clientes');
+    setEmps(response.data)
+  }
+
+  async function handleEdit(data){
+    console.log(data);
+    await api.put('/edit', data);
+    loadEmps();
+    
+    //setEmps
+  }
+
+
   return(
     <main>
       <table id="empresas">
@@ -47,7 +60,7 @@ function PageClientes(){
         </thead>
         {emps.map((emp, index) => (
                   <tbody key={index}>
-                    <EmpFullTable emp={emp}/>
+                    <EmpFullTable emp={emp} onChange={handleEdit}/>
                   </tbody>
               ))}
       </table>
