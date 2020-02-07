@@ -3,7 +3,7 @@ import './style.css';
 import Editable from '../Editable';
 
 
-function EmpTable({emp, onChange}){
+function EmpTable({emp, onChange, onClick}){
   
   const[razao_social, setRazaoSocial] = useState(emp.razao_social);
   const[nome_fantasia, setNomeFantasia] = useState(emp.nome_fantasia);
@@ -37,11 +37,18 @@ function EmpTable({emp, onChange}){
     });
   }
 
+  async function handleClickDelete(e){
+   e.preventDefault();
+   await onClick({
+     cnpj: emp.cnpj,
+   });
+  }
+
   return(
     
     <tr key={emp.id}>
       <td>
-        {emp.cnpj}
+        <a href="/" onClick={handleClickDelete}>{emp.cnpj}</a>
       </td>
       <td>
       <Editable text={razao_social} placeholder={razao_social} type="input">

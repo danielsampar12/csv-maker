@@ -88,7 +88,7 @@ function App() {
             </thead>
               {emps.map((emp, index) => (
                   <tbody key={index}>
-                    <EmpTable emp={emp} key={emp.id} onChange={handleEditEmp}/>
+                    <EmpTable emp={emp} key={emp.id} onChange={handleEditEmp} onClick={handleDeleteEmp}/>
                   </tbody>
               ))}
              
