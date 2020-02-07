@@ -18,6 +18,7 @@ button[id=delete] {
   color: #FFF;
   cursor: pointer;
   transition: background 0.5s;
+  float: right;
 }
 
 button[id=delete] :hover{

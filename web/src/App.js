@@ -1,36 +1,32 @@
 import React from 'react';
 import {useState, useEffect} from 'react';
-
-import EditButton from './components/EditButton';
 import EmpForm from './components/EmpForm';
-import DeleteButton from './components/DeleteButton';
-import Editable from './components/Editable'
 import EmpTable from './components/EmpTable';
+import DeleteButton from './components/DeleteButton';
 import './global.css';
 import './App.css';
 import './Sidebar.css';
 import './Main.css';
 
 import api from './services/api';
-import {connect, disconnect} from './services/socket';
+//import {connect, disconnect} from './services/socket';
 
 function App() {
   const[emps, setEmps] = useState([]);
- 
   
   useEffect(() => {
     async function reloadEmps(){
       const response = await api.get('/clientes');
       setEmps(response.data);
-      setUpWebSocket();
+      //setUpWebSocket();
     }
     reloadEmps();
   }, [emps]);
-
+/*
   function setUpWebSocket(){
     connect();
   }
-
+*/
   async function loadEmps(){
     const response = await api.get('/clientes');
     setEmps(response.data);
@@ -42,7 +38,7 @@ function App() {
     setEmps([...emps, response.data]);
     
   }
-
+ 
   async function handleDeleteEmp(data){
     console.log(data);
     let empresas = emps.filter((empresa) => {
@@ -63,13 +59,11 @@ function App() {
   }
 
 
-
   return (
     <div id="app">
       <aside>
         <strong>Cadastrar</strong>
         <EmpForm onSubmit={handleAddEmp}/>
-        
       </aside>
       <main>
         
@@ -93,9 +87,8 @@ function App() {
               </tr>
             </thead>
               {emps.map((emp, index) => (
-                  <tbody>
-                    <EmpTable emp={emp} key={index} onChange={handleEditEmp}/>
-                    <DeleteButton emp={emp} key={emp.cnpj} onClick={handleDeleteEmp}/>
+                  <tbody key={index}>
+                    <EmpTable emp={emp} key={emp.id} onChange={handleEditEmp} onClick={handleDeleteEmp}/>
                   </tbody>
               ))}
              
