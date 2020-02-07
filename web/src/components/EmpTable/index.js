@@ -1,10 +1,10 @@
 import React,{useState} from 'react';
 import './style.css';
 import Editable from '../Editable';
-
+import {Link} from 'react-router-dom';
 
 function EmpTable({emp, onChange, onClick}){
-  
+  const[cnpj, setCnpj] = useState(emp.cnpj);
   const[razao_social, setRazaoSocial] = useState(emp.razao_social);
   const[nome_fantasia, setNomeFantasia] = useState(emp.nome_fantasia);
   const[representante, setRepresentante] = useState(emp.representante);
@@ -48,7 +48,7 @@ function EmpTable({emp, onChange, onClick}){
     
     <tr key={emp.id}>
       <td>
-        <a href="/" onClick={handleClickDelete}>{emp.cnpj}</a>
+        <Link to={'/clientes'} >{emp.cnpj}</Link> 
       </td>
       <td>
       <Editable text={razao_social} placeholder={razao_social} type="input">
@@ -116,7 +116,9 @@ function EmpTable({emp, onChange, onClick}){
            onChange={e => setTelefone(e.target.value)} onBlur={handleOnChange}/>
         </Editable>
       </td>
-      
+      <td>
+      <Link to={'/search/?x=cnpj&text=' + (emp.cnpj) }>Read More</Link>
+      </td>
     </tr>
     
   );

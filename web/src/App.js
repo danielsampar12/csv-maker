@@ -7,7 +7,7 @@ import './global.css';
 import './App.css';
 import './Sidebar.css';
 import './Main.css';
-
+import {Link} from 'react-router-dom';
 import api from './services/api';
 //import {connect, disconnect} from './services/socket';
 
@@ -82,7 +82,7 @@ function App() {
                 <th key="status_negociacaoHeader">Status da Negociação</th>
                 <th key="observacaoHeader">Observação</th>
                 <th key="dddHeader">DDD</th>
-                <th key="telefoneHeader">(DDD)Telefone</th>
+                <th key="telefoneHeader">Telefone</th>
                 
               </tr>
             </thead>
