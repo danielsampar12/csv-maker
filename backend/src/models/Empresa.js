@@ -28,7 +28,7 @@ const EmpresaSchema = new mongoose.Schema({
   email2: String,
   observacao: String,
   localizar_cnpj: Number,
-  data_primeiro_contrato: Date,
+  data_primeiro_contato: Date,
   hora: String,
   documento_consulta: String,
   percentagem_cnpj: Number,

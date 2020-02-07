@@ -48,7 +48,7 @@ function EmpTable({emp, onChange, onClick}){
     
     <tr key={emp.id}>
       <td>
-        <a href="/" onClick={handleClickDelete}>{emp.cnpj}</a>
+        <Link to={'/clientes'} >{emp.cnpj}</Link> 
       </td>
       <td>
       <Editable text={razao_social} placeholder={razao_social} type="input">
@@ -117,8 +117,7 @@ function EmpTable({emp, onChange, onClick}){
         </Editable>
       </td>
       <td>
-        <Link to={'/'}>Home</Link>
-        <Link to={'/search/:cnpj'} >Search</Link>
+      <Link to={'/search/?x=cnpj&text=' + (emp.cnpj) }>Read More</Link>
       </td>
     </tr>
     

@@ -1,19 +1,29 @@
 import React from 'react';
-import {browserHistory} from 'react-router';
+import {useHistory} from 'react-router';
 
 
 function SearchForm(){
-  function onNavegateHome(){
-    browserHistory.push('/');
-  }
+
+
+  function getUrlVars() {
+    let vars = {};
+    let parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function(m,key,value) {
+        vars[key] = value;
+    });
+    return vars;
+}
+
+let campo = getUrlVars()["x"];
+let cnpj = getUrlVars()["text"];
+
 
 
   return(
     <>
     <form action="">
-      <h1>Você está editando o registro do CNPJ: </h1>
+  <h1>Você está editando o registro do CNPJ: {cnpj}</h1>
     </form>
-    <button onClick={onNavegateHome}>Home</button>
+    
     </>
   );
 }
