@@ -57,6 +57,7 @@ function EmpForm({onSubmit}){
 
   return(
     <form onSubmit={handleSubmit}>
+      <div className="input-group">
           <div className="input-block">
           <label htmlFor="cnpj">CNPJ:</label>
           <input 
@@ -158,7 +159,7 @@ function EmpForm({onSubmit}){
             onChange={e => setObservacao(e.target.value)}/>
           </div>
 
-          <div className="input-group">
+          <div className="input-group-telefone">
             <div className="input-block">
             <label htmlFor="ddd">DDD:</label>
             <input 
@@ -182,10 +183,12 @@ function EmpForm({onSubmit}){
           <div className="input-block">
             <ReadMore expand={expand} onSubmit={handleSubmit}/>
           </div>
+        </div>
           <div className="buttons">
           <button type="submit">Salvar</button>
           <button id="readMore" onClick={handleReadMore}>mais</button>
           </div>
+      
         </form>
   );
 }

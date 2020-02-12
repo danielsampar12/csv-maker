@@ -2,16 +2,18 @@ const Empresa = require('../models/Empresa');
 
 module.exports = {
   async index(request, response){
-    console.log(request.query)
-    const {cnpj} = request.query;
+    console.log(request.body)
+    
 
-    const emp = await Empresa.find({
-      cnpj: {
-        $in: cnpj
+    const emp = await Empresa.findOne({cnpj: request.query.cnpj}, (err, result) =>{
+      if(err){
+        console.log(err);
       }
-    });
-    return response.json({ emp });
+      console.log(result);
+    })
+    return response.json(emp);
   },
 
   
 };
+//{cnpj: request.query.cnpj}

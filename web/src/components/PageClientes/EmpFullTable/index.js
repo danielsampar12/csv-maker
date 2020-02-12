@@ -39,6 +39,14 @@ function EmpFullTable({emp, onChange}){
       valide,
       cidade,
       status_negociacao,
+      status_venda,
+      observacao,
+      ddd,
+      telefone,
+      usa_pefin,
+      data_primeiro_contato,
+      data_ultimo_contato,
+      data_retorno,
     });
   }
 

@@ -4,6 +4,7 @@ import Editable from '../Editable';
 import {Link} from 'react-router-dom';
 
 function EmpTable({emp, onChange, onClick}){
+ 
   const[cnpj, setCnpj] = useState(emp.cnpj);
   const[razao_social, setRazaoSocial] = useState(emp.razao_social);
   const[nome_fantasia, setNomeFantasia] = useState(emp.nome_fantasia);
@@ -48,7 +49,7 @@ function EmpTable({emp, onChange, onClick}){
     
     <tr key={emp.id}>
       <td>
-        <Link to={'/search/?x=cnpj&text=' + (emp.cnpj) }>{emp.cnpj}</Link>
+        <Link to={'/search?cnpj=' + (emp.cnpj) } target="_blank">{emp.cnpj}</Link>
       </td>
       <td>
       <Editable text={razao_social} placeholder={razao_social} type="input">

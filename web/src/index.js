@@ -4,7 +4,7 @@ import App from './App';
 import { Route, Link, BrowserRouter, Switch } from 'react-router-dom';
 import ErrorPage from './components/PageNotFound'
 import PageClientes from './components/PageClientes';
-import SearchForm from './components/SearchForm';
+import SearchPage from './components/SearchPage';
 
 const routs = (
   <BrowserRouter>
@@ -13,7 +13,7 @@ const routs = (
          <Switch>
             <Route exact path="/" component={App} />
             <Route path="/clientes" component={PageClientes} />
-            <Route path="/search"component={SearchForm}/>
+            <Route path="/search"component={SearchPage}/>
             <Route component={ErrorPage} />
          </Switch>
       </div>

@@ -1,12 +1,13 @@
 import React, {useState, useEffect} from 'react'
 import EmpFullTable from './EmpFullTable';
+
 import api from '../../services/api';
 import './style.css';
+import {Link} from 'react-router-dom';
 
 
 function PageClientes(){
   const[emps, setEmps] = useState([]);
-
 
   useEffect(() => {
     async function reloadEmps(){
@@ -15,7 +16,7 @@ function PageClientes(){
       //setUpWebSocket();
     }
     reloadEmps();
-  }, [emps]);
+  }, []);
   
   async function loadEmps(){
     const response = await api.get('/clientes');
@@ -24,14 +25,19 @@ function PageClientes(){
 
   async function handleEdit(data){
     console.log(data);
-    await api.put('/edit', data);
+    await api.put('/clientes', data);
     loadEmps();
     
     //setEmps
   }
 
 
+
   return(
+    <>
+    <nav>
+     <Link to={'/search'}>Página de pesquisa</Link>
+    </nav>
     <main>
       <table id="empresas">
         <thead>
@@ -62,9 +68,11 @@ function PageClientes(){
                   <tbody key={index}>
                     <EmpFullTable emp={emp} onChange={handleEdit}/>
                   </tbody>
-              ))}
+              )).reverse()}
       </table>
+          
     </main>
+    </>
   )
 }
 
