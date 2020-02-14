@@ -15,6 +15,9 @@ function EmpForm({onSubmit}){
   const[cidade, setCidade] = useState('');
   const[ddd, setDDD] = useState('');
   const[telefone, setTelefone] = useState('');
+  const[valor_concorrencia, setValorConcorrencia] = useState('');
+  const[data_ultimo_contato, setDataUltimoContato] = useState('');
+  const[status_venda, setStatusVenda] = useState('');
   const[expand, setExpand] = useState(false);
 
   async function handleSubmit(e){
@@ -32,6 +35,9 @@ function EmpForm({onSubmit}){
       ddd,
       telefone,
       cidade,
+      valor_concorrencia,
+      data_ultimo_contato,
+      status_venda,
     });
     setCnpj('');
     setRazaoSocial('');
@@ -45,6 +51,9 @@ function EmpForm({onSubmit}){
     setCidade('');
     setDDD('');
     setTelefone('');
+    setValorConcorrencia('');
+    setDataUltimoContato('');
+    setStatusVenda('');
   }
 
   function handleReadMore(){
@@ -180,9 +189,22 @@ function EmpForm({onSubmit}){
               onChange={e => setTelefone(e.target.value)}/>
             </div>
           </div>
+          <div  className="input-block">
+            <label htmlFor="valor_concorrencia">Valor Concorrencia:</label>
+            <input name="valor_concorrencia" id="valor_concorrencia" required value={valor_concorrencia} onChange={e => setValorConcorrencia(e.target.value)}/>
+            </div>
+            <div  className="input-block">
+            <label htmlFor="data_ultimo_contato">Data Último Contato:</label>
+            <input name="data_ultimo_contato" id="data_ultimo_contato" required value={data_ultimo_contato} onChange={e => setDataUltimoContato(e.target.value)}/>
+            </div>
+            <div  className="input-block">
+            <label htmlFor="status_venda">Status da Venda:</label>
+            <input name="status_venda" id="status_venda" required value={status_venda} onChange={e => setStatusVenda(e.target.value)}/>
+            </div>
           <div className="input-block">
             <ReadMore expand={expand} onSubmit={handleSubmit}/>
           </div>
+
         </div>
           <div className="buttons">
           <button type="submit">Salvar</button>

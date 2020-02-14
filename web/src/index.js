@@ -5,6 +5,7 @@ import { Route, Link, BrowserRouter, Switch } from 'react-router-dom';
 import ErrorPage from './components/PageNotFound'
 import PageClientes from './components/PageClientes';
 import SearchPage from './components/SearchPage';
+import ReadMorePage from './components/ReadMorePage';
 
 const routs = (
   <BrowserRouter>
@@ -14,6 +15,7 @@ const routs = (
             <Route exact path="/" component={App} />
             <Route path="/clientes" component={PageClientes} />
             <Route path="/search"component={SearchPage}/>
+            <Route path="/searchByCNPJ"component={ReadMorePage}/>
             <Route component={ErrorPage} />
          </Switch>
       </div>

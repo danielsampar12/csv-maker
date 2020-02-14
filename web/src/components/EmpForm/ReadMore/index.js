@@ -14,6 +14,9 @@ function ReadMore({expand, onSubmit}){
       data_ultimo_contato,
       status_venda,
     });
+    setValorConcorrencia('');
+    setDataUltimoContato('');
+    setStatusVenda('');
   }
 
   function getMore(expand){

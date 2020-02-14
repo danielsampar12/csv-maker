@@ -11,7 +11,7 @@ module.exports = {
         $options: 'i'
       }
     });
-    return response.json({ emp });
+    return response.json( emp );
   }
 
 }
