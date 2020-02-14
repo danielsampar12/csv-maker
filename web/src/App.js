@@ -61,7 +61,14 @@ function App() {
 
   return (
     <div id="app">
-      <Link to={'/clientes'} target="_blank">Modo Planilha</Link> 
+      <nav id="pages">
+        <div className="link">
+          <Link to={'/clientes'} target="_blank">Modo Planilha</Link> 
+        </div>
+        <div className="pages">
+          <Link to={'/search'} target="_blank">Página de pesquisa</Link>
+        </div>
+      </nav>
       <aside>
         <strong>Cadastrar</strong>
         <EmpForm onSubmit={handleAddEmp}/>

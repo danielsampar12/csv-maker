@@ -1,5 +1,5 @@
 import React,{useState} from 'react'
-import Editable from '../../Editable';
+import Editable from '../Editable';
 
 
 function EmpFullTable({emp, onChange}){

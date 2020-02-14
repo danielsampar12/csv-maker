@@ -1,0 +1,54 @@
+aside{
+  width: 320px;
+  background: #FFF;
+  box-shadow: 0 0 14px 0 rgba(0, 0, 0, 0.02);
+  border-radius: 2px;
+  padding: 30px 20px;
+}
+
+aside strong{
+  font-size: 20px;
+  text-align: center;
+  display: block;
+  color: #333;
+}
+
+aside form{
+  margin-top: 20px;
+}
+
+
+table #search-table{
+  width: 720px;
+}
+
+#search-table {
+  text-align: center;
+  border-collapse: collapse;
+  border: 3px solid #ddd;
+}
+
+#search-table td, #search-table th{
+  border: 1px solid #ddd;
+  padding: 10px 10px;
+}
+
+#search-table tr:nth-child(even){background-color: #f2f2f2;}
+
+#search-table tr:hover {background-color: #ddd;}
+
+#search-table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #0683bd;
+  color: white;
+}
+
+h1{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 20px;
+}

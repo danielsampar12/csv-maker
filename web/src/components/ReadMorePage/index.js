@@ -1,68 +1,60 @@
 import React,{useState, useEffect} from 'react';
-import api from '../../services/api';
-import Navigator from '../Navigator';
 import EmpFullTable from '../EmpFullTable';
-import mongoose from 'mongoose';
+import api from '../../services/api';
 import './style.css';
 
 
-function SearchPage(){
-  const[emps, setEmps] = useState([]);
- 
-
+function ReadMorePage(){
+   const[emps, setEmps] = useState([]);
+  function getUrlVars() {
+    let vars = {};
+    let parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function(m,key,value) {
+        vars[key] = value;
+    });
+    return vars;
+}
+  let cnpj = getUrlVars()["cnpj"];
   useEffect(() => {
-    async function reloadEmps(){
-      const response = await api.get('/clientes');
-      setEmps(response.data);
-      console.log(response.data)
-      //setUpWebSocket();
-    }
-    reloadEmps();
-  }, []);
-
-  async function loadEmps(){
-    const response = await api.get('/clientes');
-    setEmps(response.data)
-  }
-
-  async function handleEdit(data){
-    console.log(data);
-    await api.put('/clientes', data);
-    loadEmps();
-    
-    //setEmps
-  }
-
-  async function handleSearchByCnpj(data){
-    console.log(data)
-    const response = await api.get('/search', {params: {cnpj: data.data}});
-    console.log(response.data);
+  async function reloadEmps(){
+    const response = await api.get('/search', {params: {cnpj: cnpj}});
     if(response.data){
       setEmps([response.data]);
     }else{
-      return window.alert('CNPJ: ' + data.data + ' não encontrado');
+      return window.alert('CNPJ: ' + cnpj + ' não encontrado, possivelmente foi deletado da base de dados.')
     }
+    
+    console.log(response.data)
+    //setUpWebSocket();
+  }
+  reloadEmps();
+}, []);
+
+async function loadEmps(){
+  const response = await api.get('/search', {params: {cnpj: cnpj}});
+  if(response.data){
+    setEmps([response.data])
+  }else{
+    return window.alert('Registro de CNPJ: ' + cnpj + ' deletado.')
   }
   
-  async function handleSearchByRepresentante(data){
-    console.log(data);
-    const response = await api.get('/searchByRepresentante', {params: {representante: data.data}})
-    console.log(response.data);
-    if(response.data){
-      setEmps([response.data]);
-    }else{
-      return window.alert('Representante ' + data.data + ' não encontrado');
-    }
-  }
+}
 
+async function handleEdit(data){
+  console.log(data);
+  await api.put('/clientes', data);
+  loadEmps();
+  
+  //setEmps
+}
+
+async function handleDeleteEmp(){
+ 
+ await api.delete('/clientes', {params: {cnpj: cnpj}});
+  loadEmps();
+  //setEmps(emps);
+}
+  
   return(
-    <>
-    <aside>
-      <div id="nav">
-      <Navigator searchBy={'cnpj'} onSubmit={handleSearchByCnpj}/>
-      <Navigator searchBy={'representante'} onSubmit={handleSearchByRepresentante}/>
-      </div>
-    </aside>
     <main>
     <table id="search-table">
       <thead>
@@ -99,9 +91,12 @@ function SearchPage(){
                   </tbody>
               )).reverse()}
     </table>
+    <button type="delete" 
+    onClick={() =>{if(window.confirm('Tem certeza que deseja deletar o registro de CPNJ:' + cnpj + '?')) handleDeleteEmp()}} 
+      >Deletar registro do CNPJ: {cnpj}</button>
     </main>
-  </>
   );
 }
 
-export default SearchPage;
+
+export default ReadMorePage;
