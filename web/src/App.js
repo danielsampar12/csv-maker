@@ -9,7 +9,7 @@ import './Sidebar.css';
 import './Main.css';
 import {Link} from 'react-router-dom';
 import api from './services/api';
-//import {connect, disconnect} from './services/socket';
+import {connect, disconnect} from './services/socket';
 
 function App() {
   const[emps, setEmps] = useState([]);
@@ -52,7 +52,7 @@ function App() {
   
   async function handleEditEmp(data){
     console.log(data);
-    const response = await api.put('/edit', data);
+    const response = await api.put('/clientes', data);
     loadEmps();
     
     //setEmps
@@ -61,6 +61,7 @@ function App() {
 
   return (
     <div id="app">
+      <Link to={'/clientes'} target="_blank">Modo Planilha</Link> 
       <aside>
         <strong>Cadastrar</strong>
         <EmpForm onSubmit={handleAddEmp}/>
@@ -90,7 +91,7 @@ function App() {
                   <tbody key={index}>
                     <EmpTable emp={emp} key={emp.id} onChange={handleEditEmp} onClick={handleDeleteEmp}/>
                   </tbody>
-              ))}
+              )).reverse()}
              
         </table>
       </main>

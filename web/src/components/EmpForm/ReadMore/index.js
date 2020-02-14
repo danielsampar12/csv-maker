@@ -19,18 +19,20 @@ function ReadMore({expand, onSubmit}){
   function getMore(expand){
     if(expand){
       return <form onSubmit={handleSubmitReadMore}>
-                <div  className="expanded-input">
+              <div className="input-group">
+                <div  className="input-block">
                 <label htmlFor="valor_concorrencia">Valor Concorrencia:</label>
                 <input name="valor_concorrencia" id="valor_concorrencia" required value={valor_concorrencia} onChange={e => setValorConcorrencia(e.target.value)}/>
                 </div>
-                <div  className="expanded-input">
+                <div  className="input-block">
                 <label htmlFor="data_ultimo_contato">Data Último Contato:</label>
                 <input name="data_ultimo_contato" id="data_ultimo_contato" required value={data_ultimo_contato} onChange={e => setDataUltimoContato(e.target.value)}/>
                 </div>
-                <div  className="expanded-input">
+                <div  className="input-block">
                 <label htmlFor="status_venda">Status da Venda:</label>
                 <input name="status_venda" id="status_venda" required value={status_venda} onChange={e => setStatusVenda(e.target.value)}/>
                 </div>
+              </div>
                 <button type="submit">salvar readmore</button>
             </form>
     }else{

@@ -14,7 +14,7 @@ routes.get('/search', SearchController.index);
 routes.get('/searchByRepresentante', SearchByRepresentante.index);
 routes.get('/searchByStatusNegociacao', SearchByStatusNegociacao.index);
 
-routes.put('/edit', EmpresaController.update);
+routes.put('/clientes', EmpresaController.update);
 routes.delete('/clientes', EmpresaController.delete);
 
 

@@ -17,19 +17,30 @@ aside form{
   margin-top: 20px;
 }
 
+aside form .input-block{
+  width: 95%;
+  display: grid;
+  margin-top: 20px;
+}
+
 aside form .input-block + .input-block{
   margin-top: 20px;
 }
 
-aside form .input-group{
+aside form .input-group-telefone{
   margin-top: 20px;
   display: grid;
   gap: 20px;
   grid-template-columns: 1fr 5fr;
 }
 
-aside form .input-group .input-block{
+aside form .input-group-telefone .input-block{
   margin-top: 0;
+}
+
+aside form .input-group{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 aside form .input-block label{
