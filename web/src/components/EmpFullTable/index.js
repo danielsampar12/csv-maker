@@ -1,6 +1,6 @@
 import React,{useState} from 'react'
 import Editable from '../Editable';
-
+import {Link} from 'react-router-dom';
 
 function EmpFullTable({emp, onChange}){
   const[cnpj, setCnpj] = useState(emp.cnpj);
@@ -55,7 +55,7 @@ function EmpFullTable({emp, onChange}){
     
     <tr key={emp.id}>
       <td>
-        {emp.cnpj}
+      <Link to={'/searchByCNPJ/search?cnpj=' + (emp.cnpj) } >{emp.cnpj}</Link>
       </td>
       <td>
       <Editable text={razao_social} placeholder={razao_social} type="input">
@@ -66,7 +66,7 @@ function EmpFullTable({emp, onChange}){
       <td>
       <Editable text={nome_fantasia} placeholder={nome_fantasia} type="input">
           <input type="text" name="nome_fantasia" placeholder="Nome Fantasia" value={nome_fantasia}
-           onChange={e => setRazaoSocial(e.target.value)} onBlur={handleOnBlur}/>
+           onChange={e => setNomeFantasia(e.target.value)} onBlur={handleOnBlur}/>
       </Editable>  
       </td>
       <td>
