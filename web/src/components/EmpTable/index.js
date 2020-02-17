@@ -49,7 +49,7 @@ function EmpTable({emp, onChange, onClick}){
     
     <tr key={emp.id}>
       <td>
-        <Link to={'/searchByCNPJ/search?cnpj=' + (emp.cnpj) } >{emp.cnpj}</Link>
+      <Link to={'/searchByCNPJ/search?cnpj=' + (emp.cnpj) } >{emp.cnpj}</Link>
       </td>
       <td>
       <Editable text={razao_social} placeholder={razao_social} type="input">

@@ -94,12 +94,11 @@ function App() {
                 
               </tr>
             </thead>
+            <tbody>
               {emps.map((emp, index) => (
-                  <tbody key={index}>
-                    <EmpTable emp={emp} key={emp.id} onChange={handleEditEmp} onClick={handleDeleteEmp}/>
-                  </tbody>
+                    <EmpTable emp={emp} key={emp._id} onChange={handleEditEmp} onClick={handleDeleteEmp}/>
               )).reverse()}
-             
+          </tbody>   
         </table>
       </main>
     </div>

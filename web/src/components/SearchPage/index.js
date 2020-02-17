@@ -8,7 +8,7 @@ import './style.css';
 
 function SearchPage(){
   const[emps, setEmps] = useState([]);
- 
+  const [isSearching, setIsSearching] = useState(false);
 
   useEffect(() => {
     async function reloadEmps(){
@@ -20,40 +20,49 @@ function SearchPage(){
     reloadEmps();
   }, []);
 
-  async function loadEmps(){
-    const response = await api.get('/clientes');
-    setEmps(response.data)
+  async function loadEmps(emp){
+    if(isSearching){
+      const response = await api.get('/search', {params: {cnpj: emp.data.cnpj}});
+      const arrayNovo = [response.data]
+      setEmps(arrayNovo);
+    }else{
+      const response = await api.get('/clientes');
+      setEmps(response.data);
+    }
   }
 
   async function handleEdit(data){
     console.log(data);
-    await api.put('/clientes', data);
-    loadEmps();
+    const emp = await api.put('/clientes', data);
+    loadEmps(emp);
     
     //setEmps
   }
 
   async function handleSearchByCnpj(data){
-    console.log(data)
     const response = await api.get('/search', {params: {cnpj: data.data}});
-    console.log(response.data);
+    const arrayNovo = [response.data];
+    //criação do novo array por motivos de imutabilidade (se retornar apenas um registro o state deixa deixaria de ser um array)
+    
     if(response.data){
-      setEmps([response.data]);
+      setEmps(arrayNovo);
     }else{
       return window.alert('CNPJ: ' + data.data + ' não encontrado');
     }
   }
   
   async function handleSearchByRepresentante(data){
-    console.log(data);
     const response = await api.get('/searchByRepresentante', {params: {representante: data.data}})
-    console.log(response.data);
+    
     if(response.data){
-      setEmps([response.data]);
+      setEmps(response.data);
     }else{
       return window.alert('Representante ' + data.data + ' não encontrado');
     }
+    
   }
+
+ 
 
   return(
     <>
@@ -91,13 +100,11 @@ function SearchPage(){
           </tr>
         
       </thead>
-      {emps.map((emp, index) => (
-                  <tbody key={index}>
-                    
-                    <EmpFullTable emp={emp} key={emp.id} onChange={handleEdit}/>
-                    
-                  </tbody>
-              )).reverse()}
+      <tbody>
+        {emps.map((emp, index) => (
+                <EmpFullTable emp={emp} key={emp._id} onChange={handleEdit}/>
+                )).reverse()}
+      </tbody>
     </table>
     </main>
   </>
