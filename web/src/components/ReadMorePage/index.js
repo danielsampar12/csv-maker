@@ -14,14 +14,11 @@ function ReadMorePage(){
     return vars;
 }
   let cnpj = getUrlVars()["cnpj"];
+ 
   useEffect(() => {
   async function reloadEmps(){
     const response = await api.get('/search', {params: {cnpj: cnpj}});
-    if(response.data){
-      setEmps([response.data]);
-    }else{
-      return window.alert('CNPJ: ' + cnpj + ' não encontrado, possivelmente foi deletado da base de dados.')
-    }
+    setEmps(response.data);
     
     console.log(response.data)
     //setUpWebSocket();
@@ -31,11 +28,7 @@ function ReadMorePage(){
 
 async function loadEmps(){
   const response = await api.get('/search', {params: {cnpj: cnpj}});
-  if(response.data){
-    setEmps([response.data])
-  }else{
-    return window.alert('Registro de CNPJ: ' + cnpj + ' deletado.')
-  }
+  setEmps(response.data)
   
 }
 
@@ -84,13 +77,11 @@ async function handleDeleteEmp(){
           </tr>
         
       </thead>
-      {emps.map((emp, index) => (
-                  <tbody key={index}>
-                    
-                    <EmpFullTable emp={emp} key={emp.id} onChange={handleEdit}/>
-                    
-                  </tbody>
-              )).reverse()}
+      <tbody>
+        {emps.map((emp, index) => (
+              <EmpFullTable emp={emp} key={emp.id} onChange={handleEdit}/>
+                )).reverse()}
+      </tbody>
     </table>
     <button type="delete" 
     onClick={() =>{if(window.confirm('Tem certeza que deseja deletar o registro de CPNJ:' + cnpj + '?')) handleDeleteEmp()}} 
