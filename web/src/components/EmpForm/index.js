@@ -13,6 +13,7 @@ function EmpForm({onSubmit}){
   const[status_negociacao, setStatusNegociacao] = useState('');
   const[observacao, setObservacao] = useState('');
   const[cidade, setCidade] = useState('');
+  const[uf, setUf] = useState('');
   const[ddd, setDDD] = useState('');
   const[telefone, setTelefone] = useState('');
   const[valor_concorrencia, setValorConcorrencia] = useState('');
@@ -35,6 +36,7 @@ function EmpForm({onSubmit}){
       ddd,
       telefone,
       cidade,
+      uf,
       valor_concorrencia,
       data_ultimo_contato,
       status_venda,
@@ -49,6 +51,7 @@ function EmpForm({onSubmit}){
     setStatusNegociacao('');
     setObservacao('');
     setCidade('');
+    setUf('');
     setDDD('');
     setTelefone('');
     setValorConcorrencia('');
@@ -200,6 +203,10 @@ function EmpForm({onSubmit}){
             <div  className="input-block">
             <label htmlFor="status_venda">Status da Venda:</label>
             <input name="status_venda" id="status_venda" required value={status_venda} onChange={e => setStatusVenda(e.target.value)}/>
+            </div>
+            <div  className="input-block">
+            <label htmlFor="uf">Estado:</label>
+            <input name="uf" id="uf" required value={uf} onChange={e => setUf(e.target.value)}/>
             </div>
           <div className="input-block">
             <ReadMore expand={expand} onSubmit={handleSubmit}/>

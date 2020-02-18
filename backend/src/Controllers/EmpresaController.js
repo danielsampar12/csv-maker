@@ -55,6 +55,7 @@ module.exports = {
           data_ultimo_contato: request.body.data_ultimo_contato,
           endereco: request.body.endereco,
           cidade: request.body.cidade,
+          uf: request.body.uf,
         });
       }
       console.log(emp);
@@ -107,6 +108,7 @@ module.exports = {
       data_ultimo_contato: request.body.data_ultimo_contato,
       endereco: request.body.endereco,
       cidade: request.body.cidade,
+      uf: request.body.uf,
     }}, {upsert: true}, (err, doc) => {
       if(err){
         console.log("Something wrong when updating data!" + err);

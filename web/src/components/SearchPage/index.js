@@ -8,14 +8,13 @@ import './style.css';
 
 function SearchPage(){
   const[emps, setEmps] = useState([]);
+  const [searchBy, setSearchBy] = useState('');
   const [isSearching, setIsSearching] = useState(false);
 
   useEffect(() => {
     async function reloadEmps(){
       const response = await api.get('/clientes');
       setEmps(response.data);
-      console.log(response.data)
-      //setUpWebSocket();
     }
     reloadEmps();
   }, []);
@@ -35,41 +34,73 @@ function SearchPage(){
     console.log(data);
     const emp = await api.put('/clientes', data);
     loadEmps(emp);
-    
-    //setEmps
   }
 
   async function handleSearchByCnpj(data){
     const response = await api.get('/search', {params: {cnpj: data.data}});
-    const arrayNovo = [response.data];
-    //criação do novo array por motivos de imutabilidade (se retornar apenas um registro o state deixa deixaria de ser um array)
-    
-    if(response.data){
-      setEmps(arrayNovo);
-    }else{
-      return window.alert('CNPJ: ' + data.data + ' não encontrado');
-    }
+    setEmps(response.data);
   }
   
   async function handleSearchByRepresentante(data){
-    const response = await api.get('/searchByRepresentante', {params: {representante: data.data}})
-    
-    if(response.data){
-      setEmps(response.data);
-    }else{
-      return window.alert('Representante ' + data.data + ' não encontrado');
-    }
-    
+    const response = await api.get('/searchByRepresentante', {params: {representante: data.data}});
+    setEmps(response.data);
   }
 
- 
+  async function handleSearchByStatusNegociacao(data){
+    const response = await api.get('/searchByStatusNegociacao', {params: {status_negociacao: data.data}});
+    setEmps(response.data);
+  }
+
+  async function handleSearchByValide(data){
+    const response = await api.get('/searchByValide', {params: {valide: data.data}});
+    setEmps(response.data);
+  }
+
+  async function handleSearchByCidade(data){
+    const response = await api.get('/searchByCidade', {params: {cidade: data.data}});
+    setEmps(response.data);
+  }
+
+  async function handleSearchByUf(data){
+    const response = await api.get('/searchByUf', {params: {uf: data.data}});
+    setEmps(response.data);
+  }
+
+
+  function handleChooseSearchBy(data){
+    setIsSearching(true);
+    if(searchBy === 'cnpj'){
+      handleSearchByCnpj(data);
+    }else if(searchBy === 'representante'){
+      handleSearchByRepresentante(data);
+    }else if(searchBy === 'status_negociacao'){
+      handleSearchByStatusNegociacao(data);
+    }else if(searchBy === 'valide'){
+      handleSearchByValide(data);
+    }else if(searchBy === 'cidade'){
+      handleSearchByCidade(data);
+    }else if(searchBy === 'uf'){
+      handleSearchByUf(data);
+    }else{
+      window.alert('Escolha um parâmetro de pesquisa.');
+    }
+
+  }
 
   return(
     <>
     <aside>
       <div id="nav">
-      <Navigator searchBy={'cnpj'} onSubmit={handleSearchByCnpj}/>
-      <Navigator searchBy={'representante'} onSubmit={handleSearchByRepresentante}/>
+        <Navigator searchBy={searchBy} onSubmit={handleChooseSearchBy}/>
+        <select id="searchBy" onChange={e => setSearchBy(e.target.value)}>
+          <option value=""></option>
+          <option value="cnpj">CNPJ</option>
+          <option value="representante">Representante</option>
+          <option value="status_negociacao">Status De Negociação</option>
+          <option value="valide">Valide</option>
+          <option value="cidade">Cidade</option>
+          <option value="uf">Estado</option>
+        </select>
       </div>
     </aside>
     <main>
@@ -88,6 +119,7 @@ function SearchPage(){
             <th key="valor_concorrenciaHeader">Valor Concorrência</th>
             <th key="valideHeader">Valide</th>
             <th key="cidadeHeader">Cidade</th>
+            <th key="ufHeader">Estado</th>
             <th key="status_negociacaoHeader">Status da Negociação</th>
             <th key="status_vendaHeader">Status da Venda</th>
             <th key="observacaoHeader">Observação</th>
