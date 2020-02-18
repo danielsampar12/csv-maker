@@ -14,6 +14,7 @@ function EmpFullTable({emp, onChange}){
   const[valor_concorrencia, setValorConcorrencia] = useState(emp.valor_concorrencia);
   const[valide, setValide] = useState(emp.valide);
   const[cidade, setCidade] = useState(emp.cidade);
+  const[uf, setUf] = useState(emp.uf);
   const[status_negociacao, setStatusNegociacao] = useState(emp.status_negociacao);
   const[status_venda, setStatusVenda] = useState(emp.status_venda);
   const[observacao, setObservacao] = useState(emp.observacao);
@@ -38,6 +39,7 @@ function EmpFullTable({emp, onChange}){
       valor_concorrencia,
       valide,
       cidade,
+      uf,
       status_negociacao,
       status_venda,
       observacao,
@@ -115,6 +117,12 @@ function EmpFullTable({emp, onChange}){
       <Editable text={cidade} placeholder={cidade} type="input">
           <input type="text" name="cidade" placeholder="Cidade" value={cidade}
            onChange={e => setCidade(e.target.value)} onBlur={handleOnBlur}/>
+      </Editable>  
+      </td>
+      <td>
+      <Editable text={uf} placeholder={uf} type="input">
+          <input type="text" name="uf" placeholder="Estado" value={uf}
+           onChange={e => setUf(e.target.value)} onBlur={handleOnBlur}/>
       </Editable>  
       </td>
       <td>

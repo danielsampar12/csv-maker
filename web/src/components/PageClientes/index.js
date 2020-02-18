@@ -53,6 +53,7 @@ function PageClientes(){
             <th key="valor_concorrenciaHeader">Valor Concorrência</th>
             <th key="valideHeader">Valide</th>
             <th key="cidadeHeader">Cidade</th>
+            <th key="ufHeader">Estado</th>
             <th key="status_negociacaoHeader">Status da Negociação</th>
             <th key="status_vendaHeader">Status da Venda</th>
             <th key="observacaoHeader">Observação</th>
@@ -64,13 +65,15 @@ function PageClientes(){
             <th key="data_retornoHeader">Data retorno</th>
           </tr>
         </thead>
+        <tbody>
         {emps.map((emp, index) => (
-                  <tbody key={index}>
+                  
                     <EmpFullTable emp={emp} onChange={handleEdit}/>
-                  </tbody>
+                  
               )).reverse()}
+        </tbody>
       </table>
-          
+        
     </main>
     </>
   )

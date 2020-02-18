@@ -2,17 +2,13 @@ const Empresa = require('../models/Empresa');
 
 module.exports = {
   async index(request, response){
-    const {cnpj} = request.query;
+    const {valide} = request.query;
+
     const emp = await Empresa.find({
-      cnpj:{
-        $regex: '.*' + cnpj + '.*',
+      valide: {
+        $regex: ".*" + valide + ".*",
         $options: 'i',
       }
-    }, (err, result) => {
-      if(err){
-        return err;
-      }
-      console.log(result);
     });
     return response.json(emp);
   }
