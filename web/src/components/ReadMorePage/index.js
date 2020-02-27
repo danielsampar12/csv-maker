@@ -19,9 +19,6 @@ function ReadMorePage(){
   async function reloadEmps(){
     const response = await api.get('/search', {params: {cnpj: cnpj}});
     setEmps(response.data);
-    
-    console.log(response.data)
-    //setUpWebSocket();
   }
   reloadEmps();
 }, []);
@@ -29,22 +26,17 @@ function ReadMorePage(){
 async function loadEmps(){
   const response = await api.get('/search', {params: {cnpj: cnpj}});
   setEmps(response.data)
-  
 }
 
 async function handleEdit(data){
-  console.log(data);
   await api.put('/clientes', data);
   loadEmps();
-  
-  //setEmps
 }
 
 async function handleDeleteEmp(){
  
  await api.delete('/clientes', {params: {cnpj: cnpj}});
   loadEmps();
-  //setEmps(emps);
 }
   
   return(

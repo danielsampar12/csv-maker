@@ -21,7 +21,7 @@ function App() {
       //setUpWebSocket();
     }
     reloadEmps();
-  }, [emps]);
+  }, []);
 /*
   function setUpWebSocket(){
     connect();

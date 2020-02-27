@@ -1,4 +1,6 @@
 const { Router } = require('express');
+const multer = require('multer');
+const multerConfig = require('./config/multer');
 const EmpresaController = require('./Controllers/EmpresaController');
 const SearchController = require('./Controllers/SearchController');
 const SearchByRepresentante = require('./Controllers/SearchByRepresentante');
@@ -6,6 +8,9 @@ const SearchByStatusNegociacao = require('./Controllers/SearchByStatusNegociacao
 const SearchByValide = require('./Controllers/SearchByValide');
 const SearchByCidade = require('./Controllers/SearchByCidade');
 const SearchByUf = require('./Controllers/SearchByUf');
+const readFile = require('../tmp/uploads/readLine');
+
+const Post = require('./models/Post');
 
 const routes = Router();
 
@@ -21,6 +26,17 @@ routes.get('/searchByUf', SearchByUf.index);
 
 routes.put('/clientes', EmpresaController.update);
 routes.delete('/clientes', EmpresaController.delete);
+//upload do xlsx
+routes.post('/upload', multer(multerConfig).single('file'), async(req, res) => {
+  const {originalname: name, size, filename: key} = req.file; 
+  readFile(key);
+  const post = await Post.create({
+    name,
+    size,
+    key,
+  });
 
+  return res.json(post);
+});
 
 module.exports = routes;
