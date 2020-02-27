@@ -8,7 +8,7 @@ const SearchByStatusNegociacao = require('./Controllers/SearchByStatusNegociacao
 const SearchByValide = require('./Controllers/SearchByValide');
 const SearchByCidade = require('./Controllers/SearchByCidade');
 const SearchByUf = require('./Controllers/SearchByUf');
-const readFile = require('../tmp/uploads/readLine');
+const readFile = require('../tmp/uploads/readFile');
 
 const Post = require('./models/Post');
 
@@ -35,7 +35,7 @@ routes.post('/upload', multer(multerConfig).single('file'), async(req, res) => {
     size,
     key,
   });
-
+  console.log(post);
   return res.json(post);
 });
 
