@@ -42,6 +42,7 @@ const EmpresaSchema = new mongoose.Schema({
   status_negociacao: String,
   status_venda: String,
   data_ultimo_contato: String,
+  hora_ultimo_contato: String,
   endereco: String,
   cidade: String,
   uf: String,
