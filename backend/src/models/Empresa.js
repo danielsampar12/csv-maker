@@ -15,7 +15,7 @@ const EmpresaSchema = new mongoose.Schema({
   valor_concorrencia: Number,
   vcm_ofertado: Number,
   usa_pefin: String,
-  utiliza_negativacao: Boolean,
+  utiliza_negativacao: String,
   valor_gasto_negativacao: Number,
   valor_pago_negativa: Number,
   ddd: String,
