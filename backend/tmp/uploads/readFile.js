@@ -1,5 +1,5 @@
 const xlsx = require('xlsx');
-const Empresa = require('../../src/models/Empresa');
+
   function ReadFile(key){
     const workBlock = xlsx.readFile(`${key}`, {cellDates: true});
 
@@ -11,10 +11,5 @@ const Empresa = require('../../src/models/Empresa');
   }
 
   module.exports = ReadFile;
-/*
- data.map(async(record) => {
-      let emp = await Empresa.create({
-        
-      });
-    })
-*/
+
+  
