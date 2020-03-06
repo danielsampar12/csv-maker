@@ -65,8 +65,11 @@ function App() {
         <div className="link">
           <Link to={'/clientes'} target="_blank">Modo Planilha</Link> 
         </div>
-        <div className="pages">
+        <div className="link">
           <Link to={'/search'} target="_blank">Página de pesquisa</Link>
+        </div>
+        <div className="link">
+          <Link to={'/upload'} target="_blank">Página de Upload</Link>
         </div>
       </nav>
       <aside>
