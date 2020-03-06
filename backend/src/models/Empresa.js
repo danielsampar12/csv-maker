@@ -27,7 +27,7 @@ const EmpresaSchema = new mongoose.Schema({
   ramal2: Number,
   email2: String,
   observacao: String,
-  localizar_cnpj: Number,
+  localizar_cnpj: String,
   data_primeiro_contato: String,
   hora: String,
   documento_consulta: String,
