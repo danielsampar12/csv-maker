@@ -1,6 +1,5 @@
 import React, {useState, useEffect} from 'react'
 import EmpFullTable from '../EmpFullTable';
-import Navigator from '../Navigator';
 import api from '../../services/api';
 import './style.css';
 import {Link} from 'react-router-dom';

@@ -2,14 +2,14 @@ import React from 'react';
 import {useState, useEffect} from 'react';
 import EmpForm from './components/EmpForm';
 import EmpTable from './components/EmpTable';
-import DeleteButton from './components/DeleteButton';
+import Header from './components/Header';
 import './global.css';
 import './App.css';
 import './Sidebar.css';
 import './Main.css';
 import {Link} from 'react-router-dom';
 import api from './services/api';
-import {connect, disconnect} from './services/socket';
+
 
 function App() {
   const[emps, setEmps] = useState([]);
@@ -99,7 +99,7 @@ function App() {
             </thead>
             <tbody>
               {emps.map((emp, index) => (
-                    <EmpTable emp={emp} key={emp._id} onChange={handleEditEmp} onClick={handleDeleteEmp}/>
+                    <EmpTable emp={emp} key={index} onChange={handleEditEmp} onClick={handleDeleteEmp}/>
               )).reverse()}
           </tbody>   
         </table>

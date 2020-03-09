@@ -91,7 +91,7 @@ function SearchPage(){
     <>
     <aside>
       <div id="nav">
-        <Navigator searchBy={searchBy} onSubmit={handleChooseSearchBy}/>
+        <Navigator searchBy={searchBy} onSubmit={handleChooseSearchBy} onClick={handleChooseSearchBy}/>
         <select id="searchBy" onChange={e => setSearchBy(e.target.value)}>
           <option value=""></option>
           <option value="cnpj">CNPJ</option>
