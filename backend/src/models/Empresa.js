@@ -46,6 +46,7 @@ const EmpresaSchema = new mongoose.Schema({
   endereco: String,
   cidade: String,
   uf: String,
+  bureau: String,
 });
 
 module.exports = mongoose.model('Empresa', EmpresaSchema);

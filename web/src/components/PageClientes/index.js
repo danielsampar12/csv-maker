@@ -62,12 +62,13 @@ function PageClientes(){
             <th key="data_primeiro_contatoHeader">Data 1° contato</th>
             <th key="data_ultimo_contatoHeader">Data último contato</th>
             <th key="data_retornoHeader">Data retorno</th>
+            <th key="bureauHeader">Bureau</th>
           </tr>
         </thead>
         <tbody>
         {emps.map((emp, index) => (
                   
-                    <EmpFullTable emp={emp} onChange={handleEdit}/>
+                    <EmpFullTable key={index} emp={emp} onChange={handleEdit}/>
                   
               )).reverse()}
         </tbody>

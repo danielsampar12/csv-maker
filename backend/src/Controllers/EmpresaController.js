@@ -57,6 +57,7 @@ module.exports = {
           endereco: request.body.endereco,
           cidade: request.body.cidade,
           uf: request.body.uf,
+          bureau: request.body.bureau,
         });
       }
       console.log(emp);
@@ -111,6 +112,7 @@ module.exports = {
       endereco: request.body.endereco,
       cidade: request.body.cidade,
       uf: request.body.uf,
+      bureau: request.body.bureau,
     }}, {upsert: true}, (err, doc) => {
       if(err){
         console.log("Something wrong when updating data!" + err);

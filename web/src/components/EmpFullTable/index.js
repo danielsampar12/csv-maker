@@ -17,6 +17,7 @@ function EmpFullTable({emp, onChange}){
   const[uf, setUf] = useState(emp.uf);
   const[status_negociacao, setStatusNegociacao] = useState(emp.status_negociacao);
   const[status_venda, setStatusVenda] = useState(emp.status_venda);
+  const[bureau, setBureau] = useState(emp.bureau);
   const[observacao, setObservacao] = useState(emp.observacao);
   const[ddd, setDDD] = useState(emp.ddd);
   const[telefone, setTelefone] = useState(emp.telefone);
@@ -49,6 +50,7 @@ function EmpFullTable({emp, onChange}){
       data_primeiro_contato,
       data_ultimo_contato,
       data_retorno,
+      bureau,
     });
   }
 
@@ -178,6 +180,12 @@ function EmpFullTable({emp, onChange}){
           <input type="text" name="data_retorno" placeholder="Data Retorno" value={data_retorno}
            onChange={e => setDataRetorno(e.target.value)} onBlur={handleOnBlur}/>
       </Editable>  
+      </td>
+      <td>
+        <Editable text={bureau} placeholder={bureau} type="input">
+          <input type="text" name="bureau" placeholder="Bureau" value={bureau}
+          onChange={e => setBureau(e.target.value)} onBlur={handleOnBlur}/>
+        </Editable> 
       </td>
     </tr>
   );

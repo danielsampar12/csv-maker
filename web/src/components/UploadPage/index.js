@@ -59,6 +59,8 @@ export default class UploadPage extends Component {
           uploaded: true,
           id: response.data._id,
         });
+        window.alert(`Arquivo ${uploadedFile.name} importado para a base de dados. Caso seja o arquivo errado, favor contatar
+                      o desenvolvimento.`);
       }).catch(() => {
         this.updateFile(uploadedFile.id, {
           error: true,

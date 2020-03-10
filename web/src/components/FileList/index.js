@@ -17,7 +17,6 @@ const FileList = ({ files }) => (
             <strong>{uploadedFile.name}</strong>
             <span>
               {uploadedFile.readableSize}
-              {uploadedFile.uploaded	&& <button onClick={() => {}}>Excluir</button>}
               </span>
           </div>
         </FileInfo>

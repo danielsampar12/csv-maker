@@ -1,3 +1,4 @@
+
 button[type=delete]{
   
   border: 0;
@@ -14,4 +15,10 @@ button[type=delete]{
 
  button[type=delete]:hover{
   background-color: #005c87;
+}
+
+hr{
+  color: #005c87;
+  border: 1px #005c87 solid;
+  margin-top: 10px;
 }

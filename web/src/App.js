@@ -2,7 +2,6 @@ import React from 'react';
 import {useState, useEffect} from 'react';
 import EmpForm from './components/EmpForm';
 import EmpTable from './components/EmpTable';
-import Header from './components/Header';
 import './global.css';
 import './App.css';
 import './Sidebar.css';
