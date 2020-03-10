@@ -2,7 +2,6 @@ import React,{useState, useEffect} from 'react';
 import api from '../../services/api';
 import Navigator from '../Navigator';
 import EmpFullTable from '../EmpFullTable';
-import mongoose from 'mongoose';
 import './style.css';
 
 
@@ -91,7 +90,7 @@ function SearchPage(){
     <>
     <aside>
       <div id="nav">
-        <Navigator searchBy={searchBy} onSubmit={handleChooseSearchBy}/>
+        <Navigator searchBy={searchBy} onSubmit={handleChooseSearchBy} onClick={handleChooseSearchBy}/>
         <select id="searchBy" onChange={e => setSearchBy(e.target.value)}>
           <option value=""></option>
           <option value="cnpj">CNPJ</option>
@@ -129,12 +128,13 @@ function SearchPage(){
             <th key="data_primeiro_contatoHeader">Data 1° contato</th>
             <th key="data_ultimo_contatoHeader">Data último contato</th>
             <th key="data_retornoHeader">Data retorno</th>
+            <th key="bureauHeader">Bureau</th>
           </tr>
         
       </thead>
       <tbody>
         {emps.map((emp, index) => (
-                <EmpFullTable emp={emp} key={emp._id} onChange={handleEdit}/>
+                <EmpFullTable emp={emp} key={index} onChange={handleEdit}/>
                 )).reverse()}
       </tbody>
     </table>
