@@ -9,7 +9,7 @@
     "axios": "^0.19.2",
     "filesize": "^6.1.0",
     "lodash": "^4.17.15",
-    "mongoose": "^5.8.11",
+    "mongoose": "^5.13.20",
     "react": "^16.12.0",
     "react-circular-progressbar": "^2.0.3",
     "react-dom": "^16.12.0",
